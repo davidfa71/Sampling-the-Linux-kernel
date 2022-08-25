@@ -1,0 +1,212 @@
+# boolean_EXPERIMENTAL
+# boolean_FINE_GRAINED_CPUTIME
+# boolean_GSTABS
+not boolean_GSTABS
+# boolean_HAS_FPU_OPTION
+not boolean_HAS_FPU_OPTION
+# boolean_INLINE
+# boolean_MAINTAINER_MODE
+# boolean_NDEBUG
+# boolean_NO_FRAME_PTR
+# boolean_OPTIMIZE_FOR_SIZE
+# boolean_STACK_DEPTH
+# boolean_UNIT_TEST
+# boolean_IA32
+not boolean_AMD64 or not boolean_IA32
+not boolean_IA32 or not boolean_AMD64
+boolean_IA32 or boolean_AMD64
+# boolean_WARN_NONE
+not boolean_WARN_NONE or not boolean_WARN_WARNING
+not boolean_WARN_ANY or not boolean_WARN_WARNING
+not boolean_WARN_ANY or not boolean_WARN_NONE
+not boolean_WARN_NONE or not boolean_WARN_WARNING
+not boolean_WARN_NONE or not boolean_WARN_ANY
+not boolean_WARN_WARNING or not boolean_WARN_ANY
+boolean_WARN_NONE or boolean_WARN_WARNING or boolean_WARN_ANY
+# string_CC_EQ_OTHERVAL
+not string_CC_EQ_gcc or not string_CC_EQ_OTHERVAL
+string_CC_EQ_OTHERVAL or string_CC_EQ_gcc
+# string_CXX_EQ_OTHERVAL
+not string_CXX_EQ_g++ or not string_CXX_EQ_OTHERVAL
+string_CXX_EQ_OTHERVAL or string_CXX_EQ_g++
+# string_HOST_CC_EQ_OTHERVAL
+not string_HOST_CC_EQ_gcc or not string_HOST_CC_EQ_OTHERVAL
+string_HOST_CC_EQ_OTHERVAL or string_HOST_CC_EQ_gcc
+# string_HOST_CXX_EQ_OTHERVAL
+not string_HOST_CXX_EQ_g++ or not string_HOST_CXX_EQ_OTHERVAL
+string_HOST_CXX_EQ_OTHERVAL or string_HOST_CXX_EQ_g++
+# string_LABEL_EQ_OTHERVAL
+string_LABEL_EQ_OTHERVAL
+# boolean_FPU
+boolean_FPU
+# boolean_HAS_JDB_DISASM_OPTION
+boolean_HAS_JDB_DISASM_OPTION
+# boolean_HAS_JDB_GZIP_OPTION
+boolean_HAS_JDB_GZIP_OPTION
+# boolean_HAS_LAZY_FPU
+boolean_HAS_LAZY_FPU
+# boolean_HAS_VIRT_OBJ_SPACE_OPTION
+boolean_HAS_VIRT_OBJ_SPACE_OPTION
+# boolean_KERNEL_ISOLATION
+boolean_KERNEL_ISOLATION -> boolean_AMD64
+# boolean_KERNEL_NX
+boolean_KERNEL_NX -> boolean_AMD64
+# boolean_PF_PC
+not boolean_PF_PC or not boolean_PF_UX
+not boolean_AMD64 or not boolean_IA32
+not boolean_PF_PC or not boolean_PF_UX
+boolean_IA32 -> boolean_PF_PC or boolean_PF_UX
+boolean_AMD64 -> boolean_PF_PC or boolean_PF_UX
+boolean_IA32 -> boolean_PF_PC or boolean_PF_UX
+not (boolean_IA32 or boolean_AMD64 or boolean_IA32) -> not boolean_PF_PC and not boolean_PF_UX
+boolean_PF_PC -> boolean_IA32 or boolean_AMD64
+boolean_PF_UX -> boolean_IA32
+# boolean_SCHED_FIXED_PRIO
+not boolean_SCHED_FP_WFQ or not boolean_SCHED_WFQ
+not boolean_SCHED_FIXED_PRIO or not boolean_SCHED_WFQ
+not boolean_SCHED_FIXED_PRIO or not boolean_SCHED_FP_WFQ
+not boolean_SCHED_FIXED_PRIO or not boolean_SCHED_WFQ
+not boolean_SCHED_FIXED_PRIO or not boolean_SCHED_FP_WFQ
+not boolean_SCHED_WFQ or not boolean_SCHED_FP_WFQ
+boolean_SCHED_FIXED_PRIO or boolean_SCHED_WFQ or boolean_SCHED_FP_WFQ
+boolean_SCHED_WFQ -> boolean_EXPERIMENTAL
+boolean_SCHED_FP_WFQ -> boolean_EXPERIMENTAL
+# boolean_BEFORE_IRET_SANITY
+boolean_BEFORE_IRET_SANITY -> boolean_PF_PC
+# boolean_CPU_LOCAL_MAP
+boolean_KERNEL_ISOLATION -> boolean_CPU_LOCAL_MAP
+not boolean_KERNEL_ISOLATION and boolean_CPU_LOCAL_MAP -> boolean_EXPERIMENTAL and not boolean_KERNEL_ISOLATION and boolean_AMD64
+# boolean_DISABLE_VIRT_OBJ_SPACE
+boolean_DISABLE_VIRT_OBJ_SPACE -> boolean_EXPERIMENTAL and boolean_HAS_VIRT_OBJ_SPACE_OPTION
+# boolean_HAS_CPU_VIRT
+boolean_PF_PC -> boolean_HAS_CPU_VIRT
+boolean_HAS_CPU_VIRT -> boolean_PF_PC
+# boolean_HAS_IOMMU_OPTION
+boolean_PF_PC -> boolean_HAS_IOMMU_OPTION
+boolean_HAS_IOMMU_OPTION -> boolean_PF_PC
+# boolean_HAS_MP_OPTION
+boolean_PF_PC -> boolean_HAS_MP_OPTION
+boolean_HAS_MP_OPTION -> boolean_PF_PC
+# boolean_HAS_SERIAL_OPTION
+boolean_PF_PC -> boolean_HAS_SERIAL_OPTION
+boolean_HAS_SERIAL_OPTION -> boolean_PF_PC
+# boolean_HAS_WATCHDOG_OPTION
+boolean_PF_PC -> boolean_HAS_WATCHDOG_OPTION
+boolean_HAS_WATCHDOG_OPTION -> boolean_PF_PC
+# boolean_IA32_PCID
+boolean_IA32_PCID -> boolean_KERNEL_ISOLATION
+# boolean_INTEL_IA32_BRANCH_BARRIERS
+boolean_INTEL_IA32_BRANCH_BARRIERS -> boolean_KERNEL_ISOLATION and boolean_AMD64
+# boolean_IRQ_SPINNER
+boolean_IRQ_SPINNER -> boolean_PF_PC
+# boolean_JDB
+boolean_PF_UX -> boolean_JDB
+# boolean_LAZY_FPU
+not (not boolean_PF_UX and boolean_FPU and boolean_HAS_LAZY_FPU) -> boolean_LAZY_FPU
+# boolean_NO_IO_PAGEFAULT
+boolean_KERNEL_ISOLATION -> boolean_NO_IO_PAGEFAULT
+# boolean_NO_LDT
+boolean_KERNEL_ISOLATION -> boolean_NO_LDT
+# boolean_POWERSAVE_GETCHAR
+boolean_POWERSAVE_GETCHAR -> boolean_PF_PC
+# boolean_SYNC_TSC
+boolean_SYNC_TSC -> boolean_PF_PC
+# boolean_UX_CON
+boolean_UX_CON -> boolean_PF_UX
+# boolean_UX_NET
+boolean_UX_NET -> boolean_PF_UX
+# boolean_WORKAROUND_AMD_FPU_LEAK
+boolean_WORKAROUND_AMD_FPU_LEAK -> boolean_PF_PC
+# boolean_CPU_VIRT
+boolean_CPU_VIRT -> boolean_HAS_CPU_VIRT
+# boolean_IOMMU
+boolean_IOMMU -> boolean_HAS_IOMMU_OPTION
+# boolean_JDB_ACCOUNTING
+boolean_JDB_ACCOUNTING -> boolean_JDB
+# boolean_JDB_DISASM
+boolean_JDB_DISASM -> boolean_HAS_JDB_DISASM_OPTION and boolean_JDB
+# boolean_JDB_GZIP
+boolean_JDB_GZIP -> boolean_HAS_JDB_GZIP_OPTION and boolean_JDB
+# boolean_JDB_LOGGING
+boolean_JDB_LOGGING -> boolean_JDB
+# boolean_JDB_MISC
+boolean_JDB_MISC -> boolean_JDB
+# boolean_MP
+boolean_MP -> boolean_HAS_MP_OPTION
+# boolean_SERIAL
+boolean_SERIAL -> boolean_HAS_SERIAL_OPTION
+# boolean_WATCHDOG
+boolean_WATCHDOG -> boolean_HAS_WATCHDOG_OPTION
+# BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS
+boolean_MP -> BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS
+not boolean_MP -> not BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS and not BIT_0_BITMAP_int_MP_MAX_CPUS and not BIT_1_BITMAP_int_MP_MAX_CPUS and not BIT_2_BITMAP_int_MP_MAX_CPUS and not BIT_3_BITMAP_int_MP_MAX_CPUS and not BIT_4_BITMAP_int_MP_MAX_CPUS and not BIT_5_BITMAP_int_MP_MAX_CPUS and not BIT_6_BITMAP_int_MP_MAX_CPUS and not BIT_7_BITMAP_int_MP_MAX_CPUS
+BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS and boolean_MP -> BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS and (BIT_7_BITMAP_int_MP_MAX_CPUS or (not BIT_7_BITMAP_int_MP_MAX_CPUS and (BIT_6_BITMAP_int_MP_MAX_CPUS or (not BIT_6_BITMAP_int_MP_MAX_CPUS and (BIT_5_BITMAP_int_MP_MAX_CPUS or (not BIT_5_BITMAP_int_MP_MAX_CPUS and (BIT_4_BITMAP_int_MP_MAX_CPUS or (not BIT_4_BITMAP_int_MP_MAX_CPUS and (BIT_3_BITMAP_int_MP_MAX_CPUS or (not BIT_3_BITMAP_int_MP_MAX_CPUS and (BIT_2_BITMAP_int_MP_MAX_CPUS or (not BIT_2_BITMAP_int_MP_MAX_CPUS and (BIT_1_BITMAP_int_MP_MAX_CPUS or (not BIT_1_BITMAP_int_MP_MAX_CPUS and BIT_0_BITMAP_int_MP_MAX_CPUS)))))))))))))) and BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS and (not BIT_7_BITMAP_int_MP_MAX_CPUS or (BIT_7_BITMAP_int_MP_MAX_CPUS and not BIT_6_BITMAP_int_MP_MAX_CPUS and not BIT_5_BITMAP_int_MP_MAX_CPUS and not BIT_4_BITMAP_int_MP_MAX_CPUS and not BIT_3_BITMAP_int_MP_MAX_CPUS and not BIT_2_BITMAP_int_MP_MAX_CPUS and not BIT_1_BITMAP_int_MP_MAX_CPUS and not BIT_0_BITMAP_int_MP_MAX_CPUS))
+# boolean_SCHED_PIT
+not boolean_SCHED_PIT or not boolean_SCHED_RTC
+not boolean_SCHED_HPET or not boolean_SCHED_RTC
+not boolean_SCHED_HPET or not boolean_SCHED_PIT
+not boolean_SCHED_APIC or not boolean_SCHED_RTC
+not boolean_SCHED_APIC or not boolean_SCHED_PIT
+not boolean_SCHED_APIC or not boolean_SCHED_HPET
+not boolean_PF_PC or not boolean_PF_UX
+not boolean_SCHED_PIT or not boolean_SCHED_RTC
+not boolean_SCHED_PIT or not boolean_SCHED_APIC
+not boolean_SCHED_PIT or not boolean_SCHED_HPET
+not boolean_SCHED_RTC or not boolean_SCHED_APIC
+not boolean_SCHED_RTC or not boolean_SCHED_HPET
+not boolean_SCHED_APIC or not boolean_SCHED_HPET
+boolean_SCHED_PIT or boolean_SCHED_RTC or boolean_SCHED_APIC or boolean_SCHED_HPET
+not ((((boolean_PF_PC or boolean_PF_UX) and not boolean_MP) or (boolean_PF_PC and not boolean_MP) or boolean_PF_PC or (boolean_PF_PC and not boolean_MP and boolean_EXPERIMENTAL)) and (boolean_PF_PC or boolean_PF_UX)) -> not boolean_SCHED_PIT and not boolean_SCHED_RTC and not boolean_SCHED_APIC and not boolean_SCHED_HPET
+boolean_SCHED_PIT -> (boolean_PF_PC or boolean_PF_UX) and not boolean_MP
+boolean_SCHED_RTC -> boolean_PF_PC and not boolean_MP
+boolean_SCHED_APIC -> boolean_PF_PC
+boolean_SCHED_HPET -> boolean_PF_PC and not boolean_MP and boolean_EXPERIMENTAL
+# boolean_ONE_SHOT
+boolean_ONE_SHOT -> boolean_SCHED_APIC and boolean_SYNC_TSC
+# boolean_SLOW_RTC
+boolean_SLOW_RTC -> boolean_SCHED_RTC
+# boolean_ABI_VF
+boolean_ABI_VF
+# boolean_BIG_ENDIAN
+not boolean_BIG_ENDIAN
+# string_ABI_EQ_vf
+string_ABI_EQ_vf
+# boolean_BIT32
+boolean_IA32 -> boolean_BIT32
+boolean_BIT32 -> boolean_IA32
+# boolean_BIT64
+boolean_AMD64 -> boolean_BIT64
+boolean_BIT64 -> boolean_AMD64
+# int_WARN_LEVEL_EQ_0
+boolean_WARN_NONE -> int_WARN_LEVEL_EQ_0
+int_WARN_LEVEL_EQ_0 -> boolean_WARN_NONE
+# int_WARN_LEVEL_EQ_1
+boolean_WARN_WARNING -> int_WARN_LEVEL_EQ_1
+int_WARN_LEVEL_EQ_1 -> boolean_WARN_WARNING
+# int_WARN_LEVEL_EQ_2
+boolean_WARN_ANY -> int_WARN_LEVEL_EQ_2
+int_WARN_LEVEL_EQ_2 -> boolean_WARN_ANY
+# boolean_CONTEXT_8K
+boolean_BIT64 -> boolean_CONTEXT_8K
+boolean_CONTEXT_8K -> boolean_BIT64
+# boolean_REGPARM3
+boolean_PF_PC and boolean_IA32 -> boolean_REGPARM3
+boolean_REGPARM3 -> boolean_PF_PC and boolean_IA32
+# string_XARCH_EQ_amd64
+boolean_AMD64 -> string_XARCH_EQ_amd64
+string_XARCH_EQ_amd64 -> boolean_AMD64
+# string_XARCH_EQ_ia32
+boolean_PF_PC and boolean_IA32 -> string_XARCH_EQ_ia32
+string_XARCH_EQ_ia32 -> boolean_PF_PC and boolean_IA32
+# string_XARCH_EQ_ux
+boolean_PF_UX -> string_XARCH_EQ_ux
+string_XARCH_EQ_ux -> boolean_PF_UX
+# boolean_CONTEXT_4K
+not boolean_CONTEXT_8K -> boolean_CONTEXT_4K
+boolean_CONTEXT_8K -> not boolean_CONTEXT_4K
+# boolean_PERF_CNT
+boolean_JDB -> boolean_PERF_CNT
+boolean_PERF_CNT -> (boolean_IA32 or boolean_AMD64) and boolean_JDB
+# boolean_VIRT_OBJ_SPACE
+not boolean_KERNEL_ISOLATION and not boolean_DISABLE_VIRT_OBJ_SPACE -> boolean_VIRT_OBJ_SPACE
+boolean_VIRT_OBJ_SPACE -> not boolean_KERNEL_ISOLATION and not boolean_DISABLE_VIRT_OBJ_SPACE

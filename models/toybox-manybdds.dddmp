@@ -1,0 +1,135 @@
+.ver DDDMP-3.0
+.mode A
+.varinfo 1
+.dd toybox-manybdds
+.nnodes 118
+.nvars 342
+.nsuppvars 91
+.varnames int_TOYBOX_UID_USR_EQ_500 int_TOYBOX_UID_USR_EQ_OTHERVAL int_TOYBOX_UID_SYS_EQ_100 int_TOYBOX_UID_SYS_EQ_OTHERVAL boolean_TOYBOX_LSM_NONE boolean_TOYBOX_SELINUX boolean_TOYBOX_SMACK boolean_ZCAT boolean_YES boolean_XZCAT boolean_XXD boolean_XARGS boolean_WHOAMI boolean_WHICH boolean_WGET boolean_WC boolean_WATCHDOG boolean_WATCH boolean_VMSTAT boolean_VI boolean_VCONFIG boolean_UUIDGEN boolean_UUENCODE boolean_UUDECODE boolean_USLEEP boolean_USERDEL boolean_USERADD boolean_UNLINK boolean_UNIX2DOS boolean_UNIQ boolean_UNICODE boolean_UNAME boolean_UMOUNT boolean_TUNCTL boolean_TTY boolean_TRUNCATE boolean_TRUE boolean_TRACEROUTE boolean_TR boolean_UPTIME boolean_W boolean_WHO boolean_TOYBOX_UTMPX boolean_TOYBOX_SUID boolean_LOGIN boolean_PASSWD_SAD boolean_PASSWD boolean_SU boolean_SULOGIN boolean_TOYBOX_SHADOW boolean_ULIMIT boolean_TOYBOX_PRLIMIT boolean_TOYBOX_PEDANTIC_ARGS boolean_LOG boolean_MKPASSWD boolean_SENDEVENT boolean_TOYBOX_ON_ANDROID boolean_TOYBOX_NORECURSE boolean_TOYBOX_LIBZ boolean_SHA224SUM boolean_SHA256SUM boolean_SHA384SUM boolean_SHA512SUM boolean_TOYBOX_LIBCRYPTO boolean_ICONV boolean_TOYBOX_ICONV boolean_HELP boolean_TOYBOX_HELP_DASHDASH boolean_TOYBOX_HELP boolean_TOYBOX_GETRANDOM boolean_TOYBOX_FREE boolean_BOOTCHARTD boolean_CRONTAB boolean_NBD_CLIENT boolean_OPENVT boolean_TCPSVD boolean_TOYBOX_FORK boolean_TOYBOX_FORCE_NOMMU boolean_SEQ boolean_SORT_FLOAT boolean_TIME boolean_TOYBOX_FLOAT boolean_FSFREEZE boolean_TOYBOX_FIFREEZE boolean_TOYBOX_DEBUG boolean_TOYBOX_COPYFILERANGE boolean_NSENTER boolean_UNSHARE boolean_TOYBOX_CONTAINER boolean_TOYBOX_ANDROID_SCHEDPOLICY boolean_TOYBOX boolean_TOUCH boolean_TOP boolean_TIMEOUT boolean_TFTPD boolean_TFTP boolean_TEST_GLUE boolean_TEST boolean_TELNETD boolean_TELNET boolean_TEE boolean_TASKSET boolean_TAR boolean_TAIL boolean_TAC boolean_SYSLOGD boolean_SYSCTL boolean_SYNC boolean_SWITCH_ROOT boolean_SWAPON boolean_SWAPOFF boolean_STTY boolean_STRINGS boolean_STAT boolean_SPLIT boolean_SORT boolean_SNTP boolean_SLEEP boolean_SKELETON_ALIAS boolean_SKELETON boolean_SHRED boolean_SHA3SUM boolean_SHA1SUM boolean_CD boolean_EVAL boolean_EXEC boolean_EXIT boolean_EXPORT boolean_JOBS boolean_LOCAL boolean_SET boolean_SHIFT boolean_SOURCE boolean_UNSET boolean_SH boolean_SETSID boolean_SETFATTR boolean_SED boolean_RTCWAKE boolean_ROUTE boolean_RMMOD boolean_RMDIR boolean_RM boolean_RFKILL boolean_REV boolean_RESET boolean_RENICE boolean_REBOOT boolean_REALPATH boolean_READLINK boolean_READELF boolean_READAHEAD boolean_PWGEN boolean_PWDX boolean_PWD boolean_PS boolean_PRINTF boolean_PRINTENV boolean_PMAP boolean_PKILL boolean_PIVOT_ROOT boolean_PING boolean_PIDOF boolean_PGREP boolean_PATCH boolean_PASTE boolean_PARTPROBE boolean_ONEIT boolean_OD boolean_NPROC boolean_NOHUP boolean_NL boolean_NICE boolean_NETSTAT boolean_NETCAT_LISTEN boolean_NETCAT boolean_MV boolean_MOUNTPOINT boolean_MOUNT boolean_MORE boolean_MODPROBE boolean_MODINFO boolean_MKTEMP boolean_MKSWAP boolean_MKNOD_Z boolean_MKNOD boolean_MKFIFO_Z boolean_MKFIFO boolean_MKE2FS_EXTENDED boolean_MKE2FS_GEN boolean_MKE2FS_JOURNAL boolean_MKE2FS_LABEL boolean_MKE2FS boolean_MKDIR_Z boolean_MKDIR boolean_MIX boolean_MICROCOM boolean_MDEV_CONF boolean_MDEV boolean_MD5SUM boolean_MCOOKIE boolean_MAN boolean_MAKEDEVS boolean_LSUSB boolean_LSPCI_TEXT boolean_LSPCI boolean_LSOF boolean_LSMOD boolean_LSATTR boolean_LS boolean_LOSETUP boolean_LOGWRAPPER boolean_LOGNAME boolean_LOGGER boolean_LN boolean_LINK boolean_LAST boolean_KLOGD_SOURCE_RING_BUFFER boolean_KLOGD boolean_KILLALL boolean_KILLALL5 boolean_KILL boolean_IPCS boolean_IPCRM boolean_IP boolean_IOTOP boolean_IORENICE boolean_IONICE boolean_INSTALL boolean_INSMOD boolean_INOTIFYD boolean_INIT boolean_IFCONFIG boolean_ID_Z boolean_ID boolean_I2CSET boolean_I2CGET boolean_I2CDUMP boolean_I2CDETECT boolean_HWCLOCK boolean_HOSTNAME boolean_HOSTID boolean_HOST boolean_HEXEDIT boolean_HELLO boolean_HEAD boolean_GZIP boolean_GUNZIP boolean_GROUPS boolean_GROUPDEL boolean_GROUPADD boolean_EGREP boolean_FGREP boolean_GREP boolean_GETTY boolean_GETOPT boolean_GETFATTR boolean_GETCONF boolean_FTPPUT boolean_FTPGET boolean_FSYNC boolean_FSTYPE boolean_FSCK boolean_FREERAMDISK boolean_FREE boolean_FOLD boolean_FMT boolean_FLOCK boolean_FIND boolean_FILE boolean_FDISK boolean_FALSE boolean_FALLOCATE boolean_FACTOR boolean_EXPR boolean_EXPAND boolean_ENV boolean_EJECT boolean_ECHO boolean_DUMPLEASES boolean_DU boolean_DOS2UNIX boolean_DNSDOMAINNAME boolean_DMESG boolean_DIRNAME boolean_DIFF boolean_DEBUG_DHCP boolean_DHCPD boolean_DHCP6 boolean_DHCP boolean_DF boolean_DEVMEM boolean_DEMO_UTF8TOWC boolean_DEMO_SCANKEY boolean_DEMO_NUMBER boolean_DEMO_MANY_OPTIONS boolean_DEALLOCVT boolean_DD boolean_DATE boolean_CUT boolean_CROND boolean_CRC32 boolean_CPIO boolean_CP boolean_COUNT boolean_COMM boolean_CMP boolean_CLEAR boolean_CKSUM boolean_CHVT boolean_CHSH boolean_CHRT boolean_CHROOT boolean_CHOWN boolean_CHMOD boolean_CHGRP boolean_CHATTR boolean_CATV boolean_CAT_V boolean_CAT boolean_CAL boolean_BZCAT boolean_BUNZIP2 boolean_BRCTL boolean_BLOCKDEV boolean_BLKID boolean_BLKDISCARD boolean_BC boolean_BASENAME boolean_BASE64 boolean_BASE32 boolean_ASCII boolean_ARPING boolean_ARP boolean_ARCH boolean_ACPI boolean_CHCON boolean_GETENFORCE boolean_LOAD_POLICY boolean_RESTORECON boolean_RUNCON boolean_SETENFORCE
+.suppvarnames int_TOYBOX_UID_USR_EQ_500 int_TOYBOX_UID_USR_EQ_OTHERVAL int_TOYBOX_UID_SYS_EQ_100 int_TOYBOX_UID_SYS_EQ_OTHERVAL boolean_TOYBOX_LSM_NONE boolean_TOYBOX_SELINUX boolean_TOYBOX_SMACK boolean_TOYBOX_UTMPX boolean_PASSWD_SAD boolean_PASSWD boolean_TOYBOX_SHADOW boolean_TOYBOX_PRLIMIT boolean_LOG boolean_SENDEVENT boolean_TOYBOX_ON_ANDROID boolean_SHA224SUM boolean_SHA256SUM boolean_SHA384SUM boolean_SHA512SUM boolean_TOYBOX_LIBCRYPTO boolean_TOYBOX_ICONV boolean_HELP boolean_TOYBOX_HELP_DASHDASH boolean_TOYBOX_HELP boolean_TOYBOX_GETRANDOM boolean_BOOTCHARTD boolean_CRONTAB boolean_NBD_CLIENT boolean_OPENVT boolean_TCPSVD boolean_TOYBOX_FORK boolean_TOYBOX_FORCE_NOMMU boolean_SEQ boolean_SORT_FLOAT boolean_TIME boolean_TOYBOX_FLOAT boolean_TOYBOX_FIFREEZE boolean_TOYBOX_COPYFILERANGE boolean_TOYBOX_CONTAINER boolean_TOYBOX_ANDROID_SCHEDPOLICY boolean_TOYBOX boolean_TEST_GLUE boolean_TEST boolean_CD boolean_EVAL boolean_EXEC boolean_EXIT boolean_EXPORT boolean_JOBS boolean_LOCAL boolean_SET boolean_SHIFT boolean_SOURCE boolean_UNSET boolean_SH boolean_NETCAT_LISTEN boolean_NETCAT boolean_MKNOD_Z boolean_MKNOD boolean_MKFIFO_Z boolean_MKFIFO boolean_MKE2FS_EXTENDED boolean_MKE2FS_GEN boolean_MKE2FS_JOURNAL boolean_MKE2FS_LABEL boolean_MKE2FS boolean_MKDIR_Z boolean_MKDIR boolean_MDEV_CONF boolean_MDEV boolean_LSPCI_TEXT boolean_LSPCI boolean_KLOGD_SOURCE_RING_BUFFER boolean_KLOGD boolean_KILLALL5 boolean_KILL boolean_ID_Z boolean_ID boolean_EGREP boolean_FGREP boolean_GREP boolean_DEBUG_DHCP boolean_DHCPD boolean_CAT_V boolean_CAT boolean_CHCON boolean_GETENFORCE boolean_LOAD_POLICY boolean_RESTORECON boolean_RUNCON boolean_SETENFORCE
+.orderedvarnames boolean_ACPI boolean_ARCH boolean_ARP boolean_ARPING boolean_ASCII boolean_BASE32 boolean_BASE64 boolean_BASENAME boolean_BC boolean_BLKDISCARD boolean_BLKID boolean_BLOCKDEV boolean_BRCTL boolean_BUNZIP2 boolean_BZCAT boolean_CAL boolean_CAT boolean_CATV boolean_CHATTR boolean_CHGRP boolean_CHMOD boolean_CHOWN boolean_CHROOT boolean_CHRT boolean_CHSH boolean_CHVT boolean_CKSUM boolean_CLEAR boolean_CMP boolean_COMM boolean_COUNT boolean_CP boolean_CPIO boolean_CRC32 boolean_CROND boolean_CUT boolean_DATE boolean_DD boolean_DEALLOCVT boolean_DEMO_MANY_OPTIONS boolean_DEMO_NUMBER boolean_DEMO_SCANKEY boolean_DEMO_UTF8TOWC boolean_DEVMEM boolean_DF boolean_DHCP boolean_DHCP6 boolean_DHCPD boolean_DIFF boolean_DIRNAME boolean_DMESG boolean_DNSDOMAINNAME boolean_DOS2UNIX boolean_DU boolean_DUMPLEASES boolean_ECHO boolean_EJECT boolean_ENV boolean_EXPAND boolean_EXPR boolean_FACTOR boolean_FALLOCATE boolean_FALSE boolean_FDISK boolean_FILE boolean_FIND boolean_FLOCK boolean_FMT boolean_FOLD boolean_FREE boolean_FREERAMDISK boolean_FSCK boolean_FSTYPE boolean_FSYNC boolean_FTPGET boolean_FTPPUT boolean_GETCONF boolean_GETFATTR boolean_GETOPT boolean_GETTY boolean_GREP boolean_GROUPADD boolean_GROUPDEL boolean_GROUPS boolean_GUNZIP boolean_GZIP boolean_HEAD boolean_HELLO boolean_HEXEDIT boolean_HOST boolean_HOSTID boolean_HOSTNAME boolean_HWCLOCK boolean_I2CDETECT boolean_I2CDUMP boolean_I2CGET boolean_I2CSET boolean_ID boolean_IFCONFIG boolean_INIT boolean_INOTIFYD boolean_INSMOD boolean_INSTALL boolean_IONICE boolean_IORENICE boolean_IOTOP boolean_IP boolean_IPCRM boolean_IPCS boolean_KILL boolean_KILLALL boolean_KLOGD boolean_LAST boolean_LINK boolean_LN boolean_LOGGER boolean_LOGNAME boolean_LOGWRAPPER boolean_LOSETUP boolean_LS boolean_LSATTR boolean_LSMOD boolean_LSOF boolean_LSPCI boolean_LSUSB boolean_MAKEDEVS boolean_MAN boolean_MCOOKIE boolean_MD5SUM boolean_MDEV boolean_MICROCOM boolean_MIX boolean_MKDIR boolean_MKE2FS boolean_MKFIFO boolean_MKNOD boolean_MKSWAP boolean_MKTEMP boolean_MODINFO boolean_MODPROBE boolean_MORE boolean_MOUNT boolean_MOUNTPOINT boolean_MV boolean_NETCAT boolean_NETSTAT boolean_NICE boolean_NL boolean_NOHUP boolean_NPROC boolean_OD boolean_ONEIT boolean_PARTPROBE boolean_PASTE boolean_PATCH boolean_PGREP boolean_PIDOF boolean_PING boolean_PIVOT_ROOT boolean_PKILL boolean_PMAP boolean_PRINTENV boolean_PRINTF boolean_PS boolean_PWD boolean_PWDX boolean_PWGEN boolean_READAHEAD boolean_READELF boolean_READLINK boolean_REALPATH boolean_REBOOT boolean_RENICE boolean_RESET boolean_REV boolean_RFKILL boolean_RM boolean_RMDIR boolean_RMMOD boolean_ROUTE boolean_RTCWAKE boolean_SED boolean_SETFATTR boolean_SETSID boolean_SH boolean_SHA1SUM boolean_SHA3SUM boolean_SHRED boolean_SKELETON boolean_SKELETON_ALIAS boolean_SLEEP boolean_SNTP boolean_SORT boolean_SPLIT boolean_STAT boolean_STRINGS boolean_STTY boolean_SWAPOFF boolean_SWAPON boolean_SWITCH_ROOT boolean_SYNC boolean_SYSCTL boolean_SYSLOGD boolean_TAC boolean_TAIL boolean_TAR boolean_TASKSET boolean_TEE boolean_TELNET boolean_TELNETD boolean_TEST boolean_TFTP boolean_TFTPD boolean_TIMEOUT boolean_TOP boolean_TOUCH boolean_TOYBOX_CONTAINER boolean_TOYBOX_DEBUG boolean_TOYBOX_FIFREEZE boolean_TOYBOX_FLOAT boolean_TOYBOX_FORCE_NOMMU boolean_TOYBOX_FREE boolean_TOYBOX_HELP boolean_TOYBOX_ICONV boolean_TOYBOX_LIBCRYPTO boolean_TOYBOX_LIBZ boolean_TOYBOX_NORECURSE boolean_TOYBOX_ON_ANDROID boolean_TOYBOX_PEDANTIC_ARGS boolean_TOYBOX_PRLIMIT boolean_TOYBOX_SHADOW boolean_TOYBOX_SUID boolean_TOYBOX_UTMPX boolean_TR boolean_TRACEROUTE boolean_TRUE boolean_TRUNCATE boolean_TTY boolean_TUNCTL boolean_UMOUNT boolean_UNAME boolean_UNICODE boolean_UNIQ boolean_UNIX2DOS boolean_UNLINK boolean_USERADD boolean_USERDEL boolean_USLEEP boolean_UUDECODE boolean_UUENCODE boolean_UUIDGEN boolean_VCONFIG boolean_VI boolean_VMSTAT boolean_WATCH boolean_WATCHDOG boolean_WC boolean_WGET boolean_WHICH boolean_WHOAMI boolean_XARGS boolean_XXD boolean_XZCAT boolean_YES boolean_ZCAT boolean_TOYBOX_LSM_NONE boolean_TOYBOX_SELINUX boolean_TOYBOX_SMACK int_TOYBOX_UID_SYS_EQ_100 int_TOYBOX_UID_SYS_EQ_OTHERVAL int_TOYBOX_UID_USR_EQ_500 int_TOYBOX_UID_USR_EQ_OTHERVAL boolean_CAT_V boolean_CHCON boolean_DEBUG_DHCP boolean_FSFREEZE boolean_GETENFORCE boolean_HELP boolean_ICONV boolean_KILLALL5 boolean_KLOGD_SOURCE_RING_BUFFER boolean_LOAD_POLICY boolean_LOG boolean_LOGIN boolean_LSPCI_TEXT boolean_MDEV_CONF boolean_MKE2FS_EXTENDED boolean_MKE2FS_GEN boolean_MKE2FS_JOURNAL boolean_MKE2FS_LABEL boolean_MKPASSWD boolean_NETCAT_LISTEN boolean_NSENTER boolean_PASSWD boolean_RESTORECON boolean_RUNCON boolean_SENDEVENT boolean_SEQ boolean_SETENFORCE boolean_SHA224SUM boolean_SHA256SUM boolean_SHA384SUM boolean_SHA512SUM boolean_SU boolean_SULOGIN boolean_TIME boolean_TOYBOX_FORK boolean_TOYBOX_HELP_DASHDASH boolean_ULIMIT boolean_UNSHARE boolean_UPTIME boolean_W boolean_WHO boolean_BOOTCHARTD boolean_CRONTAB boolean_NBD_CLIENT boolean_OPENVT boolean_PASSWD_SAD boolean_TCPSVD boolean_TOYBOX boolean_TOYBOX_ANDROID_SCHEDPOLICY boolean_TOYBOX_COPYFILERANGE boolean_TOYBOX_GETRANDOM boolean_CD boolean_EGREP boolean_EVAL boolean_EXEC boolean_EXIT boolean_EXPORT boolean_FGREP boolean_ID_Z boolean_JOBS boolean_LOCAL boolean_MKDIR_Z boolean_MKFIFO_Z boolean_MKNOD_Z boolean_SET boolean_SHIFT boolean_SORT_FLOAT boolean_SOURCE boolean_TEST_GLUE boolean_UNSET
+.ids 0 1 2 3 4 5 6 42 45 46 49 51 53 55 56 59 60 61 62 63 65 66 67 68 69 71 72 73 74 75 76 77 78 79 80 81 83 85 88 89 90 96 97 123 124 125 126 127 128 129 130 131 132 133 134 174 175 184 185 186 187 188 189 190 191 192 193 194 197 198 204 205 217 218 220 221 233 234 251 252 253 286 287 318 319 336 337 338 339 340 341
+.permids 270 271 268 269 265 266 267 232 317 293 230 229 282 296 227 299 300 301 302 224 223 277 307 222 322 313 314 315 316 318 306 220 297 338 305 219 218 321 216 320 319 340 210 323 325 326 327 328 331 332 336 337 339 341 184 291 144 335 135 334 134 286 287 288 289 133 333 132 285 129 284 123 280 111 279 109 330 97 324 329 80 274 47 272 16 273 276 281 294 295 298
+.nroots 338
+.rootnames boolean_ACPI boolean_ARCH boolean_ARP boolean_ARPING boolean_ASCII boolean_BASE32 boolean_BASE64 boolean_BASENAME boolean_BC boolean_BLKDISCARD boolean_BLKID boolean_BLOCKDEV boolean_BRCTL boolean_BUNZIP2 boolean_BZCAT boolean_CAL boolean_CAT boolean_CATV boolean_CHATTR boolean_CHGRP boolean_CHMOD boolean_CHOWN boolean_CHROOT boolean_CHRT boolean_CHSH boolean_CHVT boolean_CKSUM boolean_CLEAR boolean_CMP boolean_COMM boolean_COUNT boolean_CP boolean_CPIO boolean_CRC32 boolean_CROND boolean_CUT boolean_DATE boolean_DD boolean_DEALLOCVT boolean_DEMO_MANY_OPTIONS boolean_DEMO_NUMBER boolean_DEMO_SCANKEY boolean_DEMO_UTF8TOWC boolean_DEVMEM boolean_DF boolean_DHCP boolean_DHCP6 boolean_DHCPD boolean_DIFF boolean_DIRNAME boolean_DMESG boolean_DNSDOMAINNAME boolean_DOS2UNIX boolean_DU boolean_DUMPLEASES boolean_ECHO boolean_EJECT boolean_ENV boolean_EXPAND boolean_EXPR boolean_FACTOR boolean_FALLOCATE boolean_FALSE boolean_FDISK boolean_FILE boolean_FIND boolean_FLOCK boolean_FMT boolean_FOLD boolean_FREE boolean_FREERAMDISK boolean_FSCK boolean_FSTYPE boolean_FSYNC boolean_FTPGET boolean_FTPPUT boolean_GETCONF boolean_GETFATTR boolean_GETOPT boolean_GETTY boolean_GREP boolean_GROUPADD boolean_GROUPDEL boolean_GROUPS boolean_GUNZIP boolean_GZIP boolean_HEAD boolean_HELLO boolean_HEXEDIT boolean_HOST boolean_HOSTID boolean_HOSTNAME boolean_HWCLOCK boolean_I2CDETECT boolean_I2CDUMP boolean_I2CGET boolean_I2CSET boolean_ID boolean_IFCONFIG boolean_INIT boolean_INOTIFYD boolean_INSMOD boolean_INSTALL boolean_IONICE boolean_IORENICE boolean_IOTOP boolean_IP boolean_IPCRM boolean_IPCS boolean_KILL boolean_KILLALL boolean_KLOGD boolean_LAST boolean_LINK boolean_LN boolean_LOGGER boolean_LOGNAME boolean_LOGWRAPPER boolean_LOSETUP boolean_LS boolean_LSATTR boolean_LSMOD boolean_LSOF boolean_LSPCI boolean_LSUSB boolean_MAKEDEVS boolean_MAN boolean_MCOOKIE boolean_MD5SUM boolean_MDEV boolean_MICROCOM boolean_MIX boolean_MKDIR boolean_MKE2FS boolean_MKFIFO boolean_MKNOD boolean_MKSWAP boolean_MKTEMP boolean_MODINFO boolean_MODPROBE boolean_MORE boolean_MOUNT boolean_MOUNTPOINT boolean_MV boolean_NETCAT boolean_NETSTAT boolean_NICE boolean_NL boolean_NOHUP boolean_NPROC boolean_OD boolean_ONEIT boolean_PARTPROBE boolean_PASTE boolean_PATCH boolean_PGREP boolean_PIDOF boolean_PING boolean_PIVOT_ROOT boolean_PKILL boolean_PMAP boolean_PRINTENV boolean_PRINTF boolean_PS boolean_PWD boolean_PWDX boolean_PWGEN boolean_READAHEAD boolean_READELF boolean_READLINK boolean_REALPATH boolean_REBOOT boolean_RENICE boolean_RESET boolean_REV boolean_RFKILL boolean_RM boolean_RMDIR boolean_RMMOD boolean_ROUTE boolean_RTCWAKE boolean_SED boolean_SETFATTR boolean_SETSID boolean_SH boolean_SHA1SUM boolean_SHA3SUM boolean_SHRED boolean_SKELETON boolean_SKELETON_ALIAS boolean_SLEEP boolean_SNTP boolean_SORT boolean_SPLIT boolean_STAT boolean_STRINGS boolean_STTY boolean_SWAPOFF boolean_SWAPON boolean_SWITCH_ROOT boolean_SYNC boolean_SYSCTL boolean_SYSLOGD boolean_TAC boolean_TAIL boolean_TAR boolean_TASKSET boolean_TEE boolean_TELNET boolean_TELNETD boolean_TEST boolean_TFTP boolean_TFTPD boolean_TIMEOUT boolean_TOP boolean_TOUCH boolean_TOYBOX_CONTAINER boolean_TOYBOX_DEBUG boolean_TOYBOX_FIFREEZE boolean_TOYBOX_FLOAT boolean_TOYBOX_FORCE_NOMMU boolean_TOYBOX_FREE boolean_TOYBOX_HELP boolean_TOYBOX_ICONV boolean_TOYBOX_LIBCRYPTO boolean_TOYBOX_LIBZ boolean_TOYBOX_NORECURSE boolean_TOYBOX_ON_ANDROID boolean_TOYBOX_PEDANTIC_ARGS boolean_TOYBOX_PRLIMIT boolean_TOYBOX_SHADOW boolean_TOYBOX_SUID boolean_TOYBOX_UTMPX boolean_TR boolean_TRACEROUTE boolean_TRUE boolean_TRUNCATE boolean_TTY boolean_TUNCTL boolean_UMOUNT boolean_UNAME boolean_UNICODE boolean_UNIQ boolean_UNIX2DOS boolean_UNLINK boolean_USERADD boolean_USERDEL boolean_USLEEP boolean_UUDECODE boolean_UUENCODE boolean_UUIDGEN boolean_VCONFIG boolean_VI boolean_VMSTAT boolean_WATCH boolean_WATCHDOG boolean_WC boolean_WGET boolean_WHICH boolean_WHOAMI boolean_XARGS boolean_XXD boolean_XZCAT boolean_YES boolean_ZCAT boolean_TOYBOX_LSM_NONE int_TOYBOX_UID_SYS_EQ_100 int_TOYBOX_UID_USR_EQ_500 boolean_CAT_V boolean_CHCON boolean_DEBUG_DHCP boolean_FSFREEZE boolean_GETENFORCE boolean_HELP boolean_ICONV boolean_KILLALL5 boolean_KLOGD_SOURCE_RING_BUFFER boolean_LOAD_POLICY boolean_LOG boolean_LOGIN boolean_LSPCI_TEXT boolean_MDEV_CONF boolean_MKE2FS_EXTENDED boolean_MKE2FS_GEN boolean_MKE2FS_JOURNAL boolean_MKE2FS_LABEL boolean_MKPASSWD boolean_NETCAT_LISTEN boolean_NSENTER boolean_PASSWD boolean_RESTORECON boolean_RUNCON boolean_SENDEVENT boolean_SEQ boolean_SETENFORCE boolean_SHA224SUM boolean_SHA256SUM boolean_SHA384SUM boolean_SHA512SUM boolean_SU boolean_SULOGIN boolean_TIME boolean_TOYBOX_FORK boolean_TOYBOX_HELP_DASHDASH boolean_ULIMIT boolean_UNSHARE boolean_UPTIME boolean_W boolean_WHO boolean_BOOTCHARTD boolean_CRONTAB boolean_NBD_CLIENT boolean_OPENVT boolean_PASSWD_SAD boolean_TCPSVD boolean_TOYBOX boolean_TOYBOX_ANDROID_SCHEDPOLICY boolean_TOYBOX_COPYFILERANGE boolean_TOYBOX_GETRANDOM boolean_CD boolean_EGREP boolean_EVAL boolean_EXEC boolean_EXIT boolean_EXPORT boolean_FGREP boolean_ID_Z boolean_JOBS boolean_LOCAL boolean_MKDIR_Z boolean_MKFIFO_Z boolean_MKNOD_Z boolean_SET boolean_SHIFT boolean_SORT_FLOAT boolean_SOURCE boolean_TEST_GLUE boolean_UNSET
+.rootids 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 1 3 1 1 1 1 4 1 1 1 -5 1 6 7 1 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 -12 -14 -16 18 20 22 1 24 26 1 28 30 32 -33 1 35 37 39 41 43 45 1 47 1 1 49 51 -52 54 56 58 60 62 64 1 1 66 -68 70 1 1 1 1 1 72 74 76 78 80 82 83 -84 -85 86 -87 89 -90 -91 -92 -93 95 -98 -99 -100 -103 -106 -109 -110 -111 113 -114 117 -118
+.nodes
+1 T 1 0 0
+2 216 15 1 -1
+3 218 16 1 -1
+4 223 20 1 -1
+5 227 22 1 -1
+6 229 23 1 -1
+7 230 24 1 -1
+8 232 25 1 -1
+9 267 28 1 -1
+10 266 27 1 9
+11 266 27 9 -9
+12 265 26 10 11
+13 269 30 1 -1
+14 268 29 13 -13
+15 271 32 1 -1
+16 270 31 15 -15
+17 272 33 1 -1
+18 16 0 1 -17
+19 273 34 1 -1
+20 266 27 1 -19
+21 274 35 1 -1
+22 47 1 1 -21
+23 276 36 1 -1
+24 266 27 1 -23
+25 277 37 1 -1
+26 222 19 1 -25
+27 279 38 1 -1
+28 109 4 1 -27
+29 280 39 1 -1
+30 111 5 1 -29
+31 281 40 1 -1
+32 266 27 1 -31
+33 282 41 1 -1
+34 284 42 1 -1
+35 123 6 1 -34
+36 285 43 1 -1
+37 129 7 1 -36
+38 286 44 1 -1
+39 133 9 1 -38
+40 287 45 1 -1
+41 133 9 1 -40
+42 288 46 1 -1
+43 133 9 1 -42
+44 289 47 1 -1
+45 133 9 1 -44
+46 291 48 1 -1
+47 144 12 1 -46
+48 294 50 1 -1
+49 266 27 1 -48
+50 295 51 1 -1
+51 266 27 1 -50
+52 296 52 1 -1
+53 297 53 1 -1
+54 219 17 1 -53
+55 298 54 1 -1
+56 266 27 1 -55
+57 299 55 1 -1
+58 224 21 1 -57
+59 300 56 1 -1
+60 224 21 1 -59
+61 301 57 1 -1
+62 224 21 1 -61
+63 302 58 1 -1
+64 224 21 1 -63
+65 305 59 1 -1
+66 219 17 1 -65
+67 306 60 1 -1
+68 220 18 67 -67
+69 307 61 1 -1
+70 222 19 1 -69
+71 313 62 1 -1
+72 306 60 1 -71
+73 314 63 1 -1
+74 306 60 1 -73
+75 315 64 1 -1
+76 306 60 1 -75
+77 316 65 1 -1
+78 306 60 1 -77
+79 317 66 1 -1
+80 293 49 1 -79
+81 318 67 1 -1
+82 306 60 1 -81
+83 319 68 1 -1
+84 320 69 1 -1
+85 321 70 1 -1
+86 322 71 1 -1
+87 323 72 1 -1
+88 324 73 1 -1
+89 80 2 88 -88
+90 325 74 1 -1
+91 326 75 1 -1
+92 327 76 1 -1
+93 328 77 1 -1
+94 329 78 1 -1
+95 80 2 94 -94
+96 330 79 1 -1
+97 265 26 96 -96
+98 97 3 97 96
+99 331 80 1 -1
+100 332 81 1 -1
+101 333 82 1 -1
+102 265 26 101 -101
+103 132 8 102 101
+104 334 83 1 -1
+105 265 26 104 -104
+106 134 10 105 104
+107 335 84 1 -1
+108 265 26 107 -107
+109 135 11 108 107
+110 336 85 1 -1
+111 337 86 1 -1
+112 338 87 1 -1
+113 219 17 112 -112
+114 339 88 1 -1
+115 340 89 1 -1
+116 210 14 115 -115
+117 184 13 115 116
+118 341 90 1 -1
+.end

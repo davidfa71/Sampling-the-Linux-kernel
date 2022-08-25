@@ -1,0 +1,389 @@
+Logic2BDD -base fiasco-manybdds -noreorder -manybdds -score file fiasco-manybdds.ord fiasco-onebdd.var fiasco-manybdds.exp 
+Read 212 expressions
+20 components. Biggest 70 number of variables 98
+Build tree for variable boolean_EXPERIMENTAL                                         (0) with 1     expressions 
+#boolean_EXPERIMENTAL
+Build tree for variable boolean_FINE_GRAINED_CPUTIME                                 (1) with 1     expressions 
+#boolean_FINE_GRAINED_CPUTIME
+Build tree for variable boolean_GSTABS                                               (2) with 2     expressions 
+#boolean_GSTABS
+[08:31:08] Cnstr #     2 100% [     0] : not boolean_GSTABS                                           Nodes        2           1 ms. total           1 ms.
+Build tree for variable boolean_HAS_FPU_OPTION                                       (3) with 2     expressions 
+#boolean_HAS_FPU_OPTION
+[08:31:08] Cnstr #     2 100% [     0] : not boolean_HAS_FPU_OPTION                                   Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_INLINE                                               (4) with 1     expressions 
+#boolean_INLINE
+Build tree for variable boolean_MAINTAINER_MODE                                      (5) with 1     expressions 
+#boolean_MAINTAINER_MODE
+Build tree for variable boolean_NDEBUG                                               (6) with 1     expressions 
+#boolean_NDEBUG
+Build tree for variable boolean_NO_FRAME_PTR                                         (7) with 1     expressions 
+#boolean_NO_FRAME_PTR
+Build tree for variable boolean_OPTIMIZE_FOR_SIZE                                    (8) with 1     expressions 
+#boolean_OPTIMIZE_FOR_SIZE
+Build tree for variable boolean_STACK_DEPTH                                          (9) with 1     expressions 
+#boolean_STACK_DEPTH
+Build tree for variable boolean_UNIT_TEST                                            (10) with 1     expressions 
+#boolean_UNIT_TEST
+Build tree for variable boolean_IA32                                                 (11) with 4     expressions 
+#boolean_IA32
+[08:31:08] Cnstr #     2  50% [     1] : not boolean_AMD64 or not boolean_IA32                        Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3  75% [     1] : not boolean_IA32 or not boolean_AMD64                        Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     4 100% [     1] : boolean_IA32 or boolean_AMD64                                Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_WARN_NONE                                            (12) with 8     expressions 
+#boolean_WARN_NONE
+[08:31:08] Cnstr #     2  25% [     1] : not boolean_WARN_NONE or not boolean_WARN_WARNING            Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3  37% [     1] : not boolean_WARN_ANY or not boolean_WARN_WARNING             Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     4  50% [     2] : not boolean_WARN_ANY or not boolean_WARN_NONE                Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     5  62% [     1] : not boolean_WARN_NONE or not boolean_WARN_WARNING            Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     6  75% [     2] : not boolean_WARN_NONE or not boolean_WARN_ANY                Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     7  87% [     1] : not boolean_WARN_WARNING or not boolean_WARN_ANY             Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     8 100% [     2] : boolean_WARN_NONE or boolean_WARN_WARNING or boolean_WARN_ANY
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable string_CC_EQ_OTHERVAL                                        (13) with 3     expressions 
+#string_CC_EQ_OTHERVAL
+[08:31:08] Cnstr #     2  66% [     1] : not string_CC_EQ_gcc or not string_CC_EQ_OTHERVAL            Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [     1] : string_CC_EQ_OTHERVAL or string_CC_EQ_gcc                    Nodes        3           0 ms. total           0 ms.
+Build tree for variable string_CXX_EQ_OTHERVAL                                       (14) with 3     expressions 
+#string_CXX_EQ_OTHERVAL
+[08:31:08] Cnstr #     2  66% [     1] : not string_CXX_EQ_g++ or not string_CXX_EQ_OTHERVAL          Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [     1] : string_CXX_EQ_OTHERVAL or string_CXX_EQ_g++                  Nodes        3           0 ms. total           0 ms.
+Build tree for variable string_HOST_CC_EQ_OTHERVAL                                   (15) with 3     expressions 
+#string_HOST_CC_EQ_OTHERVAL
+[08:31:08] Cnstr #     2  66% [     1] : not string_HOST_CC_EQ_gcc or not string_HOST_CC_EQ_OTHERVAL  Nodes        3           1 ms. total           1 ms.
+[08:31:08] Cnstr #     3 100% [     1] : string_HOST_CC_EQ_OTHERVAL or string_HOST_CC_EQ_gcc          Nodes        3           0 ms. total           1 ms.
+Build tree for variable string_HOST_CXX_EQ_OTHERVAL                                  (16) with 3     expressions 
+#string_HOST_CXX_EQ_OTHERVAL
+[08:31:08] Cnstr #     2  66% [     1] : not string_HOST_CXX_EQ_g++ or not string_HOST_CXX_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [     1] : string_HOST_CXX_EQ_OTHERVAL or string_HOST_CXX_EQ_g++        Nodes        3           0 ms. total           0 ms.
+Build tree for variable string_LABEL_EQ_OTHERVAL                                     (17) with 2     expressions 
+#string_LABEL_EQ_OTHERVAL
+[08:31:08] Cnstr #     2 100% [     0] : string_LABEL_EQ_OTHERVAL                                     Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_FPU                                                  (18) with 2     expressions 
+#boolean_FPU
+[08:31:08] Cnstr #     2 100% [     0] : boolean_FPU                                                  Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_HAS_JDB_DISASM_OPTION                                (19) with 2     expressions 
+#boolean_HAS_JDB_DISASM_OPTION
+[08:31:08] Cnstr #     2 100% [     0] : boolean_HAS_JDB_DISASM_OPTION                                Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_HAS_JDB_GZIP_OPTION                                  (20) with 2     expressions 
+#boolean_HAS_JDB_GZIP_OPTION
+[08:31:08] Cnstr #     2 100% [     0] : boolean_HAS_JDB_GZIP_OPTION                                  Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_HAS_LAZY_FPU                                         (21) with 2     expressions 
+#boolean_HAS_LAZY_FPU
+[08:31:08] Cnstr #     2 100% [     0] : boolean_HAS_LAZY_FPU                                         Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_HAS_VIRT_OBJ_SPACE_OPTION                            (22) with 2     expressions 
+#boolean_HAS_VIRT_OBJ_SPACE_OPTION
+[08:31:08] Cnstr #     2 100% [     0] : boolean_HAS_VIRT_OBJ_SPACE_OPTION                            Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_KERNEL_ISOLATION                                     (23) with 2     expressions 
+#boolean_KERNEL_ISOLATION
+[08:31:08] Cnstr #     2 100% [    18] : boolean_KERNEL_ISOLATION -> boolean_AMD64                    Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_KERNEL_NX                                            (24) with 2     expressions 
+#boolean_KERNEL_NX
+[08:31:08] Cnstr #     2 100% [    19] : boolean_KERNEL_NX -> boolean_AMD64                           Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_PF_PC                                                (25) with 10    expressions 
+#boolean_PF_PC
+[08:31:08] Cnstr #     2  20% [     1] : not boolean_PF_PC or not boolean_PF_UX                       Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3  30% [     1] : not boolean_AMD64 or not boolean_IA32                        Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     4  40% [     1] : not boolean_PF_PC or not boolean_PF_UX                       Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     5  50% [    22] : boolean_IA32 -> boolean_PF_PC or boolean_PF_UX               Nodes        6           0 ms. total           0 ms.
+[08:31:08] Cnstr #     6  60% [    21] : boolean_AMD64 -> boolean_PF_PC or boolean_PF_UX              Nodes        7           0 ms. total           0 ms.
+[08:31:08] Cnstr #     7  70% [    22] : boolean_IA32 -> boolean_PF_PC or boolean_PF_UX               Nodes        7           0 ms. total           0 ms.
+[08:31:08] Cnstr #     8  80% [    22] : not (boolean_IA32 or boolean_AMD64 or boolean_IA32) -> not boolean_PF_PC and not boolean_PF_UX
+                                                                                                      Nodes        7           1 ms. total           1 ms.
+[08:31:08] Cnstr #     9  90% [    21] : boolean_PF_PC -> boolean_IA32 or boolean_AMD64               Nodes        7           0 ms. total           1 ms.
+[08:31:08] Cnstr #    10 100% [    22] : boolean_PF_UX -> boolean_IA32                                Nodes        8           0 ms. total           1 ms.
+Build tree for variable boolean_SCHED_FIXED_PRIO                                     (26) with 10    expressions 
+#boolean_SCHED_FIXED_PRIO
+[08:31:08] Cnstr #     2  20% [     1] : not boolean_SCHED_FP_WFQ or not boolean_SCHED_WFQ            Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3  30% [     1] : not boolean_SCHED_FIXED_PRIO or not boolean_SCHED_WFQ        Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     4  40% [     2] : not boolean_SCHED_FIXED_PRIO or not boolean_SCHED_FP_WFQ     Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     5  50% [     1] : not boolean_SCHED_FIXED_PRIO or not boolean_SCHED_WFQ        Nodes        5           0 ms. total           0 ms.
+[08:31:08] Cnstr #     6  60% [     2] : not boolean_SCHED_FIXED_PRIO or not boolean_SCHED_FP_WFQ     Nodes        5           0 ms. total           1 ms.
+[08:31:08] Cnstr #     7  70% [     1] : not boolean_SCHED_WFQ or not boolean_SCHED_FP_WFQ            Nodes        5           0 ms. total           1 ms.
+[08:31:08] Cnstr #     8  80% [     2] : boolean_SCHED_FIXED_PRIO or boolean_SCHED_WFQ or boolean_SCHED_FP_WFQ
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:31:08] Cnstr #     9  90% [    35] : boolean_SCHED_WFQ -> boolean_EXPERIMENTAL                    Nodes        8           0 ms. total           1 ms.
+[08:31:08] Cnstr #    10 100% [    36] : boolean_SCHED_FP_WFQ -> boolean_EXPERIMENTAL                 Nodes        7           0 ms. total           1 ms.
+Build tree for variable boolean_BEFORE_IRET_SANITY                                   (27) with 2     expressions 
+#boolean_BEFORE_IRET_SANITY
+[08:31:08] Cnstr #     2 100% [     5] : boolean_BEFORE_IRET_SANITY -> boolean_PF_PC                  Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CPU_LOCAL_MAP                                        (28) with 3     expressions 
+#boolean_CPU_LOCAL_MAP
+[08:31:08] Cnstr #     2  66% [     8] : boolean_KERNEL_ISOLATION -> boolean_CPU_LOCAL_MAP            Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    38] : not boolean_KERNEL_ISOLATION and boolean_CPU_LOCAL_MAP -> boolean_EXPERIMENTAL and not boolean_KERNEL_ISOLATION and boolean_AMD64
+                                                                                                      Nodes        6           0 ms. total           0 ms.
+Build tree for variable boolean_DISABLE_VIRT_OBJ_SPACE                               (29) with 2     expressions 
+#boolean_DISABLE_VIRT_OBJ_SPACE
+[08:31:08] Cnstr #     2 100% [    39] : boolean_DISABLE_VIRT_OBJ_SPACE -> boolean_EXPERIMENTAL and boolean_HAS_VIRT_OBJ_SPACE_OPTION
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_HAS_CPU_VIRT                                         (30) with 3     expressions 
+#boolean_HAS_CPU_VIRT
+[08:31:08] Cnstr #     2  66% [     8] : boolean_PF_PC -> boolean_HAS_CPU_VIRT                        Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [     8] : boolean_HAS_CPU_VIRT -> boolean_PF_PC                        Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_HAS_IOMMU_OPTION                                     (31) with 3     expressions 
+#boolean_HAS_IOMMU_OPTION
+[08:31:08] Cnstr #     2  66% [     9] : boolean_PF_PC -> boolean_HAS_IOMMU_OPTION                    Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [     9] : boolean_HAS_IOMMU_OPTION -> boolean_PF_PC                    Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_HAS_MP_OPTION                                        (32) with 3     expressions 
+#boolean_HAS_MP_OPTION
+[08:31:08] Cnstr #     2  66% [    10] : boolean_PF_PC -> boolean_HAS_MP_OPTION                       Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    10] : boolean_HAS_MP_OPTION -> boolean_PF_PC                       Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_HAS_SERIAL_OPTION                                    (33) with 3     expressions 
+#boolean_HAS_SERIAL_OPTION
+[08:31:08] Cnstr #     2  66% [    11] : boolean_PF_PC -> boolean_HAS_SERIAL_OPTION                   Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    11] : boolean_HAS_SERIAL_OPTION -> boolean_PF_PC                   Nodes        3           1 ms. total           1 ms.
+Build tree for variable boolean_HAS_WATCHDOG_OPTION                                  (34) with 3     expressions 
+#boolean_HAS_WATCHDOG_OPTION
+[08:31:08] Cnstr #     2  66% [    12] : boolean_PF_PC -> boolean_HAS_WATCHDOG_OPTION                 Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    12] : boolean_HAS_WATCHDOG_OPTION -> boolean_PF_PC                 Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_IA32_PCID                                            (35) with 2     expressions 
+#boolean_IA32_PCID
+[08:31:08] Cnstr #     2 100% [    15] : boolean_IA32_PCID -> boolean_KERNEL_ISOLATION                Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_INTEL_IA32_BRANCH_BARRIERS                           (36) with 2     expressions 
+#boolean_INTEL_IA32_BRANCH_BARRIERS
+[08:31:08] Cnstr #     2 100% [    34] : boolean_INTEL_IA32_BRANCH_BARRIERS -> boolean_KERNEL_ISOLATION and boolean_AMD64
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_IRQ_SPINNER                                          (37) with 2     expressions 
+#boolean_IRQ_SPINNER
+[08:31:08] Cnstr #     2 100% [    15] : boolean_IRQ_SPINNER -> boolean_PF_PC                         Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_JDB                                                  (38) with 2     expressions 
+#boolean_JDB
+[08:31:08] Cnstr #     2 100% [    15] : boolean_PF_UX -> boolean_JDB                                 Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_LAZY_FPU                                             (39) with 2     expressions 
+#boolean_LAZY_FPU
+[08:31:08] Cnstr #     2 100% [    24] : not (not boolean_PF_UX and boolean_FPU and boolean_HAS_LAZY_FPU) -> boolean_LAZY_FPU
+                                                                                                      Nodes        5           1 ms. total           1 ms.
+Build tree for variable boolean_NO_IO_PAGEFAULT                                      (40) with 2     expressions 
+#boolean_NO_IO_PAGEFAULT
+[08:31:08] Cnstr #     2 100% [    20] : boolean_KERNEL_ISOLATION -> boolean_NO_IO_PAGEFAULT          Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_NO_LDT                                               (41) with 2     expressions 
+#boolean_NO_LDT
+[08:31:08] Cnstr #     2 100% [    21] : boolean_KERNEL_ISOLATION -> boolean_NO_LDT                   Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_POWERSAVE_GETCHAR                                    (42) with 2     expressions 
+#boolean_POWERSAVE_GETCHAR
+[08:31:08] Cnstr #     2 100% [    20] : boolean_POWERSAVE_GETCHAR -> boolean_PF_PC                   Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_SYNC_TSC                                             (43) with 2     expressions 
+#boolean_SYNC_TSC
+[08:31:08] Cnstr #     2 100% [    21] : boolean_SYNC_TSC -> boolean_PF_PC                            Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_UX_CON                                               (44) with 2     expressions 
+#boolean_UX_CON
+[08:31:08] Cnstr #     2 100% [    21] : boolean_UX_CON -> boolean_PF_UX                              Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_UX_NET                                               (45) with 2     expressions 
+#boolean_UX_NET
+[08:31:08] Cnstr #     2 100% [    22] : boolean_UX_NET -> boolean_PF_UX                              Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_WORKAROUND_AMD_FPU_LEAK                              (46) with 2     expressions 
+#boolean_WORKAROUND_AMD_FPU_LEAK
+[08:31:08] Cnstr #     2 100% [    24] : boolean_WORKAROUND_AMD_FPU_LEAK -> boolean_PF_PC             Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CPU_VIRT                                             (47) with 2     expressions 
+#boolean_CPU_VIRT
+[08:31:08] Cnstr #     2 100% [    17] : boolean_CPU_VIRT -> boolean_HAS_CPU_VIRT                     Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_IOMMU                                                (48) with 2     expressions 
+#boolean_IOMMU
+[08:31:08] Cnstr #     2 100% [    17] : boolean_IOMMU -> boolean_HAS_IOMMU_OPTION                    Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_JDB_ACCOUNTING                                       (49) with 2     expressions 
+#boolean_JDB_ACCOUNTING
+[08:31:08] Cnstr #     2 100% [    11] : boolean_JDB_ACCOUNTING -> boolean_JDB                        Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_JDB_DISASM                                           (50) with 2     expressions 
+#boolean_JDB_DISASM
+[08:31:08] Cnstr #     2 100% [    34] : boolean_JDB_DISASM -> boolean_HAS_JDB_DISASM_OPTION and boolean_JDB
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_JDB_GZIP                                             (51) with 2     expressions 
+#boolean_JDB_GZIP
+[08:31:08] Cnstr #     2 100% [    34] : boolean_JDB_GZIP -> boolean_HAS_JDB_GZIP_OPTION and boolean_JDB
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_JDB_LOGGING                                          (52) with 2     expressions 
+#boolean_JDB_LOGGING
+[08:31:08] Cnstr #     2 100% [    14] : boolean_JDB_LOGGING -> boolean_JDB                           Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_JDB_MISC                                             (53) with 2     expressions 
+#boolean_JDB_MISC
+[08:31:08] Cnstr #     2 100% [    15] : boolean_JDB_MISC -> boolean_JDB                              Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_MP                                                   (54) with 2     expressions 
+#boolean_MP
+[08:31:08] Cnstr #     2 100% [    22] : boolean_MP -> boolean_HAS_MP_OPTION                          Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_SERIAL                                               (55) with 2     expressions 
+#boolean_SERIAL
+[08:31:08] Cnstr #     2 100% [    22] : boolean_SERIAL -> boolean_HAS_SERIAL_OPTION                  Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_WATCHDOG                                             (56) with 2     expressions 
+#boolean_WATCHDOG
+[08:31:08] Cnstr #     2 100% [    22] : boolean_WATCHDOG -> boolean_HAS_WATCHDOG_OPTION              Nodes        3           0 ms. total           1 ms.
+Build tree for variable BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS                     (57) with 4     expressions 
+#BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS
+[08:31:08] Cnstr #     2  50% [     3] : boolean_MP -> BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS       Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3  75% [    11] : not boolean_MP -> not BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS and not BIT_0_BITMAP_int_MP_MAX_CPUS and not BIT_1_BITMAP_int_MP_MAX_CPUS and not BIT_2_BITMAP_int_MP_MAX_CPUS and not BIT_3_BITMAP_int_MP_MAX_CPUS and not BIT_4_BITMAP_int_MP_MAX_CPUS and not BIT_5_BITMAP_int_MP_MAX_CPUS and not BIT_6_BITMAP_int_MP_MAX_CPUS and not BIT_7_BITMAP_int_MP_MAX_CPUS
+                                                                                                      Nodes       12           0 ms. total           0 ms.
+[08:31:08] Cnstr #     4 100% [    11] : BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS and boolean_MP -> BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS and (BIT_7_BITMAP_int_MP_MAX_CPUS or (not BIT_7_BITMAP_int_MP_MAX_CPUS and (BIT_6_BITMAP_int_MP_MAX_CPUS or (not BIT_6_BITMAP_int_MP_MAX_CPUS and (BIT_5_BITMAP_int_MP_MAX_CPUS or (not BIT_5_BITMAP_int_MP_MAX_CPUS and (BIT_4_BITMAP_int_MP_MAX_CPUS or (not BIT_4_BITMAP_int_MP_MAX_CPUS and (BIT_3_BITMAP_int_MP_MAX_CPUS or (not BIT_3_BITMAP_int_MP_MAX_CPUS and (BIT_2_BITMAP_int_MP_MAX_CPUS or (not BIT_2_BITMAP_int_MP_MAX_CPUS and (BIT_1_BITMAP_int_MP_MAX_CPUS or (not BIT_1_BITMAP_int_MP_MAX_CPUS and BIT_0_BITMAP_int_MP_MAX_CPUS)))))))))))))) and BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS and (not BIT_7_BITMAP_int_MP_MAX_CPUS or (BIT_7_BITMAP_int_MP_MAX_CPUS and not BIT_6_BITMAP_int_MP_MAX_CPUS and not BIT_5_BITMAP_int_MP_MAX_CPUS and not BIT_4_BITMAP_int_MP_MAX_CPUS and not BIT_3_BITMAP_int_MP_MAX_CPUS and not BIT_2_BITMAP_int_MP_MAX_CPUS and not BIT_1_BITMAP_int_MP_MAX_CPUS and not BIT_0_BITMAP_int_MP_MAX_CPUS))
+                                                                                                      Nodes       19           1 ms. total           1 ms.
+Build tree for variable boolean_SCHED_PIT                                            (58) with 20    expressions 
+#boolean_SCHED_PIT
+[08:31:08] Cnstr #     2  10% [     1] : not boolean_SCHED_PIT or not boolean_SCHED_RTC               Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3  15% [     2] : not boolean_SCHED_HPET or not boolean_SCHED_RTC              Nodes        5           0 ms. total           1 ms.
+[08:31:08] Cnstr #     4  20% [     3] : not boolean_SCHED_HPET or not boolean_SCHED_PIT              Nodes        5           0 ms. total           1 ms.
+[08:31:08] Cnstr #     5  25% [     1] : not boolean_SCHED_APIC or not boolean_SCHED_RTC              Nodes        6           0 ms. total           1 ms.
+[08:31:08] Cnstr #     6  30% [     2] : not boolean_SCHED_APIC or not boolean_SCHED_PIT              Nodes        6           0 ms. total           1 ms.
+[08:31:08] Cnstr #     7  35% [     1] : not boolean_SCHED_APIC or not boolean_SCHED_HPET             Nodes        7           0 ms. total           1 ms.
+[08:31:08] Cnstr #     8  40% [     1] : not boolean_PF_PC or not boolean_PF_UX                       Nodes        9           0 ms. total           1 ms.
+[08:31:08] Cnstr #     9  45% [     1] : not boolean_SCHED_PIT or not boolean_SCHED_RTC               Nodes        9           0 ms. total           1 ms.
+[08:31:08] Cnstr #    10  50% [     2] : not boolean_SCHED_PIT or not boolean_SCHED_APIC              Nodes        9           0 ms. total           1 ms.
+[08:31:08] Cnstr #    11  55% [     3] : not boolean_SCHED_PIT or not boolean_SCHED_HPET              Nodes        9           0 ms. total           1 ms.
+[08:31:08] Cnstr #    12  60% [     1] : not boolean_SCHED_RTC or not boolean_SCHED_APIC              Nodes        9           0 ms. total           1 ms.
+[08:31:08] Cnstr #    13  65% [     2] : not boolean_SCHED_RTC or not boolean_SCHED_HPET              Nodes        9           0 ms. total           1 ms.
+[08:31:08] Cnstr #    14  70% [     1] : not boolean_SCHED_APIC or not boolean_SCHED_HPET             Nodes        9           0 ms. total           1 ms.
+[08:31:08] Cnstr #    15  75% [     3] : boolean_SCHED_PIT or boolean_SCHED_RTC or boolean_SCHED_APIC or boolean_SCHED_HPET
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:31:08] Cnstr #    16  80% [    79] : not ((((boolean_PF_PC or boolean_PF_UX) and not boolean_MP) or (boolean_PF_PC and not boolean_MP) or boolean_PF_PC or (boolean_PF_PC and not boolean_MP and boolean_EXPERIMENTAL)) and (boolean_PF_PC or boolean_PF_UX)) -> not boolean_SCHED_PIT and not boolean_SCHED_RTC and not boolean_SCHED_APIC and not boolean_SCHED_HPET
+                                                                                                      Nodes       11           0 ms. total           1 ms.
+[08:31:08] Cnstr #    17  85% [    44] : boolean_SCHED_PIT -> (boolean_PF_PC or boolean_PF_UX) and not boolean_MP
+                                                                                                      Nodes       13           0 ms. total           1 ms.
+[08:31:08] Cnstr #    18  90% [    45] : boolean_SCHED_RTC -> boolean_PF_PC and not boolean_MP        Nodes       15           0 ms. total           1 ms.
+[08:31:08] Cnstr #    19  95% [    46] : boolean_SCHED_APIC -> boolean_PF_PC                          Nodes       17           0 ms. total           1 ms.
+[08:31:08] Cnstr #    20 100% [    79] : boolean_SCHED_HPET -> boolean_PF_PC and not boolean_MP and boolean_EXPERIMENTAL
+                                                                                                      Nodes       22           1 ms. total           2 ms.
+Build tree for variable boolean_ONE_SHOT                                             (59) with 2     expressions 
+#boolean_ONE_SHOT
+[08:31:08] Cnstr #     2 100% [    27] : boolean_ONE_SHOT -> boolean_SCHED_APIC and boolean_SYNC_TSC  Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_SLOW_RTC                                             (60) with 2     expressions 
+#boolean_SLOW_RTC
+[08:31:08] Cnstr #     2 100% [     4] : boolean_SLOW_RTC -> boolean_SCHED_RTC                        Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_ABI_VF                                               (61) with 2     expressions 
+#boolean_ABI_VF
+[08:31:08] Cnstr #     2 100% [     0] : boolean_ABI_VF                                               Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_BIG_ENDIAN                                           (62) with 2     expressions 
+#boolean_BIG_ENDIAN
+[08:31:08] Cnstr #     2 100% [     0] : not boolean_BIG_ENDIAN                                       Nodes        2           0 ms. total           0 ms.
+Build tree for variable string_ABI_EQ_vf                                             (63) with 2     expressions 
+#string_ABI_EQ_vf
+[08:31:08] Cnstr #     2 100% [     0] : string_ABI_EQ_vf                                             Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_BIT32                                                (64) with 3     expressions 
+#boolean_BIT32
+[08:31:08] Cnstr #     2  66% [    74] : boolean_IA32 -> boolean_BIT32                                Nodes        3           1 ms. total           1 ms.
+[08:31:08] Cnstr #     3 100% [    74] : boolean_BIT32 -> boolean_IA32                                Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_BIT64                                                (65) with 3     expressions 
+#boolean_BIT64
+[08:31:08] Cnstr #     2  66% [    74] : boolean_AMD64 -> boolean_BIT64                               Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    74] : boolean_BIT64 -> boolean_AMD64                               Nodes        3           0 ms. total           0 ms.
+Build tree for variable int_WARN_LEVEL_EQ_0                                          (66) with 3     expressions 
+#int_WARN_LEVEL_EQ_0
+[08:31:08] Cnstr #     2  66% [    74] : boolean_WARN_NONE -> int_WARN_LEVEL_EQ_0                     Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    74] : int_WARN_LEVEL_EQ_0 -> boolean_WARN_NONE                     Nodes        3           0 ms. total           0 ms.
+Build tree for variable int_WARN_LEVEL_EQ_1                                          (67) with 3     expressions 
+#int_WARN_LEVEL_EQ_1
+[08:31:08] Cnstr #     2  66% [    74] : boolean_WARN_WARNING -> int_WARN_LEVEL_EQ_1                  Nodes        3           0 ms. total           1 ms.
+[08:31:08] Cnstr #     3 100% [    74] : int_WARN_LEVEL_EQ_1 -> boolean_WARN_WARNING                  Nodes        3           0 ms. total           1 ms.
+Build tree for variable int_WARN_LEVEL_EQ_2                                          (68) with 3     expressions 
+#int_WARN_LEVEL_EQ_2
+[08:31:08] Cnstr #     2  66% [    74] : boolean_WARN_ANY -> int_WARN_LEVEL_EQ_2                      Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    74] : int_WARN_LEVEL_EQ_2 -> boolean_WARN_ANY                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONTEXT_8K                                           (69) with 3     expressions 
+#boolean_CONTEXT_8K
+[08:31:08] Cnstr #     2  66% [     4] : boolean_BIT64 -> boolean_CONTEXT_8K                          Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [     4] : boolean_CONTEXT_8K -> boolean_BIT64                          Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_REGPARM3                                             (70) with 3     expressions 
+#boolean_REGPARM3
+[08:31:08] Cnstr #     2  66% [    80] : boolean_PF_PC and boolean_IA32 -> boolean_REGPARM3           Nodes        4           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    80] : boolean_REGPARM3 -> boolean_PF_PC and boolean_IA32           Nodes        4           0 ms. total           0 ms.
+Build tree for variable string_XARCH_EQ_amd64                                        (71) with 3     expressions 
+#string_XARCH_EQ_amd64
+[08:31:08] Cnstr #     2  66% [    80] : boolean_AMD64 -> string_XARCH_EQ_amd64                       Nodes        3           0 ms. total           1 ms.
+[08:31:08] Cnstr #     3 100% [    80] : string_XARCH_EQ_amd64 -> boolean_AMD64                       Nodes        3           0 ms. total           1 ms.
+Build tree for variable string_XARCH_EQ_ia32                                         (72) with 3     expressions 
+#string_XARCH_EQ_ia32
+[08:31:08] Cnstr #     2  66% [    82] : boolean_PF_PC and boolean_IA32 -> string_XARCH_EQ_ia32       Nodes        4           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    82] : string_XARCH_EQ_ia32 -> boolean_PF_PC and boolean_IA32       Nodes        4           0 ms. total           0 ms.
+Build tree for variable string_XARCH_EQ_ux                                           (73) with 3     expressions 
+#string_XARCH_EQ_ux
+[08:31:08] Cnstr #     2  66% [    61] : boolean_PF_UX -> string_XARCH_EQ_ux                          Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    61] : string_XARCH_EQ_ux -> boolean_PF_UX                          Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONTEXT_4K                                           (74) with 3     expressions 
+#boolean_CONTEXT_4K
+[08:31:08] Cnstr #     2  66% [     5] : not boolean_CONTEXT_8K -> boolean_CONTEXT_4K                 Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [     5] : boolean_CONTEXT_8K -> not boolean_CONTEXT_4K                 Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_PERF_CNT                                             (75) with 3     expressions 
+#boolean_PERF_CNT
+[08:31:08] Cnstr #     2  66% [    48] : boolean_JDB -> boolean_PERF_CNT                              Nodes        3           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    85] : boolean_PERF_CNT -> (boolean_IA32 or boolean_AMD64) and boolean_JDB
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+Build tree for variable boolean_VIRT_OBJ_SPACE                                       (76) with 3     expressions 
+#boolean_VIRT_OBJ_SPACE
+[08:31:08] Cnstr #     2  66% [    67] : not boolean_KERNEL_ISOLATION and not boolean_DISABLE_VIRT_OBJ_SPACE -> boolean_VIRT_OBJ_SPACE
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:31:08] Cnstr #     3 100% [    67] : boolean_VIRT_OBJ_SPACE -> not boolean_KERNEL_ISOLATION and not boolean_DISABLE_VIRT_OBJ_SPACE
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+boolean_EXPERIMENTAL                               1          nodes 
+boolean_FINE_GRAINED_CPUTIME                       1          nodes 
+boolean_INLINE                                     1          nodes 
+boolean_MAINTAINER_MODE                            1          nodes 
+boolean_NDEBUG                                     1          nodes 
+boolean_NO_FRAME_PTR                               1          nodes 
+boolean_OPTIMIZE_FOR_SIZE                          1          nodes 
+boolean_STACK_DEPTH                                1          nodes 
+boolean_UNIT_TEST                                  1          nodes 
+boolean_ABI_VF                                     2          nodes 
+boolean_BIG_ENDIAN                                 2          nodes 
+boolean_FPU                                        2          nodes 
+boolean_GSTABS                                     2          nodes 
+boolean_HAS_FPU_OPTION                             2          nodes 
+boolean_HAS_JDB_DISASM_OPTION                      2          nodes 
+boolean_HAS_JDB_GZIP_OPTION                        2          nodes 
+boolean_HAS_LAZY_FPU                               2          nodes 
+boolean_HAS_VIRT_OBJ_SPACE_OPTION                  2          nodes 
+string_ABI_EQ_vf                                   2          nodes 
+string_LABEL_EQ_OTHERVAL                           2          nodes 
+boolean_BEFORE_IRET_SANITY                         3          nodes 
+boolean_BIT32                                      3          nodes 
+boolean_BIT64                                      3          nodes 
+boolean_CONTEXT_4K                                 3          nodes 
+boolean_CONTEXT_8K                                 3          nodes 
+boolean_CPU_VIRT                                   3          nodes 
+boolean_HAS_CPU_VIRT                               3          nodes 
+boolean_HAS_IOMMU_OPTION                           3          nodes 
+boolean_HAS_MP_OPTION                              3          nodes 
+boolean_HAS_SERIAL_OPTION                          3          nodes 
+boolean_HAS_WATCHDOG_OPTION                        3          nodes 
+boolean_IA32                                       3          nodes 
+boolean_IA32_PCID                                  3          nodes 
+boolean_IOMMU                                      3          nodes 
+boolean_IRQ_SPINNER                                3          nodes 
+boolean_JDB                                        3          nodes 
+boolean_JDB_ACCOUNTING                             3          nodes 
+boolean_JDB_LOGGING                                3          nodes 
+boolean_JDB_MISC                                   3          nodes 
+boolean_KERNEL_ISOLATION                           3          nodes 
+boolean_KERNEL_NX                                  3          nodes 
+boolean_MP                                         3          nodes 
+boolean_NO_IO_PAGEFAULT                            3          nodes 
+boolean_NO_LDT                                     3          nodes 
+boolean_POWERSAVE_GETCHAR                          3          nodes 
+boolean_SERIAL                                     3          nodes 
+boolean_SLOW_RTC                                   3          nodes 
+boolean_SYNC_TSC                                   3          nodes 
+boolean_UX_CON                                     3          nodes 
+boolean_UX_NET                                     3          nodes 
+boolean_WATCHDOG                                   3          nodes 
+boolean_WORKAROUND_AMD_FPU_LEAK                    3          nodes 
+int_WARN_LEVEL_EQ_0                                3          nodes 
+int_WARN_LEVEL_EQ_1                                3          nodes 
+int_WARN_LEVEL_EQ_2                                3          nodes 
+string_CC_EQ_OTHERVAL                              3          nodes 
+string_CXX_EQ_OTHERVAL                             3          nodes 
+string_HOST_CC_EQ_OTHERVAL                         3          nodes 
+string_HOST_CXX_EQ_OTHERVAL                        3          nodes 
+string_XARCH_EQ_amd64                              3          nodes 
+string_XARCH_EQ_ux                                 3          nodes 
+boolean_DISABLE_VIRT_OBJ_SPACE                     4          nodes 
+boolean_INTEL_IA32_BRANCH_BARRIERS                 4          nodes 
+boolean_JDB_DISASM                                 4          nodes 
+boolean_JDB_GZIP                                   4          nodes 
+boolean_ONE_SHOT                                   4          nodes 
+boolean_REGPARM3                                   4          nodes 
+boolean_VIRT_OBJ_SPACE                             4          nodes 
+string_XARCH_EQ_ia32                               4          nodes 
+boolean_LAZY_FPU                                   5          nodes 
+boolean_WARN_NONE                                  5          nodes 
+boolean_CPU_LOCAL_MAP                              6          nodes 
+boolean_PERF_CNT                                   6          nodes 
+boolean_SCHED_FIXED_PRIO                           7          nodes 
+boolean_PF_PC                                      8          nodes 
+BITMAP_INT_MASTER_BITMAP_int_MP_MAX_CPUS           19         nodes 
+boolean_SCHED_PIT                                  22         nodes 
+Time: 77 ms. (77 ms)

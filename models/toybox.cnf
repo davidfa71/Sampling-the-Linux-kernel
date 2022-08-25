@@ -1,0 +1,694 @@
+p cnf    411        282
+c 1 boolean_ACPI
+c 2 boolean_ARCH
+c 3 boolean_ARP
+c 4 boolean_ARPING
+c 5 boolean_ASCII
+c 6 boolean_BASE32
+c 7 boolean_BASE64
+c 8 boolean_BASENAME
+c 9 boolean_BC
+c 10 boolean_BLKDISCARD
+c 11 boolean_BLKID
+c 12 boolean_BLOCKDEV
+c 13 boolean_BRCTL
+c 14 boolean_BUNZIP2
+c 15 boolean_BZCAT
+c 16 boolean_CAL
+c 17 boolean_CAT
+c 18 boolean_CATV
+c 19 boolean_CHATTR
+c 20 boolean_CHGRP
+c 21 boolean_CHMOD
+c 22 boolean_CHOWN
+c 23 boolean_CHROOT
+c 24 boolean_CHRT
+c 25 boolean_CHSH
+c 26 boolean_CHVT
+c 27 boolean_CKSUM
+c 28 boolean_CLEAR
+c 29 boolean_CMP
+c 30 boolean_COMM
+c 31 boolean_COUNT
+c 32 boolean_CP
+c 33 boolean_CPIO
+c 34 boolean_CRC32
+c 35 boolean_CROND
+c 36 boolean_CUT
+c 37 boolean_DATE
+c 38 boolean_DD
+c 39 boolean_DEALLOCVT
+c 40 boolean_DEMO_MANY_OPTIONS
+c 41 boolean_DEMO_NUMBER
+c 42 boolean_DEMO_SCANKEY
+c 43 boolean_DEMO_UTF8TOWC
+c 44 boolean_DEVMEM
+c 45 boolean_DF
+c 46 boolean_DHCP
+c 47 boolean_DHCP6
+c 48 boolean_DHCPD
+c 49 boolean_DIFF
+c 50 boolean_DIRNAME
+c 51 boolean_DMESG
+c 52 boolean_DNSDOMAINNAME
+c 53 boolean_DOS2UNIX
+c 54 boolean_DU
+c 55 boolean_DUMPLEASES
+c 56 boolean_ECHO
+c 57 boolean_EJECT
+c 58 boolean_ENV
+c 59 boolean_EXPAND
+c 60 boolean_EXPR
+c 61 boolean_FACTOR
+c 62 boolean_FALLOCATE
+c 63 boolean_FALSE
+c 64 boolean_FDISK
+c 65 boolean_FILE
+c 66 boolean_FIND
+c 67 boolean_FLOCK
+c 68 boolean_FMT
+c 69 boolean_FOLD
+c 70 boolean_FREE
+c 71 boolean_FREERAMDISK
+c 72 boolean_FSCK
+c 73 boolean_FSTYPE
+c 74 boolean_FSYNC
+c 75 boolean_FTPGET
+c 76 boolean_FTPPUT
+c 77 boolean_GETCONF
+c 78 boolean_GETFATTR
+c 79 boolean_GETOPT
+c 80 boolean_GETTY
+c 81 boolean_GREP
+c 82 boolean_GROUPADD
+c 83 boolean_GROUPDEL
+c 84 boolean_GROUPS
+c 85 boolean_GUNZIP
+c 86 boolean_GZIP
+c 87 boolean_HEAD
+c 88 boolean_HELLO
+c 89 boolean_HEXEDIT
+c 90 boolean_HOST
+c 91 boolean_HOSTID
+c 92 boolean_HOSTNAME
+c 93 boolean_HWCLOCK
+c 94 boolean_I2CDETECT
+c 95 boolean_I2CDUMP
+c 96 boolean_I2CGET
+c 97 boolean_I2CSET
+c 98 boolean_ID
+c 99 boolean_IFCONFIG
+c 100 boolean_INIT
+c 101 boolean_INOTIFYD
+c 102 boolean_INSMOD
+c 103 boolean_INSTALL
+c 104 boolean_IONICE
+c 105 boolean_IORENICE
+c 106 boolean_IOTOP
+c 107 boolean_IP
+c 108 boolean_IPCRM
+c 109 boolean_IPCS
+c 110 boolean_KILL
+c 111 boolean_KILLALL
+c 112 boolean_KLOGD
+c 113 boolean_LAST
+c 114 boolean_LINK
+c 115 boolean_LN
+c 116 boolean_LOGGER
+c 117 boolean_LOGNAME
+c 118 boolean_LOGWRAPPER
+c 119 boolean_LOSETUP
+c 120 boolean_LS
+c 121 boolean_LSATTR
+c 122 boolean_LSMOD
+c 123 boolean_LSOF
+c 124 boolean_LSPCI
+c 125 boolean_LSUSB
+c 126 boolean_MAKEDEVS
+c 127 boolean_MAN
+c 128 boolean_MCOOKIE
+c 129 boolean_MD5SUM
+c 130 boolean_MDEV
+c 131 boolean_MICROCOM
+c 132 boolean_MIX
+c 133 boolean_MKDIR
+c 134 boolean_MKE2FS
+c 135 boolean_MKFIFO
+c 136 boolean_MKNOD
+c 137 boolean_MKSWAP
+c 138 boolean_MKTEMP
+c 139 boolean_MODINFO
+c 140 boolean_MODPROBE
+c 141 boolean_MORE
+c 142 boolean_MOUNT
+c 143 boolean_MOUNTPOINT
+c 144 boolean_MV
+c 145 boolean_NETCAT
+c 146 boolean_NETSTAT
+c 147 boolean_NICE
+c 148 boolean_NL
+c 149 boolean_NOHUP
+c 150 boolean_NPROC
+c 151 boolean_OD
+c 152 boolean_ONEIT
+c 153 boolean_PARTPROBE
+c 154 boolean_PASTE
+c 155 boolean_PATCH
+c 156 boolean_PGREP
+c 157 boolean_PIDOF
+c 158 boolean_PING
+c 159 boolean_PIVOT_ROOT
+c 160 boolean_PKILL
+c 161 boolean_PMAP
+c 162 boolean_PRINTENV
+c 163 boolean_PRINTF
+c 164 boolean_PS
+c 165 boolean_PWD
+c 166 boolean_PWDX
+c 167 boolean_PWGEN
+c 168 boolean_READAHEAD
+c 169 boolean_READELF
+c 170 boolean_READLINK
+c 171 boolean_REALPATH
+c 172 boolean_REBOOT
+c 173 boolean_RENICE
+c 174 boolean_RESET
+c 175 boolean_REV
+c 176 boolean_RFKILL
+c 177 boolean_RM
+c 178 boolean_RMDIR
+c 179 boolean_RMMOD
+c 180 boolean_ROUTE
+c 181 boolean_RTCWAKE
+c 182 boolean_SED
+c 183 boolean_SETFATTR
+c 184 boolean_SETSID
+c 185 boolean_SH
+c 186 boolean_SHA1SUM
+c 187 boolean_SHA3SUM
+c 188 boolean_SHRED
+c 189 boolean_SKELETON
+c 190 boolean_SKELETON_ALIAS
+c 191 boolean_SLEEP
+c 192 boolean_SNTP
+c 193 boolean_SORT
+c 194 boolean_SPLIT
+c 195 boolean_STAT
+c 196 boolean_STRINGS
+c 197 boolean_STTY
+c 198 boolean_SWAPOFF
+c 199 boolean_SWAPON
+c 200 boolean_SWITCH_ROOT
+c 201 boolean_SYNC
+c 202 boolean_SYSCTL
+c 203 boolean_SYSLOGD
+c 204 boolean_TAC
+c 205 boolean_TAIL
+c 206 boolean_TAR
+c 207 boolean_TASKSET
+c 208 boolean_TEE
+c 209 boolean_TELNET
+c 210 boolean_TELNETD
+c 211 boolean_TEST
+c 212 boolean_TFTP
+c 213 boolean_TFTPD
+c 214 boolean_TIMEOUT
+c 215 boolean_TOP
+c 216 boolean_TOUCH
+c 217 boolean_TOYBOX
+c 218 boolean_TOYBOX_ANDROID_SCHEDPOLICY
+c 219 boolean_TOYBOX_CONTAINER
+c 220 boolean_TOYBOX_COPYFILERANGE
+c 221 boolean_TOYBOX_DEBUG
+c 222 boolean_TOYBOX_FIFREEZE
+c 223 boolean_TOYBOX_FLOAT
+c 224 boolean_TOYBOX_FORCE_NOMMU
+c 225 boolean_TOYBOX_FREE
+c 226 boolean_TOYBOX_GETRANDOM
+c 227 boolean_TOYBOX_HELP
+c 228 boolean_TOYBOX_ICONV
+c 229 boolean_TOYBOX_LIBCRYPTO
+c 230 boolean_TOYBOX_LIBZ
+c 231 boolean_TOYBOX_NORECURSE
+c 232 boolean_TOYBOX_ON_ANDROID
+c 233 boolean_TOYBOX_PEDANTIC_ARGS
+c 234 boolean_TOYBOX_PRLIMIT
+c 235 boolean_TOYBOX_SHADOW
+c 236 boolean_TOYBOX_SUID
+c 237 boolean_TOYBOX_UTMPX
+c 238 boolean_TR
+c 239 boolean_TRACEROUTE
+c 240 boolean_TRUE
+c 241 boolean_TRUNCATE
+c 242 boolean_TTY
+c 243 boolean_TUNCTL
+c 244 boolean_UMOUNT
+c 245 boolean_UNAME
+c 246 boolean_UNICODE
+c 247 boolean_UNIQ
+c 248 boolean_UNIX2DOS
+c 249 boolean_UNLINK
+c 250 boolean_USERADD
+c 251 boolean_USERDEL
+c 252 boolean_USLEEP
+c 253 boolean_UUDECODE
+c 254 boolean_UUENCODE
+c 255 boolean_UUIDGEN
+c 256 boolean_VCONFIG
+c 257 boolean_VI
+c 258 boolean_VMSTAT
+c 259 boolean_WATCH
+c 260 boolean_WATCHDOG
+c 261 boolean_WC
+c 262 boolean_WGET
+c 263 boolean_WHICH
+c 264 boolean_WHOAMI
+c 265 boolean_XARGS
+c 266 boolean_XXD
+c 267 boolean_XZCAT
+c 268 boolean_YES
+c 269 boolean_ZCAT
+c 270 boolean_TOYBOX_LSM_NONE
+c 271 boolean_TOYBOX_SMACK
+c 272 boolean_TOYBOX_SELINUX
+c 273 int_TOYBOX_UID_SYS_EQ_100
+c 274 int_TOYBOX_UID_SYS_EQ_OTHERVAL
+c 275 int_TOYBOX_UID_USR_EQ_500
+c 276 int_TOYBOX_UID_USR_EQ_OTHERVAL
+c 277 boolean_CAT_V
+c 278 ART_1
+c 279 boolean_CD
+c 280 boolean_CHCON
+c 281 ART_2
+c 282 boolean_DEBUG_DHCP
+c 283 ART_3
+c 284 boolean_EGREP
+c 285 ART_4
+c 286 ART_5
+c 287 boolean_EVAL
+c 288 boolean_EXEC
+c 289 boolean_EXIT
+c 290 boolean_EXPORT
+c 291 boolean_FGREP
+c 292 ART_6
+c 293 ART_7
+c 294 boolean_FSFREEZE
+c 295 boolean_GETENFORCE
+c 296 ART_8
+c 297 boolean_HELP
+c 298 ART_9
+c 299 boolean_ICONV
+c 300 boolean_ID_Z
+c 301 ART_10
+c 302 ART_12
+c 303 ART_11
+c 304 ART_13
+c 305 ART_15
+c 306 ART_14
+c 307 boolean_JOBS
+c 308 boolean_KILLALL5
+c 309 ART_16
+c 310 boolean_KLOGD_SOURCE_RING_BUFFER
+c 311 ART_17
+c 312 boolean_LOAD_POLICY
+c 313 ART_18
+c 314 boolean_LOCAL
+c 315 boolean_LOG
+c 316 boolean_LOGIN
+c 317 boolean_LSPCI_TEXT
+c 318 ART_19
+c 319 boolean_MDEV_CONF
+c 320 ART_20
+c 321 boolean_MKDIR_Z
+c 322 ART_21
+c 323 ART_23
+c 324 ART_22
+c 325 ART_24
+c 326 ART_26
+c 327 ART_25
+c 328 boolean_MKE2FS_EXTENDED
+c 329 ART_27
+c 330 boolean_MKE2FS_GEN
+c 331 ART_28
+c 332 boolean_MKE2FS_JOURNAL
+c 333 ART_29
+c 334 boolean_MKE2FS_LABEL
+c 335 ART_30
+c 336 boolean_MKFIFO_Z
+c 337 ART_31
+c 338 ART_33
+c 339 ART_32
+c 340 ART_34
+c 341 ART_36
+c 342 ART_35
+c 343 boolean_MKNOD_Z
+c 344 ART_37
+c 345 ART_39
+c 346 ART_38
+c 347 ART_40
+c 348 ART_42
+c 349 ART_41
+c 350 boolean_MKPASSWD
+c 351 boolean_NETCAT_LISTEN
+c 352 ART_43
+c 353 boolean_NSENTER
+c 354 boolean_PASSWD
+c 355 boolean_RESTORECON
+c 356 ART_44
+c 357 boolean_RUNCON
+c 358 ART_45
+c 359 boolean_SENDEVENT
+c 360 boolean_SEQ
+c 361 ART_46
+c 362 boolean_SET
+c 363 boolean_SETENFORCE
+c 364 ART_47
+c 365 boolean_SHA224SUM
+c 366 ART_48
+c 367 boolean_SHA256SUM
+c 368 ART_49
+c 369 boolean_SHA384SUM
+c 370 ART_50
+c 371 boolean_SHA512SUM
+c 372 ART_51
+c 373 boolean_SHIFT
+c 374 boolean_SORT_FLOAT
+c 375 ART_52
+c 376 ART_53
+c 377 boolean_SOURCE
+c 378 boolean_SU
+c 379 boolean_SULOGIN
+c 380 boolean_TEST_GLUE
+c 381 ART_54
+c 382 ART_55
+c 383 ART_56
+c 384 ART_57
+c 385 boolean_TIME
+c 386 ART_58
+c 387 boolean_TOYBOX_FORK
+c 388 ART_59
+c 389 ART_60
+c 390 ART_61
+c 391 ART_62
+c 392 boolean_TOYBOX_HELP_DASHDASH
+c 393 ART_63
+c 394 boolean_ULIMIT
+c 395 boolean_UNSET
+c 396 boolean_UNSHARE
+c 397 boolean_UPTIME
+c 398 boolean_W
+c 399 boolean_WHO
+c 400 boolean_BOOTCHARTD
+c 401 ART_64
+c 402 boolean_CRONTAB
+c 403 ART_65
+c 404 boolean_NBD_CLIENT
+c 405 ART_66
+c 406 boolean_OPENVT
+c 407 ART_67
+c 408 boolean_PASSWD_SAD
+c 409 ART_68
+c 410 boolean_TCPSVD
+c 411 ART_69
+217 0
+-218 0
+219 0
+-220 0
+222 0
+226 0
+228 0
+-232 0
+234 0
+235 0
+237 0
+-272 -271 0
+-270 -271 0
+-270 -272 0
+-270 -272 0
+-270 -271 0
+-272 -271 0
+270 272 271 0
+-274 -273 0
+273 274 0
+-276 -275 0
+275 276 0
+278 0
+-278 -277 17 0
+278 -17 0
+278 277 0
+-279 0
+281 0
+-281 -280 272 0
+281 -272 0
+281 280 0
+283 0
+-283 -282 48 0
+283 -48 0
+283 282 0
+285 0
+-285 -81 284 0
+285 -284 0
+285 81 0
+286 0
+-286 -284 81 0
+286 -81 0
+286 284 0
+-287 0
+-288 0
+-289 0
+-290 0
+292 0
+-292 -81 291 0
+292 -291 0
+292 81 0
+293 0
+-293 -291 81 0
+293 -81 0
+293 291 0
+296 0
+-296 -295 272 0
+296 -272 0
+296 295 0
+298 0
+-298 -297 227 0
+298 -227 0
+298 297 0
+301 0
+-302 -270 0
+302 270 0
+-303 302 0
+-303 98 0
+303 -302 -98 0
+-301 -303 300 0
+301 -300 0
+301 303 0
+304 0
+-305 -270 0
+305 270 0
+-306 98 0
+-306 305 0
+306 -98 -305 0
+-304 -300 306 0
+304 -306 0
+304 300 0
+-307 0
+309 0
+-309 -308 110 0
+309 -110 0
+309 308 0
+311 0
+-311 -310 112 0
+311 -112 0
+311 310 0
+313 0
+-313 -312 272 0
+313 -272 0
+313 312 0
+-314 0
+-315 0
+318 0
+-318 -317 124 0
+318 -124 0
+318 317 0
+320 0
+-320 -319 130 0
+320 -130 0
+320 319 0
+322 0
+-323 -270 0
+323 270 0
+-324 133 0
+-324 323 0
+324 -133 -323 0
+-322 -324 321 0
+322 -321 0
+322 324 0
+325 0
+-326 -270 0
+326 270 0
+-327 326 0
+-327 133 0
+327 -326 -133 0
+-325 -321 327 0
+325 -327 0
+325 321 0
+329 0
+-329 -328 134 0
+329 -134 0
+329 328 0
+331 0
+-331 -330 134 0
+331 -134 0
+331 330 0
+333 0
+-333 -332 134 0
+333 -134 0
+333 332 0
+335 0
+-335 -334 134 0
+335 -134 0
+335 334 0
+337 0
+-338 -270 0
+338 270 0
+-339 135 0
+-339 338 0
+339 -135 -338 0
+-337 -339 336 0
+337 -336 0
+337 339 0
+340 0
+-341 -270 0
+341 270 0
+-342 341 0
+-342 135 0
+342 -341 -135 0
+-340 -336 342 0
+340 -342 0
+340 336 0
+344 0
+-345 -270 0
+345 270 0
+-346 136 0
+-346 345 0
+346 -136 -345 0
+-344 -346 343 0
+344 -343 0
+344 346 0
+347 0
+-348 -270 0
+348 270 0
+-349 348 0
+-349 136 0
+349 -348 -136 0
+-347 -343 349 0
+347 -349 0
+347 343 0
+352 0
+-352 -351 145 0
+352 -145 0
+352 351 0
+356 0
+-356 -355 272 0
+356 -272 0
+356 355 0
+358 0
+-358 -357 272 0
+358 -272 0
+358 357 0
+-359 0
+361 0
+-361 -360 223 0
+361 -223 0
+361 360 0
+-362 0
+364 0
+-364 -363 272 0
+364 -272 0
+364 363 0
+366 0
+-366 -365 229 0
+366 -229 0
+366 365 0
+368 0
+-368 -367 229 0
+368 -229 0
+368 367 0
+370 0
+-370 -369 229 0
+370 -229 0
+370 369 0
+372 0
+-372 -371 229 0
+372 -229 0
+372 371 0
+-373 0
+375 0
+-375 -223 374 0
+375 -374 0
+375 223 0
+376 0
+-376 -374 223 0
+376 -223 0
+376 374 0
+-377 0
+381 0
+-381 -211 380 0
+381 -380 0
+381 211 0
+382 0
+-382 -185 380 0
+382 -380 0
+382 185 0
+383 0
+384 -211 0
+384 -185 0
+-384 211 185 0
+-383 -380 384 0
+383 -384 0
+383 380 0
+386 0
+-386 -385 223 0
+386 -223 0
+386 385 0
+388 0
+-389 -224 0
+389 224 0
+-388 -389 387 0
+388 -387 0
+388 389 0
+390 0
+-391 -387 0
+391 387 0
+-390 -224 391 0
+390 -391 0
+390 224 0
+393 0
+-393 -392 227 0
+393 -227 0
+393 392 0
+-395 0
+401 0
+-401 -400 387 0
+401 -387 0
+401 400 0
+403 0
+-403 -402 387 0
+403 -387 0
+403 402 0
+405 0
+-405 -404 387 0
+405 -387 0
+405 404 0
+407 0
+-407 -406 387 0
+407 -387 0
+407 406 0
+409 0
+-409 -408 354 0
+409 -354 0
+409 408 0
+411 0
+-411 -410 387 0
+411 -387 0
+411 410 0

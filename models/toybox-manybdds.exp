@@ -1,0 +1,423 @@
+# boolean_ACPI
+# boolean_ARCH
+# boolean_ARP
+# boolean_ARPING
+# boolean_ASCII
+# boolean_BASE32
+# boolean_BASE64
+# boolean_BASENAME
+# boolean_BC
+# boolean_BLKDISCARD
+# boolean_BLKID
+# boolean_BLOCKDEV
+# boolean_BRCTL
+# boolean_BUNZIP2
+# boolean_BZCAT
+# boolean_CAL
+# boolean_CAT
+# boolean_CATV
+# boolean_CHATTR
+# boolean_CHGRP
+# boolean_CHMOD
+# boolean_CHOWN
+# boolean_CHROOT
+# boolean_CHRT
+# boolean_CHSH
+# boolean_CHVT
+# boolean_CKSUM
+# boolean_CLEAR
+# boolean_CMP
+# boolean_COMM
+# boolean_COUNT
+# boolean_CP
+# boolean_CPIO
+# boolean_CRC32
+# boolean_CROND
+# boolean_CUT
+# boolean_DATE
+# boolean_DD
+# boolean_DEALLOCVT
+# boolean_DEMO_MANY_OPTIONS
+# boolean_DEMO_NUMBER
+# boolean_DEMO_SCANKEY
+# boolean_DEMO_UTF8TOWC
+# boolean_DEVMEM
+# boolean_DF
+# boolean_DHCP
+# boolean_DHCP6
+# boolean_DHCPD
+# boolean_DIFF
+# boolean_DIRNAME
+# boolean_DMESG
+# boolean_DNSDOMAINNAME
+# boolean_DOS2UNIX
+# boolean_DU
+# boolean_DUMPLEASES
+# boolean_ECHO
+# boolean_EJECT
+# boolean_ENV
+# boolean_EXPAND
+# boolean_EXPR
+# boolean_FACTOR
+# boolean_FALLOCATE
+# boolean_FALSE
+# boolean_FDISK
+# boolean_FILE
+# boolean_FIND
+# boolean_FLOCK
+# boolean_FMT
+# boolean_FOLD
+# boolean_FREE
+# boolean_FREERAMDISK
+# boolean_FSCK
+# boolean_FSTYPE
+# boolean_FSYNC
+# boolean_FTPGET
+# boolean_FTPPUT
+# boolean_GETCONF
+# boolean_GETFATTR
+# boolean_GETOPT
+# boolean_GETTY
+# boolean_GREP
+# boolean_GROUPADD
+# boolean_GROUPDEL
+# boolean_GROUPS
+# boolean_GUNZIP
+# boolean_GZIP
+# boolean_HEAD
+# boolean_HELLO
+# boolean_HEXEDIT
+# boolean_HOST
+# boolean_HOSTID
+# boolean_HOSTNAME
+# boolean_HWCLOCK
+# boolean_I2CDETECT
+# boolean_I2CDUMP
+# boolean_I2CGET
+# boolean_I2CSET
+# boolean_ID
+# boolean_IFCONFIG
+# boolean_INIT
+# boolean_INOTIFYD
+# boolean_INSMOD
+# boolean_INSTALL
+# boolean_IONICE
+# boolean_IORENICE
+# boolean_IOTOP
+# boolean_IP
+# boolean_IPCRM
+# boolean_IPCS
+# boolean_KILL
+# boolean_KILLALL
+# boolean_KLOGD
+# boolean_LAST
+# boolean_LINK
+# boolean_LN
+# boolean_LOGGER
+# boolean_LOGNAME
+# boolean_LOGWRAPPER
+# boolean_LOSETUP
+# boolean_LS
+# boolean_LSATTR
+# boolean_LSMOD
+# boolean_LSOF
+# boolean_LSPCI
+# boolean_LSUSB
+# boolean_MAKEDEVS
+# boolean_MAN
+# boolean_MCOOKIE
+# boolean_MD5SUM
+# boolean_MDEV
+# boolean_MICROCOM
+# boolean_MIX
+# boolean_MKDIR
+# boolean_MKE2FS
+# boolean_MKFIFO
+# boolean_MKNOD
+# boolean_MKSWAP
+# boolean_MKTEMP
+# boolean_MODINFO
+# boolean_MODPROBE
+# boolean_MORE
+# boolean_MOUNT
+# boolean_MOUNTPOINT
+# boolean_MV
+# boolean_NETCAT
+# boolean_NETSTAT
+# boolean_NICE
+# boolean_NL
+# boolean_NOHUP
+# boolean_NPROC
+# boolean_OD
+# boolean_ONEIT
+# boolean_PARTPROBE
+# boolean_PASTE
+# boolean_PATCH
+# boolean_PGREP
+# boolean_PIDOF
+# boolean_PING
+# boolean_PIVOT_ROOT
+# boolean_PKILL
+# boolean_PMAP
+# boolean_PRINTENV
+# boolean_PRINTF
+# boolean_PS
+# boolean_PWD
+# boolean_PWDX
+# boolean_PWGEN
+# boolean_READAHEAD
+# boolean_READELF
+# boolean_READLINK
+# boolean_REALPATH
+# boolean_REBOOT
+# boolean_RENICE
+# boolean_RESET
+# boolean_REV
+# boolean_RFKILL
+# boolean_RM
+# boolean_RMDIR
+# boolean_RMMOD
+# boolean_ROUTE
+# boolean_RTCWAKE
+# boolean_SED
+# boolean_SETFATTR
+# boolean_SETSID
+# boolean_SH
+# boolean_SHA1SUM
+# boolean_SHA3SUM
+# boolean_SHRED
+# boolean_SKELETON
+# boolean_SKELETON_ALIAS
+# boolean_SLEEP
+# boolean_SNTP
+# boolean_SORT
+# boolean_SPLIT
+# boolean_STAT
+# boolean_STRINGS
+# boolean_STTY
+# boolean_SWAPOFF
+# boolean_SWAPON
+# boolean_SWITCH_ROOT
+# boolean_SYNC
+# boolean_SYSCTL
+# boolean_SYSLOGD
+# boolean_TAC
+# boolean_TAIL
+# boolean_TAR
+# boolean_TASKSET
+# boolean_TEE
+# boolean_TELNET
+# boolean_TELNETD
+# boolean_TEST
+# boolean_TFTP
+# boolean_TFTPD
+# boolean_TIMEOUT
+# boolean_TOP
+# boolean_TOUCH
+# boolean_TOYBOX_CONTAINER
+boolean_TOYBOX_CONTAINER
+# boolean_TOYBOX_DEBUG
+# boolean_TOYBOX_FIFREEZE
+boolean_TOYBOX_FIFREEZE
+# boolean_TOYBOX_FLOAT
+# boolean_TOYBOX_FORCE_NOMMU
+# boolean_TOYBOX_FREE
+# boolean_TOYBOX_HELP
+# boolean_TOYBOX_ICONV
+boolean_TOYBOX_ICONV
+# boolean_TOYBOX_LIBCRYPTO
+# boolean_TOYBOX_LIBZ
+# boolean_TOYBOX_NORECURSE
+# boolean_TOYBOX_ON_ANDROID
+not boolean_TOYBOX_ON_ANDROID
+# boolean_TOYBOX_PEDANTIC_ARGS
+# boolean_TOYBOX_PRLIMIT
+boolean_TOYBOX_PRLIMIT
+# boolean_TOYBOX_SHADOW
+boolean_TOYBOX_SHADOW
+# boolean_TOYBOX_SUID
+# boolean_TOYBOX_UTMPX
+boolean_TOYBOX_UTMPX
+# boolean_TR
+# boolean_TRACEROUTE
+# boolean_TRUE
+# boolean_TRUNCATE
+# boolean_TTY
+# boolean_TUNCTL
+# boolean_UMOUNT
+# boolean_UNAME
+# boolean_UNICODE
+# boolean_UNIQ
+# boolean_UNIX2DOS
+# boolean_UNLINK
+# boolean_USERADD
+# boolean_USERDEL
+# boolean_USLEEP
+# boolean_UUDECODE
+# boolean_UUENCODE
+# boolean_UUIDGEN
+# boolean_VCONFIG
+# boolean_VI
+# boolean_VMSTAT
+# boolean_WATCH
+# boolean_WATCHDOG
+# boolean_WC
+# boolean_WGET
+# boolean_WHICH
+# boolean_WHOAMI
+# boolean_XARGS
+# boolean_XXD
+# boolean_XZCAT
+# boolean_YES
+# boolean_ZCAT
+# boolean_TOYBOX_LSM_NONE
+not boolean_TOYBOX_SELINUX or not boolean_TOYBOX_SMACK
+not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SMACK
+not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SELINUX
+not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SELINUX
+not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SMACK
+not boolean_TOYBOX_SELINUX or not boolean_TOYBOX_SMACK
+boolean_TOYBOX_LSM_NONE or boolean_TOYBOX_SELINUX or boolean_TOYBOX_SMACK
+# int_TOYBOX_UID_SYS_EQ_100
+not int_TOYBOX_UID_SYS_EQ_OTHERVAL or not int_TOYBOX_UID_SYS_EQ_100
+int_TOYBOX_UID_SYS_EQ_100 or int_TOYBOX_UID_SYS_EQ_OTHERVAL
+# int_TOYBOX_UID_USR_EQ_500
+not int_TOYBOX_UID_USR_EQ_OTHERVAL or not int_TOYBOX_UID_USR_EQ_500
+int_TOYBOX_UID_USR_EQ_500 or int_TOYBOX_UID_USR_EQ_OTHERVAL
+# boolean_CAT_V
+boolean_CAT_V -> boolean_CAT
+# boolean_CHCON
+boolean_CHCON -> boolean_TOYBOX_SELINUX
+# boolean_DEBUG_DHCP
+boolean_DEBUG_DHCP -> boolean_DHCPD
+# boolean_FSFREEZE
+# boolean_GETENFORCE
+boolean_GETENFORCE -> boolean_TOYBOX_SELINUX
+# boolean_HELP
+boolean_HELP -> boolean_TOYBOX_HELP
+# boolean_ICONV
+# boolean_KILLALL5
+boolean_KILLALL5 -> boolean_KILL
+# boolean_KLOGD_SOURCE_RING_BUFFER
+boolean_KLOGD_SOURCE_RING_BUFFER -> boolean_KLOGD
+# boolean_LOAD_POLICY
+boolean_LOAD_POLICY -> boolean_TOYBOX_SELINUX
+# boolean_LOG
+not boolean_LOG
+# boolean_LOGIN
+# boolean_LSPCI_TEXT
+boolean_LSPCI_TEXT -> boolean_LSPCI
+# boolean_MDEV_CONF
+boolean_MDEV_CONF -> boolean_MDEV
+# boolean_MKE2FS_EXTENDED
+boolean_MKE2FS_EXTENDED -> boolean_MKE2FS
+# boolean_MKE2FS_GEN
+boolean_MKE2FS_GEN -> boolean_MKE2FS
+# boolean_MKE2FS_JOURNAL
+boolean_MKE2FS_JOURNAL -> boolean_MKE2FS
+# boolean_MKE2FS_LABEL
+boolean_MKE2FS_LABEL -> boolean_MKE2FS
+# boolean_MKPASSWD
+# boolean_NETCAT_LISTEN
+boolean_NETCAT_LISTEN -> boolean_NETCAT
+# boolean_NSENTER
+# boolean_PASSWD
+# boolean_RESTORECON
+boolean_RESTORECON -> boolean_TOYBOX_SELINUX
+# boolean_RUNCON
+boolean_RUNCON -> boolean_TOYBOX_SELINUX
+# boolean_SENDEVENT
+not boolean_SENDEVENT
+# boolean_SEQ
+boolean_SEQ -> boolean_TOYBOX_FLOAT
+# boolean_SETENFORCE
+boolean_SETENFORCE -> boolean_TOYBOX_SELINUX
+# boolean_SHA224SUM
+boolean_SHA224SUM -> boolean_TOYBOX_LIBCRYPTO
+# boolean_SHA256SUM
+boolean_SHA256SUM -> boolean_TOYBOX_LIBCRYPTO
+# boolean_SHA384SUM
+boolean_SHA384SUM -> boolean_TOYBOX_LIBCRYPTO
+# boolean_SHA512SUM
+boolean_SHA512SUM -> boolean_TOYBOX_LIBCRYPTO
+# boolean_SU
+# boolean_SULOGIN
+# boolean_TIME
+boolean_TIME -> boolean_TOYBOX_FLOAT
+# boolean_TOYBOX_FORK
+not boolean_TOYBOX_FORCE_NOMMU -> boolean_TOYBOX_FORK
+boolean_TOYBOX_FORCE_NOMMU -> not boolean_TOYBOX_FORK
+# boolean_TOYBOX_HELP_DASHDASH
+boolean_TOYBOX_HELP_DASHDASH -> boolean_TOYBOX_HELP
+# boolean_ULIMIT
+# boolean_UNSHARE
+# boolean_UPTIME
+# boolean_W
+# boolean_WHO
+# boolean_BOOTCHARTD
+boolean_BOOTCHARTD -> boolean_TOYBOX_FORK
+# boolean_CRONTAB
+boolean_CRONTAB -> boolean_TOYBOX_FORK
+# boolean_NBD_CLIENT
+boolean_NBD_CLIENT -> boolean_TOYBOX_FORK
+# boolean_OPENVT
+boolean_OPENVT -> boolean_TOYBOX_FORK
+# boolean_PASSWD_SAD
+boolean_PASSWD_SAD -> boolean_PASSWD
+# boolean_TCPSVD
+boolean_TCPSVD -> boolean_TOYBOX_FORK
+# boolean_TOYBOX
+boolean_TOYBOX
+# boolean_TOYBOX_ANDROID_SCHEDPOLICY
+not boolean_TOYBOX_ANDROID_SCHEDPOLICY
+# boolean_TOYBOX_COPYFILERANGE
+not boolean_TOYBOX_COPYFILERANGE
+# boolean_TOYBOX_GETRANDOM
+boolean_TOYBOX_GETRANDOM
+# boolean_CD
+not boolean_CD
+# boolean_EGREP
+boolean_GREP -> boolean_EGREP
+boolean_EGREP -> boolean_GREP
+# boolean_EVAL
+not boolean_EVAL
+# boolean_EXEC
+not boolean_EXEC
+# boolean_EXIT
+not boolean_EXIT
+# boolean_EXPORT
+not boolean_EXPORT
+# boolean_FGREP
+boolean_GREP -> boolean_FGREP
+boolean_FGREP -> boolean_GREP
+# boolean_ID_Z
+not boolean_TOYBOX_LSM_NONE and boolean_ID -> boolean_ID_Z
+boolean_ID_Z -> boolean_ID and not boolean_TOYBOX_LSM_NONE
+# boolean_JOBS
+not boolean_JOBS
+# boolean_LOCAL
+not boolean_LOCAL
+# boolean_MKDIR_Z
+boolean_MKDIR and not boolean_TOYBOX_LSM_NONE -> boolean_MKDIR_Z
+boolean_MKDIR_Z -> not boolean_TOYBOX_LSM_NONE and boolean_MKDIR
+# boolean_MKFIFO_Z
+boolean_MKFIFO and not boolean_TOYBOX_LSM_NONE -> boolean_MKFIFO_Z
+boolean_MKFIFO_Z -> not boolean_TOYBOX_LSM_NONE and boolean_MKFIFO
+# boolean_MKNOD_Z
+boolean_MKNOD and not boolean_TOYBOX_LSM_NONE -> boolean_MKNOD_Z
+boolean_MKNOD_Z -> not boolean_TOYBOX_LSM_NONE and boolean_MKNOD
+# boolean_SET
+not boolean_SET
+# boolean_SHIFT
+not boolean_SHIFT
+# boolean_SORT_FLOAT
+boolean_TOYBOX_FLOAT -> boolean_SORT_FLOAT
+boolean_SORT_FLOAT -> boolean_TOYBOX_FLOAT
+# boolean_SOURCE
+not boolean_SOURCE
+# boolean_TEST_GLUE
+boolean_TEST -> boolean_TEST_GLUE
+boolean_SH -> boolean_TEST_GLUE
+boolean_TEST_GLUE -> boolean_TEST or boolean_SH
+# boolean_UNSET
+not boolean_UNSET

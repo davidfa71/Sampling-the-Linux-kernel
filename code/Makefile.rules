@@ -1,0 +1,34 @@
+ifneq ($(MAKECMDGOALS),clean)
+-include $(DEP)
+endif
+
+# rule to generate a dep file by using the C preprocessor
+# (see man cpp for details on the -MM and -MT options)
+../obj/%.d: src/%.cpp
+	-@$(CPP) $(CFLAGS) $(INCLUDEFLAGS) $< -MM -MT $(@:.d=.o) >$@ >/dev/null 2>/dev/null
+
+src/synExpScanner.cpp: ../tools/src/synExpScanner.lpp ../tools/src/synExpScanner.hpp
+	@echo \\t"[FLEX] " \\t$@
+	@flex --c++ -L  -o $@ $<
+
+src/synExpParser.cpp: ../tools/src/synExpParser.ypp src/synExpScanner.cpp
+	@echo \\t[BISON] \\t$@ 
+	@bison -Wno-conflicts-sr -v -o $@ -t -b $*  $< 
+
+../obj/%.o: src/%.cpp src/%.hpp
+	@echo \\t"[CXX]  " \\t$@
+	@$(CC) -c $(CXXFLAGS) $(INCLUDEFLAGS) -o $@ $<
+
+
+../obj/%.o: ../tools/src/%.cpp ../tools/src/%.hpp
+	@echo \\t"[CXX]  " \\t$@
+	@$(CC) -c $(CXXFLAGS) $(INCLUDEFLAGS) -o $@ $<
+
+../obj/%.o: src/%.cpp
+	@echo \\t"[CXX]  " \\t$@
+	@$(CC) -c $(CXXFLAGS) $(INCLUDEFLAGS) -o $@ $<
+
+src/tokens.hash.cpp: src/tokens.gperf
+	@echo \\t"[GPERF]" \\t$@
+	@gperf -a -C -E -g -k '1,3,$$' -P <$< >$@ 
+

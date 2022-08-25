@@ -1,0 +1,282 @@
+boolean_TOYBOX_CONTAINER
+boolean_TOYBOX_FIFREEZE
+boolean_TOYBOX_ICONV
+not boolean_TOYBOX_ON_ANDROID
+boolean_TOYBOX_PRLIMIT
+boolean_TOYBOX_SHADOW
+boolean_TOYBOX_UTMPX
+not boolean_TOYBOX_SELINUX or not boolean_TOYBOX_SMACK
+not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SMACK
+not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SELINUX
+not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SELINUX
+not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SMACK
+not boolean_TOYBOX_SELINUX or not boolean_TOYBOX_SMACK
+boolean_TOYBOX_LSM_NONE or boolean_TOYBOX_SELINUX or boolean_TOYBOX_SMACK
+not int_TOYBOX_UID_SYS_EQ_OTHERVAL or not int_TOYBOX_UID_SYS_EQ_100
+int_TOYBOX_UID_SYS_EQ_100 or int_TOYBOX_UID_SYS_EQ_OTHERVAL
+not int_TOYBOX_UID_USR_EQ_OTHERVAL or not int_TOYBOX_UID_USR_EQ_500
+int_TOYBOX_UID_USR_EQ_500 or int_TOYBOX_UID_USR_EQ_OTHERVAL
+ART_1
+not ART_1 or not boolean_CAT_V or boolean_CAT
+ART_1 or not boolean_CAT
+ART_1 or boolean_CAT_V
+ART_2
+not ART_2 or not boolean_CHCON or boolean_TOYBOX_SELINUX
+ART_2 or not boolean_TOYBOX_SELINUX
+ART_2 or boolean_CHCON
+ART_3
+not ART_3 or not boolean_DEBUG_DHCP or boolean_DHCPD
+ART_3 or not boolean_DHCPD
+ART_3 or boolean_DEBUG_DHCP
+ART_4
+not ART_4 or not boolean_GETENFORCE or boolean_TOYBOX_SELINUX
+ART_4 or not boolean_TOYBOX_SELINUX
+ART_4 or boolean_GETENFORCE
+ART_5
+not ART_5 or not boolean_HELP or boolean_TOYBOX_HELP
+ART_5 or not boolean_TOYBOX_HELP
+ART_5 or boolean_HELP
+ART_6
+not ART_6 or not boolean_KILLALL5 or boolean_KILL
+ART_6 or not boolean_KILL
+ART_6 or boolean_KILLALL5
+ART_7
+not ART_7 or not boolean_KLOGD_SOURCE_RING_BUFFER or boolean_KLOGD
+ART_7 or not boolean_KLOGD
+ART_7 or boolean_KLOGD_SOURCE_RING_BUFFER
+ART_8
+not ART_8 or not boolean_LOAD_POLICY or boolean_TOYBOX_SELINUX
+ART_8 or not boolean_TOYBOX_SELINUX
+ART_8 or boolean_LOAD_POLICY
+not boolean_LOG
+ART_9
+not ART_9 or not boolean_LSPCI_TEXT or boolean_LSPCI
+ART_9 or not boolean_LSPCI
+ART_9 or boolean_LSPCI_TEXT
+ART_10
+not ART_10 or not boolean_MDEV_CONF or boolean_MDEV
+ART_10 or not boolean_MDEV
+ART_10 or boolean_MDEV_CONF
+ART_11
+not ART_11 or not boolean_MKE2FS_EXTENDED or boolean_MKE2FS
+ART_11 or not boolean_MKE2FS
+ART_11 or boolean_MKE2FS_EXTENDED
+ART_12
+not ART_12 or not boolean_MKE2FS_GEN or boolean_MKE2FS
+ART_12 or not boolean_MKE2FS
+ART_12 or boolean_MKE2FS_GEN
+ART_13
+not ART_13 or not boolean_MKE2FS_JOURNAL or boolean_MKE2FS
+ART_13 or not boolean_MKE2FS
+ART_13 or boolean_MKE2FS_JOURNAL
+ART_14
+not ART_14 or not boolean_MKE2FS_LABEL or boolean_MKE2FS
+ART_14 or not boolean_MKE2FS
+ART_14 or boolean_MKE2FS_LABEL
+ART_15
+not ART_15 or not boolean_NETCAT_LISTEN or boolean_NETCAT
+ART_15 or not boolean_NETCAT
+ART_15 or boolean_NETCAT_LISTEN
+ART_16
+not ART_16 or not boolean_RESTORECON or boolean_TOYBOX_SELINUX
+ART_16 or not boolean_TOYBOX_SELINUX
+ART_16 or boolean_RESTORECON
+ART_17
+not ART_17 or not boolean_RUNCON or boolean_TOYBOX_SELINUX
+ART_17 or not boolean_TOYBOX_SELINUX
+ART_17 or boolean_RUNCON
+not boolean_SENDEVENT
+ART_18
+not ART_18 or not boolean_SEQ or boolean_TOYBOX_FLOAT
+ART_18 or not boolean_TOYBOX_FLOAT
+ART_18 or boolean_SEQ
+ART_19
+not ART_19 or not boolean_SETENFORCE or boolean_TOYBOX_SELINUX
+ART_19 or not boolean_TOYBOX_SELINUX
+ART_19 or boolean_SETENFORCE
+ART_20
+not ART_20 or not boolean_SHA224SUM or boolean_TOYBOX_LIBCRYPTO
+ART_20 or not boolean_TOYBOX_LIBCRYPTO
+ART_20 or boolean_SHA224SUM
+ART_21
+not ART_21 or not boolean_SHA256SUM or boolean_TOYBOX_LIBCRYPTO
+ART_21 or not boolean_TOYBOX_LIBCRYPTO
+ART_21 or boolean_SHA256SUM
+ART_22
+not ART_22 or not boolean_SHA384SUM or boolean_TOYBOX_LIBCRYPTO
+ART_22 or not boolean_TOYBOX_LIBCRYPTO
+ART_22 or boolean_SHA384SUM
+ART_23
+not ART_23 or not boolean_SHA512SUM or boolean_TOYBOX_LIBCRYPTO
+ART_23 or not boolean_TOYBOX_LIBCRYPTO
+ART_23 or boolean_SHA512SUM
+ART_24
+not ART_24 or not boolean_TIME or boolean_TOYBOX_FLOAT
+ART_24 or not boolean_TOYBOX_FLOAT
+ART_24 or boolean_TIME
+ART_25
+not ART_26 or not boolean_TOYBOX_FORCE_NOMMU
+ART_26 or boolean_TOYBOX_FORCE_NOMMU
+not ART_25 or not ART_26 or boolean_TOYBOX_FORK
+ART_25 or not boolean_TOYBOX_FORK
+ART_25 or ART_26
+ART_27
+not ART_28 or not boolean_TOYBOX_FORK
+ART_28 or boolean_TOYBOX_FORK
+not ART_27 or not boolean_TOYBOX_FORCE_NOMMU or ART_28
+ART_27 or not ART_28
+ART_27 or boolean_TOYBOX_FORCE_NOMMU
+ART_29
+not ART_29 or not boolean_TOYBOX_HELP_DASHDASH or boolean_TOYBOX_HELP
+ART_29 or not boolean_TOYBOX_HELP
+ART_29 or boolean_TOYBOX_HELP_DASHDASH
+ART_30
+not ART_30 or not boolean_BOOTCHARTD or boolean_TOYBOX_FORK
+ART_30 or not boolean_TOYBOX_FORK
+ART_30 or boolean_BOOTCHARTD
+ART_31
+not ART_31 or not boolean_CRONTAB or boolean_TOYBOX_FORK
+ART_31 or not boolean_TOYBOX_FORK
+ART_31 or boolean_CRONTAB
+ART_32
+not ART_32 or not boolean_NBD_CLIENT or boolean_TOYBOX_FORK
+ART_32 or not boolean_TOYBOX_FORK
+ART_32 or boolean_NBD_CLIENT
+ART_33
+not ART_33 or not boolean_OPENVT or boolean_TOYBOX_FORK
+ART_33 or not boolean_TOYBOX_FORK
+ART_33 or boolean_OPENVT
+ART_34
+not ART_34 or not boolean_PASSWD_SAD or boolean_PASSWD
+ART_34 or not boolean_PASSWD
+ART_34 or boolean_PASSWD_SAD
+ART_35
+not ART_35 or not boolean_TCPSVD or boolean_TOYBOX_FORK
+ART_35 or not boolean_TOYBOX_FORK
+ART_35 or boolean_TCPSVD
+boolean_TOYBOX
+not boolean_TOYBOX_ANDROID_SCHEDPOLICY
+not boolean_TOYBOX_COPYFILERANGE
+boolean_TOYBOX_GETRANDOM
+not boolean_CD
+ART_36
+not ART_36 or not boolean_GREP or boolean_EGREP
+ART_36 or not boolean_EGREP
+ART_36 or boolean_GREP
+ART_37
+not ART_37 or not boolean_EGREP or boolean_GREP
+ART_37 or not boolean_GREP
+ART_37 or boolean_EGREP
+not boolean_EVAL
+not boolean_EXEC
+not boolean_EXIT
+not boolean_EXPORT
+ART_38
+not ART_38 or not boolean_GREP or boolean_FGREP
+ART_38 or not boolean_FGREP
+ART_38 or boolean_GREP
+ART_39
+not ART_39 or not boolean_FGREP or boolean_GREP
+ART_39 or not boolean_GREP
+ART_39 or boolean_FGREP
+ART_40
+not ART_42 or not boolean_TOYBOX_LSM_NONE
+ART_42 or boolean_TOYBOX_LSM_NONE
+not ART_41 or ART_42
+not ART_41 or boolean_ID
+ART_41 or not ART_42 or not boolean_ID
+not ART_40 or not ART_41 or boolean_ID_Z
+ART_40 or not boolean_ID_Z
+ART_40 or ART_41
+ART_43
+not ART_45 or not boolean_TOYBOX_LSM_NONE
+ART_45 or boolean_TOYBOX_LSM_NONE
+not ART_44 or boolean_ID
+not ART_44 or ART_45
+ART_44 or not boolean_ID or not ART_45
+not ART_43 or not boolean_ID_Z or ART_44
+ART_43 or not ART_44
+ART_43 or boolean_ID_Z
+not boolean_JOBS
+not boolean_LOCAL
+ART_46
+not ART_48 or not boolean_TOYBOX_LSM_NONE
+ART_48 or boolean_TOYBOX_LSM_NONE
+not ART_47 or boolean_MKDIR
+not ART_47 or ART_48
+ART_47 or not boolean_MKDIR or not ART_48
+not ART_46 or not ART_47 or boolean_MKDIR_Z
+ART_46 or not boolean_MKDIR_Z
+ART_46 or ART_47
+ART_49
+not ART_51 or not boolean_TOYBOX_LSM_NONE
+ART_51 or boolean_TOYBOX_LSM_NONE
+not ART_50 or ART_51
+not ART_50 or boolean_MKDIR
+ART_50 or not ART_51 or not boolean_MKDIR
+not ART_49 or not boolean_MKDIR_Z or ART_50
+ART_49 or not ART_50
+ART_49 or boolean_MKDIR_Z
+ART_52
+not ART_54 or not boolean_TOYBOX_LSM_NONE
+ART_54 or boolean_TOYBOX_LSM_NONE
+not ART_53 or boolean_MKFIFO
+not ART_53 or ART_54
+ART_53 or not boolean_MKFIFO or not ART_54
+not ART_52 or not ART_53 or boolean_MKFIFO_Z
+ART_52 or not boolean_MKFIFO_Z
+ART_52 or ART_53
+ART_55
+not ART_57 or not boolean_TOYBOX_LSM_NONE
+ART_57 or boolean_TOYBOX_LSM_NONE
+not ART_56 or ART_57
+not ART_56 or boolean_MKFIFO
+ART_56 or not ART_57 or not boolean_MKFIFO
+not ART_55 or not boolean_MKFIFO_Z or ART_56
+ART_55 or not ART_56
+ART_55 or boolean_MKFIFO_Z
+ART_58
+not ART_60 or not boolean_TOYBOX_LSM_NONE
+ART_60 or boolean_TOYBOX_LSM_NONE
+not ART_59 or boolean_MKNOD
+not ART_59 or ART_60
+ART_59 or not boolean_MKNOD or not ART_60
+not ART_58 or not ART_59 or boolean_MKNOD_Z
+ART_58 or not boolean_MKNOD_Z
+ART_58 or ART_59
+ART_61
+not ART_63 or not boolean_TOYBOX_LSM_NONE
+ART_63 or boolean_TOYBOX_LSM_NONE
+not ART_62 or ART_63
+not ART_62 or boolean_MKNOD
+ART_62 or not ART_63 or not boolean_MKNOD
+not ART_61 or not boolean_MKNOD_Z or ART_62
+ART_61 or not ART_62
+ART_61 or boolean_MKNOD_Z
+not boolean_SET
+not boolean_SHIFT
+ART_64
+not ART_64 or not boolean_TOYBOX_FLOAT or boolean_SORT_FLOAT
+ART_64 or not boolean_SORT_FLOAT
+ART_64 or boolean_TOYBOX_FLOAT
+ART_65
+not ART_65 or not boolean_SORT_FLOAT or boolean_TOYBOX_FLOAT
+ART_65 or not boolean_TOYBOX_FLOAT
+ART_65 or boolean_SORT_FLOAT
+not boolean_SOURCE
+ART_66
+not ART_66 or not boolean_TEST or boolean_TEST_GLUE
+ART_66 or not boolean_TEST_GLUE
+ART_66 or boolean_TEST
+ART_67
+not ART_67 or not boolean_SH or boolean_TEST_GLUE
+ART_67 or not boolean_TEST_GLUE
+ART_67 or boolean_SH
+ART_68
+ART_69 or not boolean_TEST
+ART_69 or not boolean_SH
+not ART_69 or boolean_TEST or boolean_SH
+not ART_68 or not boolean_TEST_GLUE or ART_69
+ART_68 or not ART_69
+ART_68 or boolean_TEST_GLUE
+not boolean_UNSET

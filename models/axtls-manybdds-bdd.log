@@ -1,0 +1,645 @@
+Logic2BDD -base axtls-manybdds -noreorder -manybdds -score file axtls-manybdds.ord axtls-onebdd.var axtls-manybdds.exp 
+Read 288 expressions
+8 components. Biggest 73 number of variables 119
+Build tree for variable boolean_CONFIG_AXHTTPD                                       (0) with 1     expressions 
+#boolean_CONFIG_AXHTTPD
+Build tree for variable boolean_CONFIG_BINDINGS                                      (1) with 1     expressions 
+#boolean_CONFIG_BINDINGS
+Build tree for variable boolean_CONFIG_DEBUG                                         (2) with 1     expressions 
+#boolean_CONFIG_DEBUG
+Build tree for variable boolean_CONFIG_OPENSSL_COMPATIBLE                            (3) with 1     expressions 
+#boolean_CONFIG_OPENSSL_COMPATIBLE
+Build tree for variable boolean_CONFIG_SAMPLES                                       (4) with 1     expressions 
+#boolean_CONFIG_SAMPLES
+Build tree for variable boolean_CONFIG_SSL_CTX_MUTEXING                              (5) with 1     expressions 
+#boolean_CONFIG_SSL_CTX_MUTEXING
+Build tree for variable boolean_CONFIG_SSL_GENERATE_X509_CERT                        (6) with 1     expressions 
+#boolean_CONFIG_SSL_GENERATE_X509_CERT
+Build tree for variable boolean_CONFIG_PLATFORM_LINUX                                (7) with 8     expressions 
+#boolean_CONFIG_PLATFORM_LINUX
+[08:30:46] Cnstr #     2  25% [     2] : not boolean_CONFIG_PLATFORM_LINUX or not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  37% [     1] : not boolean_CONFIG_PLATFORM_CYGWIN or not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+[08:30:46] Cnstr #     4  50% [     1] : not boolean_CONFIG_PLATFORM_CYGWIN or not boolean_CONFIG_PLATFORM_LINUX
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5  62% [     1] : not boolean_CONFIG_PLATFORM_LINUX or not boolean_CONFIG_PLATFORM_CYGWIN
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     6  75% [     2] : not boolean_CONFIG_PLATFORM_LINUX or not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     7  87% [     1] : not boolean_CONFIG_PLATFORM_CYGWIN or not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     8 100% [     2] : boolean_CONFIG_PLATFORM_LINUX or boolean_CONFIG_PLATFORM_CYGWIN or boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_SSL_SERVER_ONLY                               (8) with 22    expressions 
+#boolean_CONFIG_SSL_SERVER_ONLY
+[08:30:46] Cnstr #     2   9% [     4] : not boolean_CONFIG_SSL_SERVER_ONLY or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:46] Cnstr #     3  13% [     1] : not boolean_CONFIG_SSL_FULL_MODE or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+[08:30:46] Cnstr #     4  18% [     3] : not boolean_CONFIG_SSL_FULL_MODE or not boolean_CONFIG_SSL_SERVER_ONLY
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5  22% [     2] : not boolean_CONFIG_SSL_ENABLE_CLIENT or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+[08:30:46] Cnstr #     6  27% [     2] : not boolean_CONFIG_SSL_ENABLE_CLIENT or not boolean_CONFIG_SSL_SERVER_ONLY
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+[08:30:46] Cnstr #     7  31% [     1] : not boolean_CONFIG_SSL_ENABLE_CLIENT or not boolean_CONFIG_SSL_FULL_MODE
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+[08:30:46] Cnstr #     8  36% [     3] : not boolean_CONFIG_SSL_CERT_VERIFICATION or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:30:46] Cnstr #     9  40% [     1] : not boolean_CONFIG_SSL_CERT_VERIFICATION or not boolean_CONFIG_SSL_SERVER_ONLY
+                                                                                                      Nodes       10           0 ms. total           1 ms.
+[08:30:46] Cnstr #    10  45% [     2] : not boolean_CONFIG_SSL_CERT_VERIFICATION or not boolean_CONFIG_SSL_FULL_MODE
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:30:46] Cnstr #    11  50% [     1] : not boolean_CONFIG_SSL_CERT_VERIFICATION or not boolean_CONFIG_SSL_ENABLE_CLIENT
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:30:46] Cnstr #    12  54% [     1] : not boolean_CONFIG_SSL_SERVER_ONLY or not boolean_CONFIG_SSL_CERT_VERIFICATION
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:30:46] Cnstr #    13  59% [     2] : not boolean_CONFIG_SSL_SERVER_ONLY or not boolean_CONFIG_SSL_ENABLE_CLIENT
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:30:46] Cnstr #    14  63% [     3] : not boolean_CONFIG_SSL_SERVER_ONLY or not boolean_CONFIG_SSL_FULL_MODE
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:30:46] Cnstr #    15  68% [     4] : not boolean_CONFIG_SSL_SERVER_ONLY or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:30:46] Cnstr #    16  72% [     1] : not boolean_CONFIG_SSL_CERT_VERIFICATION or not boolean_CONFIG_SSL_ENABLE_CLIENT
+                                                                                                      Nodes        9           0 ms. total           1 ms.
+[08:30:46] Cnstr #    17  77% [     2] : not boolean_CONFIG_SSL_CERT_VERIFICATION or not boolean_CONFIG_SSL_FULL_MODE
+                                                                                                      Nodes        9           1 ms. total           2 ms.
+[08:30:46] Cnstr #    18  81% [     3] : not boolean_CONFIG_SSL_CERT_VERIFICATION or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        9           0 ms. total           2 ms.
+[08:30:46] Cnstr #    19  86% [     1] : not boolean_CONFIG_SSL_ENABLE_CLIENT or not boolean_CONFIG_SSL_FULL_MODE
+                                                                                                      Nodes        9           0 ms. total           2 ms.
+[08:30:46] Cnstr #    20  90% [     2] : not boolean_CONFIG_SSL_ENABLE_CLIENT or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        9           0 ms. total           2 ms.
+[08:30:46] Cnstr #    21  95% [     1] : not boolean_CONFIG_SSL_FULL_MODE or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        9           0 ms. total           2 ms.
+[08:30:46] Cnstr #    22 100% [     4] : boolean_CONFIG_SSL_SERVER_ONLY or boolean_CONFIG_SSL_CERT_VERIFICATION or boolean_CONFIG_SSL_ENABLE_CLIENT or boolean_CONFIG_SSL_FULL_MODE or boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        9           0 ms. total           2 ms.
+Build tree for variable int_CONFIG_SSL_MAX_CERTS_EQ_3                                (9) with 3     expressions 
+#int_CONFIG_SSL_MAX_CERTS_EQ_3
+[08:30:46] Cnstr #     2  66% [     1] : not int_CONFIG_SSL_MAX_CERTS_EQ_OTHERVAL or not int_CONFIG_SSL_MAX_CERTS_EQ_3
+                                                                                                      Nodes        3           1 ms. total           1 ms.
+[08:30:46] Cnstr #     3 100% [     1] : int_CONFIG_SSL_MAX_CERTS_EQ_3 or int_CONFIG_SSL_MAX_CERTS_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_EXTRA_CFLAGS_OPTIONS_EQ_OTHERVAL               (10) with 2     expressions 
+#string_CONFIG_EXTRA_CFLAGS_OPTIONS_EQ_OTHERVAL
+[08:30:46] Cnstr #     2 100% [     0] : string_CONFIG_EXTRA_CFLAGS_OPTIONS_EQ_OTHERVAL               Nodes        2           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_EXTRA_LDFLAGS_OPTIONS_EQ_OTHERVAL              (11) with 2     expressions 
+#string_CONFIG_EXTRA_LDFLAGS_OPTIONS_EQ_OTHERVAL
+[08:30:46] Cnstr #     2 100% [     0] : string_CONFIG_EXTRA_LDFLAGS_OPTIONS_EQ_OTHERVAL              Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_AXTLSWRAP                                     (12) with 2     expressions 
+#boolean_CONFIG_AXTLSWRAP
+[08:30:46] Cnstr #     2 100% [    10] : boolean_CONFIG_PLATFORM_WIN32 -> not boolean_CONFIG_AXTLSWRAP
+                                                                                                      Nodes        3           1 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_BIGINT_CHECK_ON                               (13) with 2     expressions 
+#boolean_CONFIG_BIGINT_CHECK_ON
+[08:30:46] Cnstr #     2 100% [     6] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_BIGINT_CHECK_ON
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_BIGINT_CRT                                    (14) with 2     expressions 
+#boolean_CONFIG_BIGINT_CRT
+[08:30:46] Cnstr #     2 100% [     7] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_BIGINT_CRT
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_BIGINT_KARATSUBA                              (15) with 2     expressions 
+#boolean_CONFIG_BIGINT_KARATSUBA
+[08:30:46] Cnstr #     2 100% [     8] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_BIGINT_KARATSUBA
+                                                                                                      Nodes        3           1 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_BIGINT_SLIDING_WINDOW                         (16) with 2     expressions 
+#boolean_CONFIG_BIGINT_SLIDING_WINDOW
+[08:30:46] Cnstr #     2 100% [     9] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_BIGINT_SLIDING_WINDOW
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_BIGINT_SQUARE                                 (17) with 2     expressions 
+#boolean_CONFIG_BIGINT_SQUARE
+[08:30:46] Cnstr #     2 100% [    10] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_BIGINT_SQUARE
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_CSHARP_BINDINGS                               (18) with 2     expressions 
+#boolean_CONFIG_CSHARP_BINDINGS
+[08:30:46] Cnstr #     2 100% [    24] : boolean_CONFIG_CSHARP_BINDINGS -> boolean_CONFIG_BINDINGS    Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_C_SAMPLES                                     (19) with 2     expressions 
+#boolean_CONFIG_C_SAMPLES
+[08:30:46] Cnstr #     2 100% [    22] : boolean_CONFIG_C_SAMPLES -> boolean_CONFIG_SAMPLES           Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_HTTP_DIRECTORIES                              (20) with 2     expressions 
+#boolean_CONFIG_HTTP_DIRECTORIES
+[08:30:46] Cnstr #     2 100% [    27] : boolean_CONFIG_HTTP_DIRECTORIES -> boolean_CONFIG_AXHTTPD    Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_HTTP_ENABLE_DIFFERENT_USER                    (21) with 2     expressions 
+#boolean_CONFIG_HTTP_ENABLE_DIFFERENT_USER
+[08:30:46] Cnstr #     2 100% [    28] : boolean_CONFIG_HTTP_ENABLE_DIFFERENT_USER -> not boolean_CONFIG_PLATFORM_WIN32 and boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_HTTP_HAS_AUTHORIZATION                        (22) with 2     expressions 
+#boolean_CONFIG_HTTP_HAS_AUTHORIZATION
+[08:30:46] Cnstr #     2 100% [    29] : boolean_CONFIG_HTTP_HAS_AUTHORIZATION -> boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_HTTP_HAS_CGI                                  (23) with 2     expressions 
+#boolean_CONFIG_HTTP_HAS_CGI
+[08:30:46] Cnstr #     2 100% [    30] : boolean_CONFIG_HTTP_HAS_CGI -> boolean_CONFIG_AXHTTPD and not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_HTTP_HAS_IPV6                                 (24) with 2     expressions 
+#boolean_CONFIG_HTTP_HAS_IPV6
+[08:30:46] Cnstr #     2 100% [    31] : boolean_CONFIG_HTTP_HAS_IPV6 -> boolean_CONFIG_AXHTTPD and not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_HTTP_IS_DAEMON                                (25) with 2     expressions 
+#boolean_CONFIG_HTTP_IS_DAEMON
+[08:30:46] Cnstr #     2 100% [    32] : boolean_CONFIG_HTTP_IS_DAEMON -> boolean_CONFIG_AXHTTPD and not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_HTTP_STATIC_BUILD                             (26) with 2     expressions 
+#boolean_CONFIG_HTTP_STATIC_BUILD
+[08:30:46] Cnstr #     2 100% [    33] : boolean_CONFIG_HTTP_STATIC_BUILD -> boolean_CONFIG_AXHTTPD   Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_HTTP_VERBOSE                                  (27) with 2     expressions 
+#boolean_CONFIG_HTTP_VERBOSE
+[08:30:46] Cnstr #     2 100% [    34] : boolean_CONFIG_HTTP_VERBOSE -> boolean_CONFIG_AXHTTPD        Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_JAVA_BINDINGS                                 (28) with 2     expressions 
+#boolean_CONFIG_JAVA_BINDINGS
+[08:30:46] Cnstr #     2 100% [    34] : boolean_CONFIG_JAVA_BINDINGS -> boolean_CONFIG_BINDINGS      Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_LUA_BINDINGS                                  (29) with 2     expressions 
+#boolean_CONFIG_LUA_BINDINGS
+[08:30:46] Cnstr #     2 100% [    35] : boolean_CONFIG_LUA_BINDINGS -> not boolean_CONFIG_PLATFORM_WIN32 and boolean_CONFIG_BINDINGS
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_PERFORMANCE_TESTING                           (30) with 2     expressions 
+#boolean_CONFIG_PERFORMANCE_TESTING
+[08:30:46] Cnstr #     2 100% [    26] : boolean_CONFIG_PERFORMANCE_TESTING -> boolean_CONFIG_SSL_CERT_VERIFICATION
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_PERL_BINDINGS                                 (31) with 2     expressions 
+#boolean_CONFIG_PERL_BINDINGS
+[08:30:46] Cnstr #     2 100% [    37] : boolean_CONFIG_PERL_BINDINGS -> boolean_CONFIG_BINDINGS      Nodes        3           1 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_SSL_HAS_PEM                                   (32) with 2     expressions 
+#boolean_CONFIG_SSL_HAS_PEM
+[08:30:46] Cnstr #     2 100% [    25] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_SSL_HAS_PEM
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_SSL_TEST                                      (33) with 2     expressions 
+#boolean_CONFIG_SSL_TEST
+[08:30:46] Cnstr #     2 100% [    34] : boolean_CONFIG_SSL_TEST -> not boolean_CONFIG_SSL_GENERATE_X509_CERT and boolean_CONFIG_SSL_FULL_MODE
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_SSL_USE_DEFAULT_KEY                           (34) with 2     expressions 
+#boolean_CONFIG_SSL_USE_DEFAULT_KEY
+[08:30:46] Cnstr #     2 100% [    27] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_SSL_USE_DEFAULT_KEY
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_SSL_USE_PKCS12                                (35) with 2     expressions 
+#boolean_CONFIG_SSL_USE_PKCS12
+[08:30:46] Cnstr #     2 100% [    28] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_SSL_USE_PKCS12
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_STRIP_UNWANTED_SECTIONS                       (36) with 2     expressions 
+#boolean_CONFIG_STRIP_UNWANTED_SECTIONS
+[08:30:46] Cnstr #     2 100% [    41] : boolean_CONFIG_STRIP_UNWANTED_SECTIONS -> not boolean_CONFIG_DEBUG and not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_USE_DEV_URANDOM                               (37) with 2     expressions 
+#boolean_CONFIG_USE_DEV_URANDOM
+[08:30:46] Cnstr #     2 100% [    35] : boolean_CONFIG_PLATFORM_WIN32 -> not boolean_CONFIG_USE_DEV_URANDOM
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_VBNET_BINDINGS                                (38) with 2     expressions 
+#boolean_CONFIG_VBNET_BINDINGS
+[08:30:46] Cnstr #     2 100% [    44] : boolean_CONFIG_VBNET_BINDINGS -> boolean_CONFIG_BINDINGS     Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_WIN32_USE_CRYPTO_LIB                          (39) with 2     expressions 
+#boolean_CONFIG_WIN32_USE_CRYPTO_LIB
+[08:30:46] Cnstr #     2 100% [    37] : boolean_CONFIG_WIN32_USE_CRYPTO_LIB -> boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_VISUAL_STUDIO_7_0                             (40) with 9     expressions 
+#boolean_CONFIG_VISUAL_STUDIO_7_0
+[08:30:46] Cnstr #     2  22% [     1] : not boolean_CONFIG_VISUAL_STUDIO_7_0 or not boolean_CONFIG_VISUAL_STUDIO_8_0
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:46] Cnstr #     3  33% [     1] : not boolean_CONFIG_VISUAL_STUDIO_10_0 or not boolean_CONFIG_VISUAL_STUDIO_8_0
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     4  44% [     2] : not boolean_CONFIG_VISUAL_STUDIO_10_0 or not boolean_CONFIG_VISUAL_STUDIO_7_0
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5  55% [     1] : not boolean_CONFIG_VISUAL_STUDIO_7_0 or not boolean_CONFIG_VISUAL_STUDIO_8_0
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     6  66% [     2] : not boolean_CONFIG_VISUAL_STUDIO_7_0 or not boolean_CONFIG_VISUAL_STUDIO_10_0
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     7  77% [     1] : not boolean_CONFIG_VISUAL_STUDIO_8_0 or not boolean_CONFIG_VISUAL_STUDIO_10_0
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     8  88% [    40] : boolean_CONFIG_PLATFORM_WIN32 -> boolean_CONFIG_VISUAL_STUDIO_7_0 or boolean_CONFIG_VISUAL_STUDIO_8_0 or boolean_CONFIG_VISUAL_STUDIO_10_0
+                                                                                                      Nodes        8           0 ms. total           1 ms.
+[08:30:46] Cnstr #     9 100% [    40] : not boolean_CONFIG_PLATFORM_WIN32 -> not boolean_CONFIG_VISUAL_STUDIO_7_0 and not boolean_CONFIG_VISUAL_STUDIO_8_0 and not boolean_CONFIG_VISUAL_STUDIO_10_0
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_SSL_PROT_LOW                                  (41) with 9     expressions 
+#boolean_CONFIG_SSL_PROT_LOW
+[08:30:46] Cnstr #     2  22% [     1] : not boolean_CONFIG_SSL_PROT_LOW or not boolean_CONFIG_SSL_PROT_MEDIUM
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  33% [     1] : not boolean_CONFIG_SSL_PROT_HIGH or not boolean_CONFIG_SSL_PROT_MEDIUM
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  44% [     2] : not boolean_CONFIG_SSL_PROT_HIGH or not boolean_CONFIG_SSL_PROT_LOW
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5  55% [     1] : not boolean_CONFIG_SSL_PROT_LOW or not boolean_CONFIG_SSL_PROT_MEDIUM
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     6  66% [     2] : not boolean_CONFIG_SSL_PROT_LOW or not boolean_CONFIG_SSL_PROT_HIGH
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     7  77% [     1] : not boolean_CONFIG_SSL_PROT_MEDIUM or not boolean_CONFIG_SSL_PROT_HIGH
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     8  88% [    38] : not boolean_CONFIG_SSL_SKELETON_MODE -> boolean_CONFIG_SSL_PROT_LOW or boolean_CONFIG_SSL_PROT_MEDIUM or boolean_CONFIG_SSL_PROT_HIGH
+                                                                                                      Nodes        8           0 ms. total           0 ms.
+[08:30:46] Cnstr #     9 100% [    38] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_SSL_PROT_LOW and not boolean_CONFIG_SSL_PROT_MEDIUM and not boolean_CONFIG_SSL_PROT_HIGH
+                                                                                                      Nodes        7           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_BIGINT_CLASSICAL                              (42) with 9     expressions 
+#boolean_CONFIG_BIGINT_CLASSICAL
+[08:30:46] Cnstr #     2  22% [     1] : not boolean_CONFIG_BIGINT_CLASSICAL or not boolean_CONFIG_BIGINT_MONTGOMERY
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  33% [     1] : not boolean_CONFIG_BIGINT_BARRETT or not boolean_CONFIG_BIGINT_MONTGOMERY
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  44% [     2] : not boolean_CONFIG_BIGINT_BARRETT or not boolean_CONFIG_BIGINT_CLASSICAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5  55% [     1] : not boolean_CONFIG_BIGINT_CLASSICAL or not boolean_CONFIG_BIGINT_MONTGOMERY
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     6  66% [     2] : not boolean_CONFIG_BIGINT_CLASSICAL or not boolean_CONFIG_BIGINT_BARRETT
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     7  77% [     1] : not boolean_CONFIG_BIGINT_MONTGOMERY or not boolean_CONFIG_BIGINT_BARRETT
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     8  88% [    41] : not boolean_CONFIG_SSL_SKELETON_MODE -> boolean_CONFIG_BIGINT_CLASSICAL or boolean_CONFIG_BIGINT_MONTGOMERY or boolean_CONFIG_BIGINT_BARRETT
+                                                                                                      Nodes        8           0 ms. total           0 ms.
+[08:30:46] Cnstr #     9 100% [    41] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_BIGINT_CLASSICAL and not boolean_CONFIG_BIGINT_MONTGOMERY and not boolean_CONFIG_BIGINT_BARRETT
+                                                                                                      Nodes        7           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_INTEGER_32BIT                                 (43) with 9     expressions 
+#boolean_CONFIG_INTEGER_32BIT
+[08:30:46] Cnstr #     2  22% [     2] : not boolean_CONFIG_INTEGER_32BIT or not boolean_CONFIG_INTEGER_8BIT
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  33% [     1] : not boolean_CONFIG_INTEGER_16BIT or not boolean_CONFIG_INTEGER_8BIT
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  44% [     1] : not boolean_CONFIG_INTEGER_16BIT or not boolean_CONFIG_INTEGER_32BIT
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5  55% [     1] : not boolean_CONFIG_INTEGER_32BIT or not boolean_CONFIG_INTEGER_16BIT
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     6  66% [     2] : not boolean_CONFIG_INTEGER_32BIT or not boolean_CONFIG_INTEGER_8BIT
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     7  77% [     1] : not boolean_CONFIG_INTEGER_16BIT or not boolean_CONFIG_INTEGER_8BIT
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     8  88% [    44] : not boolean_CONFIG_SSL_SKELETON_MODE -> boolean_CONFIG_INTEGER_32BIT or boolean_CONFIG_INTEGER_16BIT or boolean_CONFIG_INTEGER_8BIT
+                                                                                                      Nodes        8           1 ms. total           1 ms.
+[08:30:46] Cnstr #     9 100% [    44] : boolean_CONFIG_SSL_SKELETON_MODE -> not boolean_CONFIG_INTEGER_32BIT and not boolean_CONFIG_INTEGER_16BIT and not boolean_CONFIG_INTEGER_8BIT
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+Build tree for variable int_CONFIG_HTTP_HTTPS_PORT_EQ_443                            (44) with 5     expressions 
+#int_CONFIG_HTTP_HTTPS_PORT_EQ_443
+[08:30:46] Cnstr #     2  40% [     1] : not int_CONFIG_HTTP_HTTPS_PORT_EQ_OTHERVAL or not int_CONFIG_HTTP_HTTPS_PORT_EQ_443
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  60% [    60] : boolean_CONFIG_AXHTTPD -> int_CONFIG_HTTP_HTTPS_PORT_EQ_443 or int_CONFIG_HTTP_HTTPS_PORT_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  80% [    60] : int_CONFIG_HTTP_HTTPS_PORT_EQ_OTHERVAL -> boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5 100% [    59] : int_CONFIG_HTTP_HTTPS_PORT_EQ_443 -> boolean_CONFIG_AXHTTPD  Nodes        5           0 ms. total           0 ms.
+Build tree for variable int_CONFIG_HTTP_PORT_EQ_80                                   (45) with 5     expressions 
+#int_CONFIG_HTTP_PORT_EQ_80
+[08:30:46] Cnstr #     2  40% [     1] : not int_CONFIG_HTTP_PORT_EQ_OTHERVAL or not int_CONFIG_HTTP_PORT_EQ_80
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  60% [    62] : boolean_CONFIG_AXHTTPD -> int_CONFIG_HTTP_PORT_EQ_80 or int_CONFIG_HTTP_PORT_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  80% [    62] : int_CONFIG_HTTP_PORT_EQ_OTHERVAL -> boolean_CONFIG_AXHTTPD   Nodes        4           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5 100% [    61] : int_CONFIG_HTTP_PORT_EQ_80 -> boolean_CONFIG_AXHTTPD         Nodes        5           0 ms. total           0 ms.
+Build tree for variable int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_5                      (46) with 5     expressions 
+#int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_5
+[08:30:46] Cnstr #     2  40% [     1] : not int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_OTHERVAL or not int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_5
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  60% [    64] : boolean_CONFIG_AXHTTPD -> int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_5 or int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  80% [    64] : int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_OTHERVAL -> boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5 100% [    63] : int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_5 -> boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable int_CONFIG_HTTP_TIMEOUT_EQ_300                               (47) with 5     expressions 
+#int_CONFIG_HTTP_TIMEOUT_EQ_300
+[08:30:46] Cnstr #     2  40% [     1] : not int_CONFIG_HTTP_TIMEOUT_EQ_OTHERVAL or not int_CONFIG_HTTP_TIMEOUT_EQ_300
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  60% [    66] : boolean_CONFIG_AXHTTPD -> int_CONFIG_HTTP_TIMEOUT_EQ_300 or int_CONFIG_HTTP_TIMEOUT_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  80% [    66] : int_CONFIG_HTTP_TIMEOUT_EQ_OTHERVAL -> boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5 100% [    65] : int_CONFIG_HTTP_TIMEOUT_EQ_300 -> boolean_CONFIG_AXHTTPD     Nodes        5           0 ms. total           0 ms.
+Build tree for variable int_CONFIG_SSL_EXPIRY_TIME_EQ_24                             (48) with 5     expressions 
+#int_CONFIG_SSL_EXPIRY_TIME_EQ_24
+[08:30:46] Cnstr #     2  40% [     1] : not int_CONFIG_SSL_EXPIRY_TIME_EQ_OTHERVAL or not int_CONFIG_SSL_EXPIRY_TIME_EQ_24
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  60% [    54] : not boolean_CONFIG_SSL_SKELETON_MODE -> int_CONFIG_SSL_EXPIRY_TIME_EQ_24 or int_CONFIG_SSL_EXPIRY_TIME_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  80% [    54] : int_CONFIG_SSL_EXPIRY_TIME_EQ_OTHERVAL -> not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5 100% [    53] : int_CONFIG_SSL_EXPIRY_TIME_EQ_24 -> not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable int_CONFIG_X509_MAX_CA_CERTS_EQ_150                          (49) with 6     expressions 
+#int_CONFIG_X509_MAX_CA_CERTS_EQ_150
+[08:30:46] Cnstr #     2  33% [     4] : not boolean_CONFIG_SSL_SERVER_ONLY or not boolean_CONFIG_SSL_SKELETON_MODE
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:46] Cnstr #     3  50% [     1] : not int_CONFIG_X509_MAX_CA_CERTS_EQ_OTHERVAL or not int_CONFIG_X509_MAX_CA_CERTS_EQ_150
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     4  66% [    60] : not boolean_CONFIG_SSL_SKELETON_MODE and not boolean_CONFIG_SSL_SERVER_ONLY -> int_CONFIG_X509_MAX_CA_CERTS_EQ_150 or int_CONFIG_X509_MAX_CA_CERTS_EQ_OTHERVAL
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5  83% [    60] : int_CONFIG_X509_MAX_CA_CERTS_EQ_OTHERVAL -> not boolean_CONFIG_SSL_SKELETON_MODE and not boolean_CONFIG_SSL_SERVER_ONLY
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+[08:30:46] Cnstr #     6 100% [    59] : int_CONFIG_X509_MAX_CA_CERTS_EQ_150 -> not boolean_CONFIG_SSL_SKELETON_MODE and not boolean_CONFIG_SSL_SERVER_ONLY
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_HTTP_WEBROOT_EQ_../www                         (50) with 8     expressions 
+#string_CONFIG_HTTP_WEBROOT_EQ_../www
+[08:30:46] Cnstr #     2  25% [     1] : not string_CONFIG_HTTP_WEBROOT_EQ_OTHERVAL or not string_CONFIG_HTTP_WEBROOT_EQ_..\www
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:46] Cnstr #     3  37% [     2] : not string_CONFIG_HTTP_WEBROOT_EQ_OTHERVAL or not string_CONFIG_HTTP_WEBROOT_EQ_../www
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+[08:30:46] Cnstr #     4  50% [     1] : not string_CONFIG_HTTP_WEBROOT_EQ_..\www or not string_CONFIG_HTTP_WEBROOT_EQ_../www
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5  62% [    73] : boolean_CONFIG_AXHTTPD -> string_CONFIG_HTTP_WEBROOT_EQ_../www or string_CONFIG_HTTP_WEBROOT_EQ_..\www or string_CONFIG_HTTP_WEBROOT_EQ_OTHERVAL
+                                                                                                      Nodes        8           0 ms. total           1 ms.
+[08:30:46] Cnstr #     6  75% [    73] : string_CONFIG_HTTP_WEBROOT_EQ_OTHERVAL -> boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+[08:30:46] Cnstr #     7  87% [    71] : string_CONFIG_HTTP_WEBROOT_EQ_../www -> boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+[08:30:46] Cnstr #     8 100% [    72] : string_CONFIG_HTTP_WEBROOT_EQ_..\www -> boolean_CONFIG_AXHTTPD
+                                                                                                      Nodes        7           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_SSL_X509_COMMON_NAME_EQ_OTHERVAL               (51) with 3     expressions 
+#string_CONFIG_SSL_X509_COMMON_NAME_EQ_OTHERVAL
+[08:30:46] Cnstr #     2  66% [    68] : boolean_CONFIG_SSL_GENERATE_X509_CERT -> string_CONFIG_SSL_X509_COMMON_NAME_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:46] Cnstr #     3 100% [    68] : string_CONFIG_SSL_X509_COMMON_NAME_EQ_OTHERVAL -> boolean_CONFIG_SSL_GENERATE_X509_CERT
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_SSL_X509_ORGANIZATION_NAME_EQ_OTHERVAL         (52) with 3     expressions 
+#string_CONFIG_SSL_X509_ORGANIZATION_NAME_EQ_OTHERVAL
+[08:30:46] Cnstr #     2  66% [    69] : boolean_CONFIG_SSL_GENERATE_X509_CERT -> string_CONFIG_SSL_X509_ORGANIZATION_NAME_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3 100% [    69] : string_CONFIG_SSL_X509_ORGANIZATION_NAME_EQ_OTHERVAL -> boolean_CONFIG_SSL_GENERATE_X509_CERT
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME_EQ_OTHERVAL    (53) with 3     expressions 
+#string_CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME_EQ_OTHERVAL
+[08:30:46] Cnstr #     2  66% [    70] : boolean_CONFIG_SSL_GENERATE_X509_CERT -> string_CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3 100% [    70] : string_CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME_EQ_OTHERVAL -> boolean_CONFIG_SSL_GENERATE_X509_CERT
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable string_PREFIX_EQ_/usr/local                                  (54) with 5     expressions 
+#string_PREFIX_EQ_/usr/local
+[08:30:46] Cnstr #     2  40% [     1] : not string_PREFIX_EQ_OTHERVAL or not string_PREFIX_EQ_/usr/local
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:46] Cnstr #     3  60% [    69] : not boolean_CONFIG_PLATFORM_WIN32 -> string_PREFIX_EQ_/usr/local or string_PREFIX_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     4  80% [    69] : string_PREFIX_EQ_OTHERVAL -> not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5 100% [    68] : string_PREFIX_EQ_/usr/local -> not boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_CSHARP_SAMPLES                                (55) with 2     expressions 
+#boolean_CONFIG_CSHARP_SAMPLES
+[08:30:46] Cnstr #     2 100% [    75] : boolean_CONFIG_CSHARP_SAMPLES -> boolean_CONFIG_CSHARP_BINDINGS and boolean_CONFIG_SAMPLES
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_HTTP_ENABLE_LUA                               (56) with 2     expressions 
+#boolean_CONFIG_HTTP_ENABLE_LUA
+[08:30:46] Cnstr #     2 100% [    50] : boolean_CONFIG_HTTP_ENABLE_LUA -> boolean_CONFIG_HTTP_HAS_CGI
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_JAVA_SAMPLES                                  (57) with 2     expressions 
+#boolean_CONFIG_JAVA_SAMPLES
+[08:30:46] Cnstr #     2 100% [    77] : boolean_CONFIG_JAVA_SAMPLES -> boolean_CONFIG_JAVA_BINDINGS and boolean_CONFIG_SAMPLES
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_LUA_SAMPLES                                   (58) with 2     expressions 
+#boolean_CONFIG_LUA_SAMPLES
+[08:30:46] Cnstr #     2 100% [    78] : boolean_CONFIG_LUA_SAMPLES -> boolean_CONFIG_SAMPLES and boolean_CONFIG_LUA_BINDINGS
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_CONFIG_PERL_SAMPLES                                  (59) with 2     expressions 
+#boolean_CONFIG_PERL_SAMPLES
+[08:30:46] Cnstr #     2 100% [    79] : boolean_CONFIG_PERL_SAMPLES -> boolean_CONFIG_SAMPLES and boolean_CONFIG_PERL_BINDINGS
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_VBNET_SAMPLES                                 (60) with 2     expressions 
+#boolean_CONFIG_VBNET_SAMPLES
+[08:30:46] Cnstr #     2 100% [    80] : boolean_CONFIG_VBNET_SAMPLES -> boolean_CONFIG_SAMPLES and boolean_CONFIG_VBNET_BINDINGS
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable int_MUL_KARATSUBA_THRESH_EQ_20                               (61) with 5     expressions 
+#int_MUL_KARATSUBA_THRESH_EQ_20
+[08:30:46] Cnstr #     2  40% [     1] : not int_MUL_KARATSUBA_THRESH_EQ_OTHERVAL or not int_MUL_KARATSUBA_THRESH_EQ_20
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  60% [    64] : boolean_CONFIG_BIGINT_KARATSUBA -> int_MUL_KARATSUBA_THRESH_EQ_20 or int_MUL_KARATSUBA_THRESH_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  80% [    64] : int_MUL_KARATSUBA_THRESH_EQ_OTHERVAL -> boolean_CONFIG_BIGINT_KARATSUBA
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5 100% [    63] : int_MUL_KARATSUBA_THRESH_EQ_20 -> boolean_CONFIG_BIGINT_KARATSUBA
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable int_SQU_KARATSUBA_THRESH_EQ_40                               (62) with 5     expressions 
+#int_SQU_KARATSUBA_THRESH_EQ_40
+[08:30:46] Cnstr #     2  40% [     1] : not int_SQU_KARATSUBA_THRESH_EQ_OTHERVAL or not int_SQU_KARATSUBA_THRESH_EQ_40
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:46] Cnstr #     3  60% [    66] : boolean_CONFIG_BIGINT_KARATSUBA and boolean_CONFIG_BIGINT_SQUARE -> int_SQU_KARATSUBA_THRESH_EQ_40 or int_SQU_KARATSUBA_THRESH_EQ_OTHERVAL
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+[08:30:46] Cnstr #     4  80% [    66] : int_SQU_KARATSUBA_THRESH_EQ_OTHERVAL -> boolean_CONFIG_BIGINT_KARATSUBA and boolean_CONFIG_BIGINT_SQUARE
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5 100% [    65] : int_SQU_KARATSUBA_THRESH_EQ_40 -> boolean_CONFIG_BIGINT_KARATSUBA and boolean_CONFIG_BIGINT_SQUARE
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_OTHERVAL             (63) with 6     expressions 
+#string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_OTHERVAL
+[08:30:46] Cnstr #     2  33% [     1] : not string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727 or not string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_OTHERVAL
+                                                                                                      Nodes        3           1 ms. total           1 ms.
+[08:30:46] Cnstr #     3  50% [    65] : boolean_CONFIG_CSHARP_BINDINGS -> string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_OTHERVAL or string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     4  66% [    45] : boolean_CONFIG_VBNET_BINDINGS -> string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_OTHERVAL or string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5  83% [    65] : string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727 -> boolean_CONFIG_CSHARP_BINDINGS or boolean_CONFIG_VBNET_BINDINGS
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:46] Cnstr #     6 100% [    64] : string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_OTHERVAL -> boolean_CONFIG_CSHARP_BINDINGS or boolean_CONFIG_VBNET_BINDINGS
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_.lua,.lp,.php           (64) with 5     expressions 
+#string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_.lua,.lp,.php
+[08:30:46] Cnstr #     2  40% [     1] : not string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_OTHERVAL or not string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_.lua,.lp,.php
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  60% [    62] : boolean_CONFIG_HTTP_HAS_CGI -> string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_.lua,.lp,.php or string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_OTHERVAL
+                                                                                                      Nodes        5           1 ms. total           1 ms.
+[08:30:46] Cnstr #     4  80% [    62] : string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_OTHERVAL -> boolean_CONFIG_HTTP_HAS_CGI
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+[08:30:46] Cnstr #     5 100% [    61] : string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_.lua,.lp,.php -> boolean_CONFIG_HTTP_HAS_CGI
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_HTTP_CGI_LAUNCHER_EQ_/usr/bin/cgi              (65) with 5     expressions 
+#string_CONFIG_HTTP_CGI_LAUNCHER_EQ_/usr/bin/cgi
+[08:30:46] Cnstr #     2  40% [     1] : not string_CONFIG_HTTP_CGI_LAUNCHER_EQ_OTHERVAL or not string_CONFIG_HTTP_CGI_LAUNCHER_EQ_/usr/bin/cgi
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:46] Cnstr #     3  60% [    64] : boolean_CONFIG_HTTP_HAS_CGI -> string_CONFIG_HTTP_CGI_LAUNCHER_EQ_/usr/bin/cgi or string_CONFIG_HTTP_CGI_LAUNCHER_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:46] Cnstr #     4  80% [    64] : string_CONFIG_HTTP_CGI_LAUNCHER_EQ_OTHERVAL -> boolean_CONFIG_HTTP_HAS_CGI
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:46] Cnstr #     5 100% [    63] : string_CONFIG_HTTP_CGI_LAUNCHER_EQ_/usr/bin/cgi -> boolean_CONFIG_HTTP_HAS_CGI
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_HTTP_USER_EQ_OTHERVAL                          (66) with 5     expressions 
+#string_CONFIG_HTTP_USER_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  40% [     1] : not string_CONFIG_HTTP_USER_EQ_nobody or not string_CONFIG_HTTP_USER_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:47] Cnstr #     3  60% [    68] : boolean_CONFIG_HTTP_ENABLE_DIFFERENT_USER -> string_CONFIG_HTTP_USER_EQ_OTHERVAL or string_CONFIG_HTTP_USER_EQ_nobody
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:47] Cnstr #     4  80% [    68] : string_CONFIG_HTTP_USER_EQ_nobody -> boolean_CONFIG_HTTP_ENABLE_DIFFERENT_USER
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:47] Cnstr #     5 100% [    67] : string_CONFIG_HTTP_USER_EQ_OTHERVAL -> boolean_CONFIG_HTTP_ENABLE_DIFFERENT_USER
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_JAVA_HOME_EQ_/usr/lib/jvm/java-7-openjdk-amd64 (67) with 8     expressions 
+#string_CONFIG_JAVA_HOME_EQ_/usr/lib/jvm/java-7-openjdk-amd64
+[08:30:47] Cnstr #     2  25% [     1] : not string_CONFIG_JAVA_HOME_EQ_c:\Program_Files\Java\jdk1.5.0_06 or not string_CONFIG_JAVA_HOME_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:47] Cnstr #     3  37% [     2] : not string_CONFIG_JAVA_HOME_EQ_c:\Program_Files\Java\jdk1.5.0_06 or not string_CONFIG_JAVA_HOME_EQ_/usr/lib/jvm/java-7-openjdk-amd64
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:47] Cnstr #     4  50% [     1] : not string_CONFIG_JAVA_HOME_EQ_OTHERVAL or not string_CONFIG_JAVA_HOME_EQ_/usr/lib/jvm/java-7-openjdk-amd64
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:47] Cnstr #     5  62% [    64] : boolean_CONFIG_JAVA_BINDINGS -> string_CONFIG_JAVA_HOME_EQ_/usr/lib/jvm/java-7-openjdk-amd64 or string_CONFIG_JAVA_HOME_EQ_OTHERVAL or string_CONFIG_JAVA_HOME_EQ_c:\Program_Files\Java\jdk1.5.0_06
+                                                                                                      Nodes        8           0 ms. total           0 ms.
+[08:30:47] Cnstr #     6  75% [    64] : string_CONFIG_JAVA_HOME_EQ_c:\Program_Files\Java\jdk1.5.0_06 -> boolean_CONFIG_JAVA_BINDINGS
+                                                                                                      Nodes        7           0 ms. total           0 ms.
+[08:30:47] Cnstr #     7  87% [    62] : string_CONFIG_JAVA_HOME_EQ_/usr/lib/jvm/java-7-openjdk-amd64 -> boolean_CONFIG_JAVA_BINDINGS
+                                                                                                      Nodes        7           0 ms. total           0 ms.
+[08:30:47] Cnstr #     8 100% [    63] : string_CONFIG_JAVA_HOME_EQ_OTHERVAL -> boolean_CONFIG_JAVA_BINDINGS
+                                                                                                      Nodes        7           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_LUA_CORE_EQ_/usr/local                         (68) with 5     expressions 
+#string_CONFIG_LUA_CORE_EQ_/usr/local
+[08:30:47] Cnstr #     2  40% [     1] : not string_CONFIG_LUA_CORE_EQ_OTHERVAL or not string_CONFIG_LUA_CORE_EQ_/usr/local
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:47] Cnstr #     3  60% [    65] : boolean_CONFIG_LUA_BINDINGS -> string_CONFIG_LUA_CORE_EQ_/usr/local or string_CONFIG_LUA_CORE_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:47] Cnstr #     4  80% [    65] : string_CONFIG_LUA_CORE_EQ_OTHERVAL -> boolean_CONFIG_LUA_BINDINGS
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:47] Cnstr #     5 100% [    64] : string_CONFIG_LUA_CORE_EQ_/usr/local -> boolean_CONFIG_LUA_BINDINGS
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_PERL_CORE_EQ_OTHERVAL                          (69) with 5     expressions 
+#string_CONFIG_PERL_CORE_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  40% [     1] : not string_CONFIG_PERL_CORE_EQ_c:\perl\lib\CORE or not string_CONFIG_PERL_CORE_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:47] Cnstr #     3  60% [    94] : boolean_CONFIG_PERL_BINDINGS and boolean_CONFIG_PLATFORM_WIN32 -> string_CONFIG_PERL_CORE_EQ_OTHERVAL or string_CONFIG_PERL_CORE_EQ_c:\perl\lib\CORE
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+[08:30:47] Cnstr #     4  80% [    94] : string_CONFIG_PERL_CORE_EQ_c:\perl\lib\CORE -> boolean_CONFIG_PERL_BINDINGS and boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:47] Cnstr #     5 100% [    93] : string_CONFIG_PERL_CORE_EQ_OTHERVAL -> boolean_CONFIG_PERL_BINDINGS and boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_PERL_LIB_EQ_OTHERVAL                           (70) with 5     expressions 
+#string_CONFIG_PERL_LIB_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  40% [     1] : not string_CONFIG_PERL_LIB_EQ_perl58.lib or not string_CONFIG_PERL_LIB_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:47] Cnstr #     3  60% [    96] : boolean_CONFIG_PERL_BINDINGS and boolean_CONFIG_PLATFORM_WIN32 -> string_CONFIG_PERL_LIB_EQ_OTHERVAL or string_CONFIG_PERL_LIB_EQ_perl58.lib
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+[08:30:47] Cnstr #     4  80% [    96] : string_CONFIG_PERL_LIB_EQ_perl58.lib -> boolean_CONFIG_PERL_BINDINGS and boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:47] Cnstr #     5 100% [    95] : string_CONFIG_PERL_LIB_EQ_OTHERVAL -> boolean_CONFIG_PERL_BINDINGS and boolean_CONFIG_PLATFORM_WIN32
+                                                                                                      Nodes        6           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_SSL_PRIVATE_KEY_LOCATION_EQ_OTHERVAL           (71) with 3     expressions 
+#string_CONFIG_SSL_PRIVATE_KEY_LOCATION_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  66% [    92] : not boolean_CONFIG_SSL_SKELETON_MODE and not boolean_CONFIG_SSL_USE_DEFAULT_KEY -> string_CONFIG_SSL_PRIVATE_KEY_LOCATION_EQ_OTHERVAL
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:47] Cnstr #     3 100% [    92] : string_CONFIG_SSL_PRIVATE_KEY_LOCATION_EQ_OTHERVAL -> not boolean_CONFIG_SSL_SKELETON_MODE and not boolean_CONFIG_SSL_USE_DEFAULT_KEY
+                                                                                                      Nodes        4           1 ms. total           1 ms.
+Build tree for variable string_CONFIG_SSL_PRIVATE_KEY_PASSWORD_EQ_OTHERVAL           (72) with 3     expressions 
+#string_CONFIG_SSL_PRIVATE_KEY_PASSWORD_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  66% [    68] : boolean_CONFIG_SSL_HAS_PEM and not boolean_CONFIG_SSL_USE_DEFAULT_KEY -> string_CONFIG_SSL_PRIVATE_KEY_PASSWORD_EQ_OTHERVAL
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:47] Cnstr #     3 100% [    68] : string_CONFIG_SSL_PRIVATE_KEY_PASSWORD_EQ_OTHERVAL -> boolean_CONFIG_SSL_HAS_PEM and not boolean_CONFIG_SSL_USE_DEFAULT_KEY
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_SSL_X509_CERT_LOCATION_EQ_OTHERVAL             (73) with 3     expressions 
+#string_CONFIG_SSL_X509_CERT_LOCATION_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  66% [   102] : not boolean_CONFIG_SSL_SKELETON_MODE and not boolean_CONFIG_SSL_USE_DEFAULT_KEY and not boolean_CONFIG_SSL_GENERATE_X509_CERT -> string_CONFIG_SSL_X509_CERT_LOCATION_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:47] Cnstr #     3 100% [   102] : string_CONFIG_SSL_X509_CERT_LOCATION_EQ_OTHERVAL -> not boolean_CONFIG_SSL_SKELETON_MODE and not boolean_CONFIG_SSL_USE_DEFAULT_KEY and not boolean_CONFIG_SSL_GENERATE_X509_CERT
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_OTHERVAL            (74) with 5     expressions 
+#string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  40% [     1] : not string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_10.0 or not string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_OTHERVAL
+                                                                                                      Nodes        3           1 ms. total           1 ms.
+[08:30:47] Cnstr #     3  60% [    61] : boolean_CONFIG_VISUAL_STUDIO_10_0 -> string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_OTHERVAL or string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_10.0
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:47] Cnstr #     4  80% [    61] : string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_10.0 -> boolean_CONFIG_VISUAL_STUDIO_10_0
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+[08:30:47] Cnstr #     5 100% [    60] : string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_OTHERVAL -> boolean_CONFIG_VISUAL_STUDIO_10_0
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_OTHERVAL             (75) with 5     expressions 
+#string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  40% [     1] : not string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_.NET_2003 or not string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:47] Cnstr #     3  60% [    65] : boolean_CONFIG_VISUAL_STUDIO_7_0 -> string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_OTHERVAL or string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_.NET_2003
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:47] Cnstr #     4  80% [    65] : string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_.NET_2003 -> boolean_CONFIG_VISUAL_STUDIO_7_0
+                                                                                                      Nodes        4           1 ms. total           1 ms.
+[08:30:47] Cnstr #     5 100% [    64] : string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_OTHERVAL -> boolean_CONFIG_VISUAL_STUDIO_7_0
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+Build tree for variable string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_OTHERVAL             (76) with 5     expressions 
+#string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_OTHERVAL
+[08:30:47] Cnstr #     2  40% [     1] : not string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_8 or not string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_OTHERVAL
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:30:47] Cnstr #     3  60% [    66] : boolean_CONFIG_VISUAL_STUDIO_8_0 -> string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_OTHERVAL or string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_8
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+[08:30:47] Cnstr #     4  80% [    66] : string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_c:\Program_Files\Microsoft_Visual_Studio_8 -> boolean_CONFIG_VISUAL_STUDIO_8_0
+                                                                                                      Nodes        4           0 ms. total           0 ms.
+[08:30:47] Cnstr #     5 100% [    65] : string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_OTHERVAL -> boolean_CONFIG_VISUAL_STUDIO_8_0
+                                                                                                      Nodes        5           0 ms. total           0 ms.
+Build tree for variable boolean_CONFIG_HTTP_BUILD_LUA                                (77) with 2     expressions 
+#boolean_CONFIG_HTTP_BUILD_LUA
+[08:30:47] Cnstr #     2 100% [    35] : boolean_CONFIG_HTTP_BUILD_LUA -> boolean_CONFIG_HTTP_ENABLE_LUA
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable string_CONFIG_HTTP_LUA_PREFIX_EQ_/usr                        (78) with 5     expressions 
+#string_CONFIG_HTTP_LUA_PREFIX_EQ_/usr
+[08:30:47] Cnstr #     2  40% [     1] : not string_CONFIG_HTTP_LUA_PREFIX_EQ_OTHERVAL or not string_CONFIG_HTTP_LUA_PREFIX_EQ_/usr
+                                                                                                      Nodes        3           0 ms. total           1 ms.
+[08:30:47] Cnstr #     3  60% [    37] : boolean_CONFIG_HTTP_ENABLE_LUA -> string_CONFIG_HTTP_LUA_PREFIX_EQ_/usr or string_CONFIG_HTTP_LUA_PREFIX_EQ_OTHERVAL
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+[08:30:47] Cnstr #     4  80% [    37] : string_CONFIG_HTTP_LUA_PREFIX_EQ_OTHERVAL -> boolean_CONFIG_HTTP_ENABLE_LUA
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+[08:30:47] Cnstr #     5 100% [    36] : string_CONFIG_HTTP_LUA_PREFIX_EQ_/usr -> boolean_CONFIG_HTTP_ENABLE_LUA
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+Build tree for variable boolean_HAVE_DOT_CONFIG                                      (79) with 2     expressions 
+#boolean_HAVE_DOT_CONFIG
+[08:30:47] Cnstr #     2 100% [     0] : boolean_HAVE_DOT_CONFIG                                      Nodes        2           0 ms. total           1 ms.
+boolean_CONFIG_AXHTTPD                             1          nodes 
+boolean_CONFIG_BINDINGS                            1          nodes 
+boolean_CONFIG_DEBUG                               1          nodes 
+boolean_CONFIG_OPENSSL_COMPATIBLE                  1          nodes 
+boolean_CONFIG_SAMPLES                             1          nodes 
+boolean_CONFIG_SSL_CTX_MUTEXING                    1          nodes 
+boolean_CONFIG_SSL_GENERATE_X509_CERT              1          nodes 
+boolean_HAVE_DOT_CONFIG                            2          nodes 
+string_CONFIG_EXTRA_CFLAGS_OPTIONS_EQ_OTHERVAL     2          nodes 
+string_CONFIG_EXTRA_LDFLAGS_OPTIONS_EQ_OTHERVAL    2          nodes 
+boolean_CONFIG_AXTLSWRAP                           3          nodes 
+boolean_CONFIG_BIGINT_CHECK_ON                     3          nodes 
+boolean_CONFIG_BIGINT_CRT                          3          nodes 
+boolean_CONFIG_BIGINT_KARATSUBA                    3          nodes 
+boolean_CONFIG_BIGINT_SLIDING_WINDOW               3          nodes 
+boolean_CONFIG_BIGINT_SQUARE                       3          nodes 
+boolean_CONFIG_CSHARP_BINDINGS                     3          nodes 
+boolean_CONFIG_C_SAMPLES                           3          nodes 
+boolean_CONFIG_HTTP_BUILD_LUA                      3          nodes 
+boolean_CONFIG_HTTP_DIRECTORIES                    3          nodes 
+boolean_CONFIG_HTTP_ENABLE_LUA                     3          nodes 
+boolean_CONFIG_HTTP_HAS_AUTHORIZATION              3          nodes 
+boolean_CONFIG_HTTP_STATIC_BUILD                   3          nodes 
+boolean_CONFIG_HTTP_VERBOSE                        3          nodes 
+boolean_CONFIG_JAVA_BINDINGS                       3          nodes 
+boolean_CONFIG_PERFORMANCE_TESTING                 3          nodes 
+boolean_CONFIG_PERL_BINDINGS                       3          nodes 
+boolean_CONFIG_SSL_HAS_PEM                         3          nodes 
+boolean_CONFIG_SSL_USE_DEFAULT_KEY                 3          nodes 
+boolean_CONFIG_SSL_USE_PKCS12                      3          nodes 
+boolean_CONFIG_USE_DEV_URANDOM                     3          nodes 
+boolean_CONFIG_VBNET_BINDINGS                      3          nodes 
+boolean_CONFIG_WIN32_USE_CRYPTO_LIB                3          nodes 
+int_CONFIG_SSL_MAX_CERTS_EQ_3                      3          nodes 
+string_CONFIG_SSL_X509_COMMON_NAME_EQ_OTHERVAL     3          nodes 
+string_CONFIG_SSL_X509_ORGANIZATION_NAME_EQ_OTHERVAL 3          nodes 
+string_CONFIG_SSL_X509_ORGANIZATION_UNIT_NAME_EQ_OTHERVAL 3          nodes 
+boolean_CONFIG_CSHARP_SAMPLES                      4          nodes 
+boolean_CONFIG_HTTP_ENABLE_DIFFERENT_USER          4          nodes 
+boolean_CONFIG_HTTP_HAS_CGI                        4          nodes 
+boolean_CONFIG_HTTP_HAS_IPV6                       4          nodes 
+boolean_CONFIG_HTTP_IS_DAEMON                      4          nodes 
+boolean_CONFIG_JAVA_SAMPLES                        4          nodes 
+boolean_CONFIG_LUA_BINDINGS                        4          nodes 
+boolean_CONFIG_LUA_SAMPLES                         4          nodes 
+boolean_CONFIG_PERL_SAMPLES                        4          nodes 
+boolean_CONFIG_SSL_TEST                            4          nodes 
+boolean_CONFIG_STRIP_UNWANTED_SECTIONS             4          nodes 
+boolean_CONFIG_VBNET_SAMPLES                       4          nodes 
+string_CONFIG_SSL_PRIVATE_KEY_LOCATION_EQ_OTHERVAL 4          nodes 
+string_CONFIG_SSL_PRIVATE_KEY_PASSWORD_EQ_OTHERVAL 4          nodes 
+boolean_CONFIG_PLATFORM_LINUX                      5          nodes 
+int_CONFIG_HTTP_HTTPS_PORT_EQ_443                  5          nodes 
+int_CONFIG_HTTP_PORT_EQ_80                         5          nodes 
+int_CONFIG_HTTP_SESSION_CACHE_SIZE_EQ_5            5          nodes 
+int_CONFIG_HTTP_TIMEOUT_EQ_300                     5          nodes 
+int_CONFIG_SSL_EXPIRY_TIME_EQ_24                   5          nodes 
+int_MUL_KARATSUBA_THRESH_EQ_20                     5          nodes 
+string_CONFIG_HTTP_CGI_EXTENSIONS_EQ_.lua,.lp,.php 5          nodes 
+string_CONFIG_HTTP_CGI_LAUNCHER_EQ_/usr/bin/cgi    5          nodes 
+string_CONFIG_HTTP_LUA_PREFIX_EQ_/usr              5          nodes 
+string_CONFIG_HTTP_USER_EQ_OTHERVAL                5          nodes 
+string_CONFIG_LUA_CORE_EQ_/usr/local               5          nodes 
+string_CONFIG_SSL_X509_CERT_LOCATION_EQ_OTHERVAL   5          nodes 
+string_CONFIG_VISUAL_STUDIO_10_0_BASE_EQ_OTHERVAL  5          nodes 
+string_CONFIG_VISUAL_STUDIO_7_0_BASE_EQ_OTHERVAL   5          nodes 
+string_CONFIG_VISUAL_STUDIO_8_0_BASE_EQ_OTHERVAL   5          nodes 
+string_PREFIX_EQ_/usr/local                        5          nodes 
+int_SQU_KARATSUBA_THRESH_EQ_40                     6          nodes 
+string_CONFIG_DOT_NET_FRAMEWORK_BASE_EQ_OTHERVAL   6          nodes 
+string_CONFIG_PERL_CORE_EQ_OTHERVAL                6          nodes 
+string_CONFIG_PERL_LIB_EQ_OTHERVAL                 6          nodes 
+boolean_CONFIG_BIGINT_CLASSICAL                    7          nodes 
+boolean_CONFIG_INTEGER_32BIT                       7          nodes 
+boolean_CONFIG_SSL_PROT_LOW                        7          nodes 
+boolean_CONFIG_VISUAL_STUDIO_7_0                   7          nodes 
+int_CONFIG_X509_MAX_CA_CERTS_EQ_150                7          nodes 
+string_CONFIG_HTTP_WEBROOT_EQ_../www               7          nodes 
+string_CONFIG_JAVA_HOME_EQ_/usr/lib/jvm/java-7-openjdk-amd64 7          nodes 
+boolean_CONFIG_SSL_SERVER_ONLY                     9          nodes 
+Time: 81 ms. (81 ms)

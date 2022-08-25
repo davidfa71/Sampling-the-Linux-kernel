@@ -1,0 +1,2 @@
+Logic2BDD -base coreboot-manybdds -noreorder -manybdds -score file coreboot-manybdds.ord coreboot-onebdd.var coreboot-manybdds.exp 
+Couldn't open file coreboot-onebdd.var

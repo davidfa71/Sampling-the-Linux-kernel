@@ -1,0 +1,1112 @@
+Logic2BDD -base toybox-manybdds -noreorder -manybdds -score file toybox-manybdds.ord toybox-onebdd.var toybox-manybdds.exp 
+Read 423 expressions
+293 components. Biggest 17 number of variables 342
+Build tree for variable boolean_ACPI                                                 (0) with 1     expressions 
+#boolean_ACPI
+Build tree for variable boolean_ARCH                                                 (1) with 1     expressions 
+#boolean_ARCH
+Build tree for variable boolean_ARP                                                  (2) with 1     expressions 
+#boolean_ARP
+Build tree for variable boolean_ARPING                                               (3) with 1     expressions 
+#boolean_ARPING
+Build tree for variable boolean_ASCII                                                (4) with 1     expressions 
+#boolean_ASCII
+Build tree for variable boolean_BASE32                                               (5) with 1     expressions 
+#boolean_BASE32
+Build tree for variable boolean_BASE64                                               (6) with 1     expressions 
+#boolean_BASE64
+Build tree for variable boolean_BASENAME                                             (7) with 1     expressions 
+#boolean_BASENAME
+Build tree for variable boolean_BC                                                   (8) with 1     expressions 
+#boolean_BC
+Build tree for variable boolean_BLKDISCARD                                           (9) with 1     expressions 
+#boolean_BLKDISCARD
+Build tree for variable boolean_BLKID                                                (10) with 1     expressions 
+#boolean_BLKID
+Build tree for variable boolean_BLOCKDEV                                             (11) with 1     expressions 
+#boolean_BLOCKDEV
+Build tree for variable boolean_BRCTL                                                (12) with 1     expressions 
+#boolean_BRCTL
+Build tree for variable boolean_BUNZIP2                                              (13) with 1     expressions 
+#boolean_BUNZIP2
+Build tree for variable boolean_BZCAT                                                (14) with 1     expressions 
+#boolean_BZCAT
+Build tree for variable boolean_CAL                                                  (15) with 1     expressions 
+#boolean_CAL
+Build tree for variable boolean_CAT                                                  (16) with 1     expressions 
+#boolean_CAT
+Build tree for variable boolean_CATV                                                 (17) with 1     expressions 
+#boolean_CATV
+Build tree for variable boolean_CHATTR                                               (18) with 1     expressions 
+#boolean_CHATTR
+Build tree for variable boolean_CHGRP                                                (19) with 1     expressions 
+#boolean_CHGRP
+Build tree for variable boolean_CHMOD                                                (20) with 1     expressions 
+#boolean_CHMOD
+Build tree for variable boolean_CHOWN                                                (21) with 1     expressions 
+#boolean_CHOWN
+Build tree for variable boolean_CHROOT                                               (22) with 1     expressions 
+#boolean_CHROOT
+Build tree for variable boolean_CHRT                                                 (23) with 1     expressions 
+#boolean_CHRT
+Build tree for variable boolean_CHSH                                                 (24) with 1     expressions 
+#boolean_CHSH
+Build tree for variable boolean_CHVT                                                 (25) with 1     expressions 
+#boolean_CHVT
+Build tree for variable boolean_CKSUM                                                (26) with 1     expressions 
+#boolean_CKSUM
+Build tree for variable boolean_CLEAR                                                (27) with 1     expressions 
+#boolean_CLEAR
+Build tree for variable boolean_CMP                                                  (28) with 1     expressions 
+#boolean_CMP
+Build tree for variable boolean_COMM                                                 (29) with 1     expressions 
+#boolean_COMM
+Build tree for variable boolean_COUNT                                                (30) with 1     expressions 
+#boolean_COUNT
+Build tree for variable boolean_CP                                                   (31) with 1     expressions 
+#boolean_CP
+Build tree for variable boolean_CPIO                                                 (32) with 1     expressions 
+#boolean_CPIO
+Build tree for variable boolean_CRC32                                                (33) with 1     expressions 
+#boolean_CRC32
+Build tree for variable boolean_CROND                                                (34) with 1     expressions 
+#boolean_CROND
+Build tree for variable boolean_CUT                                                  (35) with 1     expressions 
+#boolean_CUT
+Build tree for variable boolean_DATE                                                 (36) with 1     expressions 
+#boolean_DATE
+Build tree for variable boolean_DD                                                   (37) with 1     expressions 
+#boolean_DD
+Build tree for variable boolean_DEALLOCVT                                            (38) with 1     expressions 
+#boolean_DEALLOCVT
+Build tree for variable boolean_DEMO_MANY_OPTIONS                                    (39) with 1     expressions 
+#boolean_DEMO_MANY_OPTIONS
+Build tree for variable boolean_DEMO_NUMBER                                          (40) with 1     expressions 
+#boolean_DEMO_NUMBER
+Build tree for variable boolean_DEMO_SCANKEY                                         (41) with 1     expressions 
+#boolean_DEMO_SCANKEY
+Build tree for variable boolean_DEMO_UTF8TOWC                                        (42) with 1     expressions 
+#boolean_DEMO_UTF8TOWC
+Build tree for variable boolean_DEVMEM                                               (43) with 1     expressions 
+#boolean_DEVMEM
+Build tree for variable boolean_DF                                                   (44) with 1     expressions 
+#boolean_DF
+Build tree for variable boolean_DHCP                                                 (45) with 1     expressions 
+#boolean_DHCP
+Build tree for variable boolean_DHCP6                                                (46) with 1     expressions 
+#boolean_DHCP6
+Build tree for variable boolean_DHCPD                                                (47) with 1     expressions 
+#boolean_DHCPD
+Build tree for variable boolean_DIFF                                                 (48) with 1     expressions 
+#boolean_DIFF
+Build tree for variable boolean_DIRNAME                                              (49) with 1     expressions 
+#boolean_DIRNAME
+Build tree for variable boolean_DMESG                                                (50) with 1     expressions 
+#boolean_DMESG
+Build tree for variable boolean_DNSDOMAINNAME                                        (51) with 1     expressions 
+#boolean_DNSDOMAINNAME
+Build tree for variable boolean_DOS2UNIX                                             (52) with 1     expressions 
+#boolean_DOS2UNIX
+Build tree for variable boolean_DU                                                   (53) with 1     expressions 
+#boolean_DU
+Build tree for variable boolean_DUMPLEASES                                           (54) with 1     expressions 
+#boolean_DUMPLEASES
+Build tree for variable boolean_ECHO                                                 (55) with 1     expressions 
+#boolean_ECHO
+Build tree for variable boolean_EJECT                                                (56) with 1     expressions 
+#boolean_EJECT
+Build tree for variable boolean_ENV                                                  (57) with 1     expressions 
+#boolean_ENV
+Build tree for variable boolean_EXPAND                                               (58) with 1     expressions 
+#boolean_EXPAND
+Build tree for variable boolean_EXPR                                                 (59) with 1     expressions 
+#boolean_EXPR
+Build tree for variable boolean_FACTOR                                               (60) with 1     expressions 
+#boolean_FACTOR
+Build tree for variable boolean_FALLOCATE                                            (61) with 1     expressions 
+#boolean_FALLOCATE
+Build tree for variable boolean_FALSE                                                (62) with 1     expressions 
+#boolean_FALSE
+Build tree for variable boolean_FDISK                                                (63) with 1     expressions 
+#boolean_FDISK
+Build tree for variable boolean_FILE                                                 (64) with 1     expressions 
+#boolean_FILE
+Build tree for variable boolean_FIND                                                 (65) with 1     expressions 
+#boolean_FIND
+Build tree for variable boolean_FLOCK                                                (66) with 1     expressions 
+#boolean_FLOCK
+Build tree for variable boolean_FMT                                                  (67) with 1     expressions 
+#boolean_FMT
+Build tree for variable boolean_FOLD                                                 (68) with 1     expressions 
+#boolean_FOLD
+Build tree for variable boolean_FREE                                                 (69) with 1     expressions 
+#boolean_FREE
+Build tree for variable boolean_FREERAMDISK                                          (70) with 1     expressions 
+#boolean_FREERAMDISK
+Build tree for variable boolean_FSCK                                                 (71) with 1     expressions 
+#boolean_FSCK
+Build tree for variable boolean_FSTYPE                                               (72) with 1     expressions 
+#boolean_FSTYPE
+Build tree for variable boolean_FSYNC                                                (73) with 1     expressions 
+#boolean_FSYNC
+Build tree for variable boolean_FTPGET                                               (74) with 1     expressions 
+#boolean_FTPGET
+Build tree for variable boolean_FTPPUT                                               (75) with 1     expressions 
+#boolean_FTPPUT
+Build tree for variable boolean_GETCONF                                              (76) with 1     expressions 
+#boolean_GETCONF
+Build tree for variable boolean_GETFATTR                                             (77) with 1     expressions 
+#boolean_GETFATTR
+Build tree for variable boolean_GETOPT                                               (78) with 1     expressions 
+#boolean_GETOPT
+Build tree for variable boolean_GETTY                                                (79) with 1     expressions 
+#boolean_GETTY
+Build tree for variable boolean_GREP                                                 (80) with 1     expressions 
+#boolean_GREP
+Build tree for variable boolean_GROUPADD                                             (81) with 1     expressions 
+#boolean_GROUPADD
+Build tree for variable boolean_GROUPDEL                                             (82) with 1     expressions 
+#boolean_GROUPDEL
+Build tree for variable boolean_GROUPS                                               (83) with 1     expressions 
+#boolean_GROUPS
+Build tree for variable boolean_GUNZIP                                               (84) with 1     expressions 
+#boolean_GUNZIP
+Build tree for variable boolean_GZIP                                                 (85) with 1     expressions 
+#boolean_GZIP
+Build tree for variable boolean_HEAD                                                 (86) with 1     expressions 
+#boolean_HEAD
+Build tree for variable boolean_HELLO                                                (87) with 1     expressions 
+#boolean_HELLO
+Build tree for variable boolean_HEXEDIT                                              (88) with 1     expressions 
+#boolean_HEXEDIT
+Build tree for variable boolean_HOST                                                 (89) with 1     expressions 
+#boolean_HOST
+Build tree for variable boolean_HOSTID                                               (90) with 1     expressions 
+#boolean_HOSTID
+Build tree for variable boolean_HOSTNAME                                             (91) with 1     expressions 
+#boolean_HOSTNAME
+Build tree for variable boolean_HWCLOCK                                              (92) with 1     expressions 
+#boolean_HWCLOCK
+Build tree for variable boolean_I2CDETECT                                            (93) with 1     expressions 
+#boolean_I2CDETECT
+Build tree for variable boolean_I2CDUMP                                              (94) with 1     expressions 
+#boolean_I2CDUMP
+Build tree for variable boolean_I2CGET                                               (95) with 1     expressions 
+#boolean_I2CGET
+Build tree for variable boolean_I2CSET                                               (96) with 1     expressions 
+#boolean_I2CSET
+Build tree for variable boolean_ID                                                   (97) with 1     expressions 
+#boolean_ID
+Build tree for variable boolean_IFCONFIG                                             (98) with 1     expressions 
+#boolean_IFCONFIG
+Build tree for variable boolean_INIT                                                 (99) with 1     expressions 
+#boolean_INIT
+Build tree for variable boolean_INOTIFYD                                             (100) with 1     expressions 
+#boolean_INOTIFYD
+Build tree for variable boolean_INSMOD                                               (101) with 1     expressions 
+#boolean_INSMOD
+Build tree for variable boolean_INSTALL                                              (102) with 1     expressions 
+#boolean_INSTALL
+Build tree for variable boolean_IONICE                                               (103) with 1     expressions 
+#boolean_IONICE
+Build tree for variable boolean_IORENICE                                             (104) with 1     expressions 
+#boolean_IORENICE
+Build tree for variable boolean_IOTOP                                                (105) with 1     expressions 
+#boolean_IOTOP
+Build tree for variable boolean_IP                                                   (106) with 1     expressions 
+#boolean_IP
+Build tree for variable boolean_IPCRM                                                (107) with 1     expressions 
+#boolean_IPCRM
+Build tree for variable boolean_IPCS                                                 (108) with 1     expressions 
+#boolean_IPCS
+Build tree for variable boolean_KILL                                                 (109) with 1     expressions 
+#boolean_KILL
+Build tree for variable boolean_KILLALL                                              (110) with 1     expressions 
+#boolean_KILLALL
+Build tree for variable boolean_KLOGD                                                (111) with 1     expressions 
+#boolean_KLOGD
+Build tree for variable boolean_LAST                                                 (112) with 1     expressions 
+#boolean_LAST
+Build tree for variable boolean_LINK                                                 (113) with 1     expressions 
+#boolean_LINK
+Build tree for variable boolean_LN                                                   (114) with 1     expressions 
+#boolean_LN
+Build tree for variable boolean_LOGGER                                               (115) with 1     expressions 
+#boolean_LOGGER
+Build tree for variable boolean_LOGNAME                                              (116) with 1     expressions 
+#boolean_LOGNAME
+Build tree for variable boolean_LOGWRAPPER                                           (117) with 1     expressions 
+#boolean_LOGWRAPPER
+Build tree for variable boolean_LOSETUP                                              (118) with 1     expressions 
+#boolean_LOSETUP
+Build tree for variable boolean_LS                                                   (119) with 1     expressions 
+#boolean_LS
+Build tree for variable boolean_LSATTR                                               (120) with 1     expressions 
+#boolean_LSATTR
+Build tree for variable boolean_LSMOD                                                (121) with 1     expressions 
+#boolean_LSMOD
+Build tree for variable boolean_LSOF                                                 (122) with 1     expressions 
+#boolean_LSOF
+Build tree for variable boolean_LSPCI                                                (123) with 1     expressions 
+#boolean_LSPCI
+Build tree for variable boolean_LSUSB                                                (124) with 1     expressions 
+#boolean_LSUSB
+Build tree for variable boolean_MAKEDEVS                                             (125) with 1     expressions 
+#boolean_MAKEDEVS
+Build tree for variable boolean_MAN                                                  (126) with 1     expressions 
+#boolean_MAN
+Build tree for variable boolean_MCOOKIE                                              (127) with 1     expressions 
+#boolean_MCOOKIE
+Build tree for variable boolean_MD5SUM                                               (128) with 1     expressions 
+#boolean_MD5SUM
+Build tree for variable boolean_MDEV                                                 (129) with 1     expressions 
+#boolean_MDEV
+Build tree for variable boolean_MICROCOM                                             (130) with 1     expressions 
+#boolean_MICROCOM
+Build tree for variable boolean_MIX                                                  (131) with 1     expressions 
+#boolean_MIX
+Build tree for variable boolean_MKDIR                                                (132) with 1     expressions 
+#boolean_MKDIR
+Build tree for variable boolean_MKE2FS                                               (133) with 1     expressions 
+#boolean_MKE2FS
+Build tree for variable boolean_MKFIFO                                               (134) with 1     expressions 
+#boolean_MKFIFO
+Build tree for variable boolean_MKNOD                                                (135) with 1     expressions 
+#boolean_MKNOD
+Build tree for variable boolean_MKSWAP                                               (136) with 1     expressions 
+#boolean_MKSWAP
+Build tree for variable boolean_MKTEMP                                               (137) with 1     expressions 
+#boolean_MKTEMP
+Build tree for variable boolean_MODINFO                                              (138) with 1     expressions 
+#boolean_MODINFO
+Build tree for variable boolean_MODPROBE                                             (139) with 1     expressions 
+#boolean_MODPROBE
+Build tree for variable boolean_MORE                                                 (140) with 1     expressions 
+#boolean_MORE
+Build tree for variable boolean_MOUNT                                                (141) with 1     expressions 
+#boolean_MOUNT
+Build tree for variable boolean_MOUNTPOINT                                           (142) with 1     expressions 
+#boolean_MOUNTPOINT
+Build tree for variable boolean_MV                                                   (143) with 1     expressions 
+#boolean_MV
+Build tree for variable boolean_NETCAT                                               (144) with 1     expressions 
+#boolean_NETCAT
+Build tree for variable boolean_NETSTAT                                              (145) with 1     expressions 
+#boolean_NETSTAT
+Build tree for variable boolean_NICE                                                 (146) with 1     expressions 
+#boolean_NICE
+Build tree for variable boolean_NL                                                   (147) with 1     expressions 
+#boolean_NL
+Build tree for variable boolean_NOHUP                                                (148) with 1     expressions 
+#boolean_NOHUP
+Build tree for variable boolean_NPROC                                                (149) with 1     expressions 
+#boolean_NPROC
+Build tree for variable boolean_OD                                                   (150) with 1     expressions 
+#boolean_OD
+Build tree for variable boolean_ONEIT                                                (151) with 1     expressions 
+#boolean_ONEIT
+Build tree for variable boolean_PARTPROBE                                            (152) with 1     expressions 
+#boolean_PARTPROBE
+Build tree for variable boolean_PASTE                                                (153) with 1     expressions 
+#boolean_PASTE
+Build tree for variable boolean_PATCH                                                (154) with 1     expressions 
+#boolean_PATCH
+Build tree for variable boolean_PGREP                                                (155) with 1     expressions 
+#boolean_PGREP
+Build tree for variable boolean_PIDOF                                                (156) with 1     expressions 
+#boolean_PIDOF
+Build tree for variable boolean_PING                                                 (157) with 1     expressions 
+#boolean_PING
+Build tree for variable boolean_PIVOT_ROOT                                           (158) with 1     expressions 
+#boolean_PIVOT_ROOT
+Build tree for variable boolean_PKILL                                                (159) with 1     expressions 
+#boolean_PKILL
+Build tree for variable boolean_PMAP                                                 (160) with 1     expressions 
+#boolean_PMAP
+Build tree for variable boolean_PRINTENV                                             (161) with 1     expressions 
+#boolean_PRINTENV
+Build tree for variable boolean_PRINTF                                               (162) with 1     expressions 
+#boolean_PRINTF
+Build tree for variable boolean_PS                                                   (163) with 1     expressions 
+#boolean_PS
+Build tree for variable boolean_PWD                                                  (164) with 1     expressions 
+#boolean_PWD
+Build tree for variable boolean_PWDX                                                 (165) with 1     expressions 
+#boolean_PWDX
+Build tree for variable boolean_PWGEN                                                (166) with 1     expressions 
+#boolean_PWGEN
+Build tree for variable boolean_READAHEAD                                            (167) with 1     expressions 
+#boolean_READAHEAD
+Build tree for variable boolean_READELF                                              (168) with 1     expressions 
+#boolean_READELF
+Build tree for variable boolean_READLINK                                             (169) with 1     expressions 
+#boolean_READLINK
+Build tree for variable boolean_REALPATH                                             (170) with 1     expressions 
+#boolean_REALPATH
+Build tree for variable boolean_REBOOT                                               (171) with 1     expressions 
+#boolean_REBOOT
+Build tree for variable boolean_RENICE                                               (172) with 1     expressions 
+#boolean_RENICE
+Build tree for variable boolean_RESET                                                (173) with 1     expressions 
+#boolean_RESET
+Build tree for variable boolean_REV                                                  (174) with 1     expressions 
+#boolean_REV
+Build tree for variable boolean_RFKILL                                               (175) with 1     expressions 
+#boolean_RFKILL
+Build tree for variable boolean_RM                                                   (176) with 1     expressions 
+#boolean_RM
+Build tree for variable boolean_RMDIR                                                (177) with 1     expressions 
+#boolean_RMDIR
+Build tree for variable boolean_RMMOD                                                (178) with 1     expressions 
+#boolean_RMMOD
+Build tree for variable boolean_ROUTE                                                (179) with 1     expressions 
+#boolean_ROUTE
+Build tree for variable boolean_RTCWAKE                                              (180) with 1     expressions 
+#boolean_RTCWAKE
+Build tree for variable boolean_SED                                                  (181) with 1     expressions 
+#boolean_SED
+Build tree for variable boolean_SETFATTR                                             (182) with 1     expressions 
+#boolean_SETFATTR
+Build tree for variable boolean_SETSID                                               (183) with 1     expressions 
+#boolean_SETSID
+Build tree for variable boolean_SH                                                   (184) with 1     expressions 
+#boolean_SH
+Build tree for variable boolean_SHA1SUM                                              (185) with 1     expressions 
+#boolean_SHA1SUM
+Build tree for variable boolean_SHA3SUM                                              (186) with 1     expressions 
+#boolean_SHA3SUM
+Build tree for variable boolean_SHRED                                                (187) with 1     expressions 
+#boolean_SHRED
+Build tree for variable boolean_SKELETON                                             (188) with 1     expressions 
+#boolean_SKELETON
+Build tree for variable boolean_SKELETON_ALIAS                                       (189) with 1     expressions 
+#boolean_SKELETON_ALIAS
+Build tree for variable boolean_SLEEP                                                (190) with 1     expressions 
+#boolean_SLEEP
+Build tree for variable boolean_SNTP                                                 (191) with 1     expressions 
+#boolean_SNTP
+Build tree for variable boolean_SORT                                                 (192) with 1     expressions 
+#boolean_SORT
+Build tree for variable boolean_SPLIT                                                (193) with 1     expressions 
+#boolean_SPLIT
+Build tree for variable boolean_STAT                                                 (194) with 1     expressions 
+#boolean_STAT
+Build tree for variable boolean_STRINGS                                              (195) with 1     expressions 
+#boolean_STRINGS
+Build tree for variable boolean_STTY                                                 (196) with 1     expressions 
+#boolean_STTY
+Build tree for variable boolean_SWAPOFF                                              (197) with 1     expressions 
+#boolean_SWAPOFF
+Build tree for variable boolean_SWAPON                                               (198) with 1     expressions 
+#boolean_SWAPON
+Build tree for variable boolean_SWITCH_ROOT                                          (199) with 1     expressions 
+#boolean_SWITCH_ROOT
+Build tree for variable boolean_SYNC                                                 (200) with 1     expressions 
+#boolean_SYNC
+Build tree for variable boolean_SYSCTL                                               (201) with 1     expressions 
+#boolean_SYSCTL
+Build tree for variable boolean_SYSLOGD                                              (202) with 1     expressions 
+#boolean_SYSLOGD
+Build tree for variable boolean_TAC                                                  (203) with 1     expressions 
+#boolean_TAC
+Build tree for variable boolean_TAIL                                                 (204) with 1     expressions 
+#boolean_TAIL
+Build tree for variable boolean_TAR                                                  (205) with 1     expressions 
+#boolean_TAR
+Build tree for variable boolean_TASKSET                                              (206) with 1     expressions 
+#boolean_TASKSET
+Build tree for variable boolean_TEE                                                  (207) with 1     expressions 
+#boolean_TEE
+Build tree for variable boolean_TELNET                                               (208) with 1     expressions 
+#boolean_TELNET
+Build tree for variable boolean_TELNETD                                              (209) with 1     expressions 
+#boolean_TELNETD
+Build tree for variable boolean_TEST                                                 (210) with 1     expressions 
+#boolean_TEST
+Build tree for variable boolean_TFTP                                                 (211) with 1     expressions 
+#boolean_TFTP
+Build tree for variable boolean_TFTPD                                                (212) with 1     expressions 
+#boolean_TFTPD
+Build tree for variable boolean_TIMEOUT                                              (213) with 1     expressions 
+#boolean_TIMEOUT
+Build tree for variable boolean_TOP                                                  (214) with 1     expressions 
+#boolean_TOP
+Build tree for variable boolean_TOUCH                                                (215) with 1     expressions 
+#boolean_TOUCH
+Build tree for variable boolean_TOYBOX_CONTAINER                                     (216) with 2     expressions 
+#boolean_TOYBOX_CONTAINER
+[08:31:00] Cnstr #     2 100% [     0] : boolean_TOYBOX_CONTAINER                                     Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_TOYBOX_DEBUG                                         (217) with 1     expressions 
+#boolean_TOYBOX_DEBUG
+Build tree for variable boolean_TOYBOX_FIFREEZE                                      (218) with 2     expressions 
+#boolean_TOYBOX_FIFREEZE
+[08:31:00] Cnstr #     2 100% [     0] : boolean_TOYBOX_FIFREEZE                                      Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_TOYBOX_FLOAT                                         (219) with 1     expressions 
+#boolean_TOYBOX_FLOAT
+Build tree for variable boolean_TOYBOX_FORCE_NOMMU                                   (220) with 1     expressions 
+#boolean_TOYBOX_FORCE_NOMMU
+Build tree for variable boolean_TOYBOX_FREE                                          (221) with 1     expressions 
+#boolean_TOYBOX_FREE
+Build tree for variable boolean_TOYBOX_HELP                                          (222) with 1     expressions 
+#boolean_TOYBOX_HELP
+Build tree for variable boolean_TOYBOX_ICONV                                         (223) with 2     expressions 
+#boolean_TOYBOX_ICONV
+[08:31:00] Cnstr #     2 100% [     0] : boolean_TOYBOX_ICONV                                         Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_TOYBOX_LIBCRYPTO                                     (224) with 1     expressions 
+#boolean_TOYBOX_LIBCRYPTO
+Build tree for variable boolean_TOYBOX_LIBZ                                          (225) with 1     expressions 
+#boolean_TOYBOX_LIBZ
+Build tree for variable boolean_TOYBOX_NORECURSE                                     (226) with 1     expressions 
+#boolean_TOYBOX_NORECURSE
+Build tree for variable boolean_TOYBOX_ON_ANDROID                                    (227) with 2     expressions 
+#boolean_TOYBOX_ON_ANDROID
+[08:31:00] Cnstr #     2 100% [     0] : not boolean_TOYBOX_ON_ANDROID                                Nodes        2           1 ms. total           1 ms.
+Build tree for variable boolean_TOYBOX_PEDANTIC_ARGS                                 (228) with 1     expressions 
+#boolean_TOYBOX_PEDANTIC_ARGS
+Build tree for variable boolean_TOYBOX_PRLIMIT                                       (229) with 2     expressions 
+#boolean_TOYBOX_PRLIMIT
+[08:31:00] Cnstr #     2 100% [     0] : boolean_TOYBOX_PRLIMIT                                       Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_TOYBOX_SHADOW                                        (230) with 2     expressions 
+#boolean_TOYBOX_SHADOW
+[08:31:00] Cnstr #     2 100% [     0] : boolean_TOYBOX_SHADOW                                        Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_TOYBOX_SUID                                          (231) with 1     expressions 
+#boolean_TOYBOX_SUID
+Build tree for variable boolean_TOYBOX_UTMPX                                         (232) with 2     expressions 
+#boolean_TOYBOX_UTMPX
+[08:31:00] Cnstr #     2 100% [     0] : boolean_TOYBOX_UTMPX                                         Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_TR                                                   (233) with 1     expressions 
+#boolean_TR
+Build tree for variable boolean_TRACEROUTE                                           (234) with 1     expressions 
+#boolean_TRACEROUTE
+Build tree for variable boolean_TRUE                                                 (235) with 1     expressions 
+#boolean_TRUE
+Build tree for variable boolean_TRUNCATE                                             (236) with 1     expressions 
+#boolean_TRUNCATE
+Build tree for variable boolean_TTY                                                  (237) with 1     expressions 
+#boolean_TTY
+Build tree for variable boolean_TUNCTL                                               (238) with 1     expressions 
+#boolean_TUNCTL
+Build tree for variable boolean_UMOUNT                                               (239) with 1     expressions 
+#boolean_UMOUNT
+Build tree for variable boolean_UNAME                                                (240) with 1     expressions 
+#boolean_UNAME
+Build tree for variable boolean_UNICODE                                              (241) with 1     expressions 
+#boolean_UNICODE
+Build tree for variable boolean_UNIQ                                                 (242) with 1     expressions 
+#boolean_UNIQ
+Build tree for variable boolean_UNIX2DOS                                             (243) with 1     expressions 
+#boolean_UNIX2DOS
+Build tree for variable boolean_UNLINK                                               (244) with 1     expressions 
+#boolean_UNLINK
+Build tree for variable boolean_USERADD                                              (245) with 1     expressions 
+#boolean_USERADD
+Build tree for variable boolean_USERDEL                                              (246) with 1     expressions 
+#boolean_USERDEL
+Build tree for variable boolean_USLEEP                                               (247) with 1     expressions 
+#boolean_USLEEP
+Build tree for variable boolean_UUDECODE                                             (248) with 1     expressions 
+#boolean_UUDECODE
+Build tree for variable boolean_UUENCODE                                             (249) with 1     expressions 
+#boolean_UUENCODE
+Build tree for variable boolean_UUIDGEN                                              (250) with 1     expressions 
+#boolean_UUIDGEN
+Build tree for variable boolean_VCONFIG                                              (251) with 1     expressions 
+#boolean_VCONFIG
+Build tree for variable boolean_VI                                                   (252) with 1     expressions 
+#boolean_VI
+Build tree for variable boolean_VMSTAT                                               (253) with 1     expressions 
+#boolean_VMSTAT
+Build tree for variable boolean_WATCH                                                (254) with 1     expressions 
+#boolean_WATCH
+Build tree for variable boolean_WATCHDOG                                             (255) with 1     expressions 
+#boolean_WATCHDOG
+Build tree for variable boolean_WC                                                   (256) with 1     expressions 
+#boolean_WC
+Build tree for variable boolean_WGET                                                 (257) with 1     expressions 
+#boolean_WGET
+Build tree for variable boolean_WHICH                                                (258) with 1     expressions 
+#boolean_WHICH
+Build tree for variable boolean_WHOAMI                                               (259) with 1     expressions 
+#boolean_WHOAMI
+Build tree for variable boolean_XARGS                                                (260) with 1     expressions 
+#boolean_XARGS
+Build tree for variable boolean_XXD                                                  (261) with 1     expressions 
+#boolean_XXD
+Build tree for variable boolean_XZCAT                                                (262) with 1     expressions 
+#boolean_XZCAT
+Build tree for variable boolean_YES                                                  (263) with 1     expressions 
+#boolean_YES
+Build tree for variable boolean_ZCAT                                                 (264) with 1     expressions 
+#boolean_ZCAT
+Build tree for variable boolean_TOYBOX_LSM_NONE                                      (265) with 8     expressions 
+#boolean_TOYBOX_LSM_NONE
+[08:31:01] Cnstr #     2  25% [     1] : not boolean_TOYBOX_SELINUX or not boolean_TOYBOX_SMACK       Nodes        3           0 ms. total           1 ms.
+[08:31:01] Cnstr #     3  37% [     2] : not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SMACK      Nodes        4           0 ms. total           1 ms.
+[08:31:01] Cnstr #     4  50% [     1] : not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SELINUX    Nodes        5           0 ms. total           1 ms.
+[08:31:01] Cnstr #     5  62% [     1] : not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SELINUX    Nodes        5           0 ms. total           1 ms.
+[08:31:01] Cnstr #     6  75% [     2] : not boolean_TOYBOX_LSM_NONE or not boolean_TOYBOX_SMACK      Nodes        5           0 ms. total           1 ms.
+[08:31:01] Cnstr #     7  87% [     1] : not boolean_TOYBOX_SELINUX or not boolean_TOYBOX_SMACK       Nodes        5           0 ms. total           1 ms.
+[08:31:01] Cnstr #     8 100% [     2] : boolean_TOYBOX_LSM_NONE or boolean_TOYBOX_SELINUX or boolean_TOYBOX_SMACK
+                                                                                                      Nodes        5           0 ms. total           1 ms.
+Build tree for variable int_TOYBOX_UID_SYS_EQ_100                                    (266) with 3     expressions 
+#int_TOYBOX_UID_SYS_EQ_100
+[08:31:01] Cnstr #     2  66% [     1] : not int_TOYBOX_UID_SYS_EQ_OTHERVAL or not int_TOYBOX_UID_SYS_EQ_100
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:31:01] Cnstr #     3 100% [     1] : int_TOYBOX_UID_SYS_EQ_100 or int_TOYBOX_UID_SYS_EQ_OTHERVAL  Nodes        3           0 ms. total           0 ms.
+Build tree for variable int_TOYBOX_UID_USR_EQ_500                                    (267) with 3     expressions 
+#int_TOYBOX_UID_USR_EQ_500
+[08:31:01] Cnstr #     2  66% [     1] : not int_TOYBOX_UID_USR_EQ_OTHERVAL or not int_TOYBOX_UID_USR_EQ_500
+                                                                                                      Nodes        3           0 ms. total           0 ms.
+[08:31:01] Cnstr #     3 100% [     1] : int_TOYBOX_UID_USR_EQ_500 or int_TOYBOX_UID_USR_EQ_OTHERVAL  Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CAT_V                                                (268) with 2     expressions 
+#boolean_CAT_V
+[08:31:01] Cnstr #     2 100% [   256] : boolean_CAT_V -> boolean_CAT                                 Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CHCON                                                (269) with 2     expressions 
+#boolean_CHCON
+[08:31:01] Cnstr #     2 100% [     7] : boolean_CHCON -> boolean_TOYBOX_SELINUX                      Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_DEBUG_DHCP                                           (270) with 2     expressions 
+#boolean_DEBUG_DHCP
+[08:31:01] Cnstr #     2 100% [   227] : boolean_DEBUG_DHCP -> boolean_DHCPD                          Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_FSFREEZE                                             (271) with 1     expressions 
+#boolean_FSFREEZE
+Build tree for variable boolean_GETENFORCE                                           (272) with 2     expressions 
+#boolean_GETENFORCE
+[08:31:01] Cnstr #     2 100% [    10] : boolean_GETENFORCE -> boolean_TOYBOX_SELINUX                 Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_HELP                                                 (273) with 2     expressions 
+#boolean_HELP
+[08:31:01] Cnstr #     2 100% [    55] : boolean_HELP -> boolean_TOYBOX_HELP                          Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_ICONV                                                (274) with 1     expressions 
+#boolean_ICONV
+Build tree for variable boolean_KILLALL5                                             (275) with 2     expressions 
+#boolean_KILLALL5
+[08:31:01] Cnstr #     2 100% [   170] : boolean_KILLALL5 -> boolean_KILL                             Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_KLOGD_SOURCE_RING_BUFFER                             (276) with 2     expressions 
+#boolean_KLOGD_SOURCE_RING_BUFFER
+[08:31:01] Cnstr #     2 100% [   169] : boolean_KLOGD_SOURCE_RING_BUFFER -> boolean_KLOGD            Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_LOAD_POLICY                                          (277) with 2     expressions 
+#boolean_LOAD_POLICY
+[08:31:01] Cnstr #     2 100% [    15] : boolean_LOAD_POLICY -> boolean_TOYBOX_SELINUX                Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_LOG                                                  (278) with 2     expressions 
+#boolean_LOG
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_LOG                                              Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_LOGIN                                                (279) with 1     expressions 
+#boolean_LOGIN
+Build tree for variable boolean_LSPCI_TEXT                                           (280) with 2     expressions 
+#boolean_LSPCI_TEXT
+[08:31:01] Cnstr #     2 100% [   161] : boolean_LSPCI_TEXT -> boolean_LSPCI                          Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_MDEV_CONF                                            (281) with 2     expressions 
+#boolean_MDEV_CONF
+[08:31:01] Cnstr #     2 100% [   156] : boolean_MDEV_CONF -> boolean_MDEV                            Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_MKE2FS_EXTENDED                                      (282) with 2     expressions 
+#boolean_MKE2FS_EXTENDED
+[08:31:01] Cnstr #     2 100% [   153] : boolean_MKE2FS_EXTENDED -> boolean_MKE2FS                    Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_MKE2FS_GEN                                           (283) with 2     expressions 
+#boolean_MKE2FS_GEN
+[08:31:01] Cnstr #     2 100% [   154] : boolean_MKE2FS_GEN -> boolean_MKE2FS                         Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_MKE2FS_JOURNAL                                       (284) with 2     expressions 
+#boolean_MKE2FS_JOURNAL
+[08:31:01] Cnstr #     2 100% [   155] : boolean_MKE2FS_JOURNAL -> boolean_MKE2FS                     Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_MKE2FS_LABEL                                         (285) with 2     expressions 
+#boolean_MKE2FS_LABEL
+[08:31:01] Cnstr #     2 100% [   156] : boolean_MKE2FS_LABEL -> boolean_MKE2FS                       Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_MKPASSWD                                             (286) with 1     expressions 
+#boolean_MKPASSWD
+Build tree for variable boolean_NETCAT_LISTEN                                        (287) with 2     expressions 
+#boolean_NETCAT_LISTEN
+[08:31:01] Cnstr #     2 100% [   147] : boolean_NETCAT_LISTEN -> boolean_NETCAT                      Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_NSENTER                                              (288) with 1     expressions 
+#boolean_NSENTER
+Build tree for variable boolean_PASSWD                                               (289) with 1     expressions 
+#boolean_PASSWD
+Build tree for variable boolean_RESTORECON                                           (290) with 2     expressions 
+#boolean_RESTORECON
+[08:31:01] Cnstr #     2 100% [    28] : boolean_RESTORECON -> boolean_TOYBOX_SELINUX                 Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_RUNCON                                               (291) with 2     expressions 
+#boolean_RUNCON
+[08:31:01] Cnstr #     2 100% [    29] : boolean_RUNCON -> boolean_TOYBOX_SELINUX                     Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_SENDEVENT                                            (292) with 2     expressions 
+#boolean_SENDEVENT
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_SENDEVENT                                        Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_SEQ                                                  (293) with 2     expressions 
+#boolean_SEQ
+[08:31:01] Cnstr #     2 100% [    78] : boolean_SEQ -> boolean_TOYBOX_FLOAT                          Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_SETENFORCE                                           (294) with 2     expressions 
+#boolean_SETENFORCE
+[08:31:01] Cnstr #     2 100% [    32] : boolean_SETENFORCE -> boolean_TOYBOX_SELINUX                 Nodes        3           1 ms. total           1 ms.
+Build tree for variable boolean_SHA224SUM                                            (295) with 2     expressions 
+#boolean_SHA224SUM
+[08:31:01] Cnstr #     2 100% [    75] : boolean_SHA224SUM -> boolean_TOYBOX_LIBCRYPTO                Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_SHA256SUM                                            (296) with 2     expressions 
+#boolean_SHA256SUM
+[08:31:01] Cnstr #     2 100% [    76] : boolean_SHA256SUM -> boolean_TOYBOX_LIBCRYPTO                Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_SHA384SUM                                            (297) with 2     expressions 
+#boolean_SHA384SUM
+[08:31:01] Cnstr #     2 100% [    77] : boolean_SHA384SUM -> boolean_TOYBOX_LIBCRYPTO                Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_SHA512SUM                                            (298) with 2     expressions 
+#boolean_SHA512SUM
+[08:31:01] Cnstr #     2 100% [    78] : boolean_SHA512SUM -> boolean_TOYBOX_LIBCRYPTO                Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_SU                                                   (299) with 1     expressions 
+#boolean_SU
+Build tree for variable boolean_SULOGIN                                              (300) with 1     expressions 
+#boolean_SULOGIN
+Build tree for variable boolean_TIME                                                 (301) with 2     expressions 
+#boolean_TIME
+[08:31:01] Cnstr #     2 100% [    86] : boolean_TIME -> boolean_TOYBOX_FLOAT                         Nodes        3           1 ms. total           1 ms.
+Build tree for variable boolean_TOYBOX_FORK                                          (302) with 3     expressions 
+#boolean_TOYBOX_FORK
+[08:31:01] Cnstr #     2  66% [    86] : not boolean_TOYBOX_FORCE_NOMMU -> boolean_TOYBOX_FORK        Nodes        3           0 ms. total           0 ms.
+[08:31:01] Cnstr #     3 100% [    86] : boolean_TOYBOX_FORCE_NOMMU -> not boolean_TOYBOX_FORK        Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_TOYBOX_HELP_DASHDASH                                 (303) with 2     expressions 
+#boolean_TOYBOX_HELP_DASHDASH
+[08:31:01] Cnstr #     2 100% [    85] : boolean_TOYBOX_HELP_DASHDASH -> boolean_TOYBOX_HELP          Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_ULIMIT                                               (304) with 1     expressions 
+#boolean_ULIMIT
+Build tree for variable boolean_UNSHARE                                              (305) with 1     expressions 
+#boolean_UNSHARE
+Build tree for variable boolean_UPTIME                                               (306) with 1     expressions 
+#boolean_UPTIME
+Build tree for variable boolean_W                                                    (307) with 1     expressions 
+#boolean_W
+Build tree for variable boolean_WHO                                                  (308) with 1     expressions 
+#boolean_WHO
+Build tree for variable boolean_BOOTCHARTD                                           (309) with 2     expressions 
+#boolean_BOOTCHARTD
+[08:31:01] Cnstr #     2 100% [     7] : boolean_BOOTCHARTD -> boolean_TOYBOX_FORK                    Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_CRONTAB                                              (310) with 2     expressions 
+#boolean_CRONTAB
+[08:31:01] Cnstr #     2 100% [     8] : boolean_CRONTAB -> boolean_TOYBOX_FORK                       Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_NBD_CLIENT                                           (311) with 2     expressions 
+#boolean_NBD_CLIENT
+[08:31:01] Cnstr #     2 100% [     9] : boolean_NBD_CLIENT -> boolean_TOYBOX_FORK                    Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_OPENVT                                               (312) with 2     expressions 
+#boolean_OPENVT
+[08:31:01] Cnstr #     2 100% [    10] : boolean_OPENVT -> boolean_TOYBOX_FORK                        Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_PASSWD_SAD                                           (313) with 2     expressions 
+#boolean_PASSWD_SAD
+[08:31:01] Cnstr #     2 100% [    24] : boolean_PASSWD_SAD -> boolean_PASSWD                         Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_TCPSVD                                               (314) with 2     expressions 
+#boolean_TCPSVD
+[08:31:01] Cnstr #     2 100% [    12] : boolean_TCPSVD -> boolean_TOYBOX_FORK                        Nodes        3           1 ms. total           1 ms.
+Build tree for variable boolean_TOYBOX                                               (315) with 2     expressions 
+#boolean_TOYBOX
+[08:31:01] Cnstr #     2 100% [     0] : boolean_TOYBOX                                               Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_TOYBOX_ANDROID_SCHEDPOLICY                           (316) with 2     expressions 
+#boolean_TOYBOX_ANDROID_SCHEDPOLICY
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_TOYBOX_ANDROID_SCHEDPOLICY                       Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_TOYBOX_COPYFILERANGE                                 (317) with 2     expressions 
+#boolean_TOYBOX_COPYFILERANGE
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_TOYBOX_COPYFILERANGE                             Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_TOYBOX_GETRANDOM                                     (318) with 2     expressions 
+#boolean_TOYBOX_GETRANDOM
+[08:31:01] Cnstr #     2 100% [     0] : boolean_TOYBOX_GETRANDOM                                     Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_CD                                                   (319) with 2     expressions 
+#boolean_CD
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_CD                                               Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_EGREP                                                (320) with 3     expressions 
+#boolean_EGREP
+[08:31:01] Cnstr #     2  66% [   244] : boolean_GREP -> boolean_EGREP                                Nodes        3           0 ms. total           0 ms.
+[08:31:01] Cnstr #     3 100% [   244] : boolean_EGREP -> boolean_GREP                                Nodes        3           0 ms. total           0 ms.
+Build tree for variable boolean_EVAL                                                 (321) with 2     expressions 
+#boolean_EVAL
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_EVAL                                             Nodes        2           0 ms. total           0 ms.
+Build tree for variable boolean_EXEC                                                 (322) with 2     expressions 
+#boolean_EXEC
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_EXEC                                             Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_EXIT                                                 (323) with 2     expressions 
+#boolean_EXIT
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_EXIT                                             Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_EXPORT                                               (324) with 2     expressions 
+#boolean_EXPORT
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_EXPORT                                           Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_FGREP                                                (325) with 3     expressions 
+#boolean_FGREP
+[08:31:01] Cnstr #     2  66% [   249] : boolean_GREP -> boolean_FGREP                                Nodes        3           0 ms. total           1 ms.
+[08:31:01] Cnstr #     3 100% [   249] : boolean_FGREP -> boolean_GREP                                Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_ID_Z                                                 (326) with 3     expressions 
+#boolean_ID_Z
+[08:31:01] Cnstr #     2  66% [   233] : not boolean_TOYBOX_LSM_NONE and boolean_ID -> boolean_ID_Z   Nodes        4           0 ms. total           1 ms.
+[08:31:01] Cnstr #     3 100% [   233] : boolean_ID_Z -> boolean_ID and not boolean_TOYBOX_LSM_NONE   Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_JOBS                                                 (327) with 2     expressions 
+#boolean_JOBS
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_JOBS                                             Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_LOCAL                                                (328) with 2     expressions 
+#boolean_LOCAL
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_LOCAL                                            Nodes        2           1 ms. total           1 ms.
+Build tree for variable boolean_MKDIR_Z                                              (329) with 3     expressions 
+#boolean_MKDIR_Z
+[08:31:01] Cnstr #     2  66% [   201] : boolean_MKDIR and not boolean_TOYBOX_LSM_NONE -> boolean_MKDIR_Z
+                                                                                                      Nodes        4           1 ms. total           1 ms.
+[08:31:01] Cnstr #     3 100% [   201] : boolean_MKDIR_Z -> not boolean_TOYBOX_LSM_NONE and boolean_MKDIR
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_MKFIFO_Z                                             (330) with 3     expressions 
+#boolean_MKFIFO_Z
+[08:31:01] Cnstr #     2  66% [   200] : boolean_MKFIFO and not boolean_TOYBOX_LSM_NONE -> boolean_MKFIFO_Z
+                                                                                                      Nodes        4           1 ms. total           1 ms.
+[08:31:01] Cnstr #     3 100% [   200] : boolean_MKFIFO_Z -> not boolean_TOYBOX_LSM_NONE and boolean_MKFIFO
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_MKNOD_Z                                              (331) with 3     expressions 
+#boolean_MKNOD_Z
+[08:31:01] Cnstr #     2  66% [   200] : boolean_MKNOD and not boolean_TOYBOX_LSM_NONE -> boolean_MKNOD_Z
+                                                                                                      Nodes        4           1 ms. total           1 ms.
+[08:31:01] Cnstr #     3 100% [   200] : boolean_MKNOD_Z -> not boolean_TOYBOX_LSM_NONE and boolean_MKNOD
+                                                                                                      Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_SET                                                  (332) with 2     expressions 
+#boolean_SET
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_SET                                              Nodes        2           1 ms. total           1 ms.
+Build tree for variable boolean_SHIFT                                                (333) with 2     expressions 
+#boolean_SHIFT
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_SHIFT                                            Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_SORT_FLOAT                                           (334) with 3     expressions 
+#boolean_SORT_FLOAT
+[08:31:01] Cnstr #     2  66% [   119] : boolean_TOYBOX_FLOAT -> boolean_SORT_FLOAT                   Nodes        3           0 ms. total           1 ms.
+[08:31:01] Cnstr #     3 100% [   119] : boolean_SORT_FLOAT -> boolean_TOYBOX_FLOAT                   Nodes        3           0 ms. total           1 ms.
+Build tree for variable boolean_SOURCE                                               (335) with 2     expressions 
+#boolean_SOURCE
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_SOURCE                                           Nodes        2           0 ms. total           1 ms.
+Build tree for variable boolean_TEST_GLUE                                            (336) with 4     expressions 
+#boolean_TEST_GLUE
+[08:31:01] Cnstr #     2  50% [   130] : boolean_TEST -> boolean_TEST_GLUE                            Nodes        3           0 ms. total           1 ms.
+[08:31:01] Cnstr #     3  75% [   156] : boolean_SH -> boolean_TEST_GLUE                              Nodes        4           0 ms. total           1 ms.
+[08:31:01] Cnstr #     4 100% [   156] : boolean_TEST_GLUE -> boolean_TEST or boolean_SH              Nodes        4           0 ms. total           1 ms.
+Build tree for variable boolean_UNSET                                                (337) with 2     expressions 
+#boolean_UNSET
+[08:31:01] Cnstr #     2 100% [     0] : not boolean_UNSET                                            Nodes        2           0 ms. total           1 ms.
+boolean_ACPI                                       1          nodes 
+boolean_ARCH                                       1          nodes 
+boolean_ARP                                        1          nodes 
+boolean_ARPING                                     1          nodes 
+boolean_ASCII                                      1          nodes 
+boolean_BASE32                                     1          nodes 
+boolean_BASE64                                     1          nodes 
+boolean_BASENAME                                   1          nodes 
+boolean_BC                                         1          nodes 
+boolean_BLKDISCARD                                 1          nodes 
+boolean_BLKID                                      1          nodes 
+boolean_BLOCKDEV                                   1          nodes 
+boolean_BRCTL                                      1          nodes 
+boolean_BUNZIP2                                    1          nodes 
+boolean_BZCAT                                      1          nodes 
+boolean_CAL                                        1          nodes 
+boolean_CAT                                        1          nodes 
+boolean_CATV                                       1          nodes 
+boolean_CHATTR                                     1          nodes 
+boolean_CHGRP                                      1          nodes 
+boolean_CHMOD                                      1          nodes 
+boolean_CHOWN                                      1          nodes 
+boolean_CHROOT                                     1          nodes 
+boolean_CHRT                                       1          nodes 
+boolean_CHSH                                       1          nodes 
+boolean_CHVT                                       1          nodes 
+boolean_CKSUM                                      1          nodes 
+boolean_CLEAR                                      1          nodes 
+boolean_CMP                                        1          nodes 
+boolean_COMM                                       1          nodes 
+boolean_COUNT                                      1          nodes 
+boolean_CP                                         1          nodes 
+boolean_CPIO                                       1          nodes 
+boolean_CRC32                                      1          nodes 
+boolean_CROND                                      1          nodes 
+boolean_CUT                                        1          nodes 
+boolean_DATE                                       1          nodes 
+boolean_DD                                         1          nodes 
+boolean_DEALLOCVT                                  1          nodes 
+boolean_DEMO_MANY_OPTIONS                          1          nodes 
+boolean_DEMO_NUMBER                                1          nodes 
+boolean_DEMO_SCANKEY                               1          nodes 
+boolean_DEMO_UTF8TOWC                              1          nodes 
+boolean_DEVMEM                                     1          nodes 
+boolean_DF                                         1          nodes 
+boolean_DHCP                                       1          nodes 
+boolean_DHCP6                                      1          nodes 
+boolean_DHCPD                                      1          nodes 
+boolean_DIFF                                       1          nodes 
+boolean_DIRNAME                                    1          nodes 
+boolean_DMESG                                      1          nodes 
+boolean_DNSDOMAINNAME                              1          nodes 
+boolean_DOS2UNIX                                   1          nodes 
+boolean_DU                                         1          nodes 
+boolean_DUMPLEASES                                 1          nodes 
+boolean_ECHO                                       1          nodes 
+boolean_EJECT                                      1          nodes 
+boolean_ENV                                        1          nodes 
+boolean_EXPAND                                     1          nodes 
+boolean_EXPR                                       1          nodes 
+boolean_FACTOR                                     1          nodes 
+boolean_FALLOCATE                                  1          nodes 
+boolean_FALSE                                      1          nodes 
+boolean_FDISK                                      1          nodes 
+boolean_FILE                                       1          nodes 
+boolean_FIND                                       1          nodes 
+boolean_FLOCK                                      1          nodes 
+boolean_FMT                                        1          nodes 
+boolean_FOLD                                       1          nodes 
+boolean_FREE                                       1          nodes 
+boolean_FREERAMDISK                                1          nodes 
+boolean_FSCK                                       1          nodes 
+boolean_FSFREEZE                                   1          nodes 
+boolean_FSTYPE                                     1          nodes 
+boolean_FSYNC                                      1          nodes 
+boolean_FTPGET                                     1          nodes 
+boolean_FTPPUT                                     1          nodes 
+boolean_GETCONF                                    1          nodes 
+boolean_GETFATTR                                   1          nodes 
+boolean_GETOPT                                     1          nodes 
+boolean_GETTY                                      1          nodes 
+boolean_GREP                                       1          nodes 
+boolean_GROUPADD                                   1          nodes 
+boolean_GROUPDEL                                   1          nodes 
+boolean_GROUPS                                     1          nodes 
+boolean_GUNZIP                                     1          nodes 
+boolean_GZIP                                       1          nodes 
+boolean_HEAD                                       1          nodes 
+boolean_HELLO                                      1          nodes 
+boolean_HEXEDIT                                    1          nodes 
+boolean_HOST                                       1          nodes 
+boolean_HOSTID                                     1          nodes 
+boolean_HOSTNAME                                   1          nodes 
+boolean_HWCLOCK                                    1          nodes 
+boolean_I2CDETECT                                  1          nodes 
+boolean_I2CDUMP                                    1          nodes 
+boolean_I2CGET                                     1          nodes 
+boolean_I2CSET                                     1          nodes 
+boolean_ICONV                                      1          nodes 
+boolean_ID                                         1          nodes 
+boolean_IFCONFIG                                   1          nodes 
+boolean_INIT                                       1          nodes 
+boolean_INOTIFYD                                   1          nodes 
+boolean_INSMOD                                     1          nodes 
+boolean_INSTALL                                    1          nodes 
+boolean_IONICE                                     1          nodes 
+boolean_IORENICE                                   1          nodes 
+boolean_IOTOP                                      1          nodes 
+boolean_IP                                         1          nodes 
+boolean_IPCRM                                      1          nodes 
+boolean_IPCS                                       1          nodes 
+boolean_KILL                                       1          nodes 
+boolean_KILLALL                                    1          nodes 
+boolean_KLOGD                                      1          nodes 
+boolean_LAST                                       1          nodes 
+boolean_LINK                                       1          nodes 
+boolean_LN                                         1          nodes 
+boolean_LOGGER                                     1          nodes 
+boolean_LOGIN                                      1          nodes 
+boolean_LOGNAME                                    1          nodes 
+boolean_LOGWRAPPER                                 1          nodes 
+boolean_LOSETUP                                    1          nodes 
+boolean_LS                                         1          nodes 
+boolean_LSATTR                                     1          nodes 
+boolean_LSMOD                                      1          nodes 
+boolean_LSOF                                       1          nodes 
+boolean_LSPCI                                      1          nodes 
+boolean_LSUSB                                      1          nodes 
+boolean_MAKEDEVS                                   1          nodes 
+boolean_MAN                                        1          nodes 
+boolean_MCOOKIE                                    1          nodes 
+boolean_MD5SUM                                     1          nodes 
+boolean_MDEV                                       1          nodes 
+boolean_MICROCOM                                   1          nodes 
+boolean_MIX                                        1          nodes 
+boolean_MKDIR                                      1          nodes 
+boolean_MKE2FS                                     1          nodes 
+boolean_MKFIFO                                     1          nodes 
+boolean_MKNOD                                      1          nodes 
+boolean_MKPASSWD                                   1          nodes 
+boolean_MKSWAP                                     1          nodes 
+boolean_MKTEMP                                     1          nodes 
+boolean_MODINFO                                    1          nodes 
+boolean_MODPROBE                                   1          nodes 
+boolean_MORE                                       1          nodes 
+boolean_MOUNT                                      1          nodes 
+boolean_MOUNTPOINT                                 1          nodes 
+boolean_MV                                         1          nodes 
+boolean_NETCAT                                     1          nodes 
+boolean_NETSTAT                                    1          nodes 
+boolean_NICE                                       1          nodes 
+boolean_NL                                         1          nodes 
+boolean_NOHUP                                      1          nodes 
+boolean_NPROC                                      1          nodes 
+boolean_NSENTER                                    1          nodes 
+boolean_OD                                         1          nodes 
+boolean_ONEIT                                      1          nodes 
+boolean_PARTPROBE                                  1          nodes 
+boolean_PASSWD                                     1          nodes 
+boolean_PASTE                                      1          nodes 
+boolean_PATCH                                      1          nodes 
+boolean_PGREP                                      1          nodes 
+boolean_PIDOF                                      1          nodes 
+boolean_PING                                       1          nodes 
+boolean_PIVOT_ROOT                                 1          nodes 
+boolean_PKILL                                      1          nodes 
+boolean_PMAP                                       1          nodes 
+boolean_PRINTENV                                   1          nodes 
+boolean_PRINTF                                     1          nodes 
+boolean_PS                                         1          nodes 
+boolean_PWD                                        1          nodes 
+boolean_PWDX                                       1          nodes 
+boolean_PWGEN                                      1          nodes 
+boolean_READAHEAD                                  1          nodes 
+boolean_READELF                                    1          nodes 
+boolean_READLINK                                   1          nodes 
+boolean_REALPATH                                   1          nodes 
+boolean_REBOOT                                     1          nodes 
+boolean_RENICE                                     1          nodes 
+boolean_RESET                                      1          nodes 
+boolean_REV                                        1          nodes 
+boolean_RFKILL                                     1          nodes 
+boolean_RM                                         1          nodes 
+boolean_RMDIR                                      1          nodes 
+boolean_RMMOD                                      1          nodes 
+boolean_ROUTE                                      1          nodes 
+boolean_RTCWAKE                                    1          nodes 
+boolean_SED                                        1          nodes 
+boolean_SETFATTR                                   1          nodes 
+boolean_SETSID                                     1          nodes 
+boolean_SH                                         1          nodes 
+boolean_SHA1SUM                                    1          nodes 
+boolean_SHA3SUM                                    1          nodes 
+boolean_SHRED                                      1          nodes 
+boolean_SKELETON                                   1          nodes 
+boolean_SKELETON_ALIAS                             1          nodes 
+boolean_SLEEP                                      1          nodes 
+boolean_SNTP                                       1          nodes 
+boolean_SORT                                       1          nodes 
+boolean_SPLIT                                      1          nodes 
+boolean_STAT                                       1          nodes 
+boolean_STRINGS                                    1          nodes 
+boolean_STTY                                       1          nodes 
+boolean_SU                                         1          nodes 
+boolean_SULOGIN                                    1          nodes 
+boolean_SWAPOFF                                    1          nodes 
+boolean_SWAPON                                     1          nodes 
+boolean_SWITCH_ROOT                                1          nodes 
+boolean_SYNC                                       1          nodes 
+boolean_SYSCTL                                     1          nodes 
+boolean_SYSLOGD                                    1          nodes 
+boolean_TAC                                        1          nodes 
+boolean_TAIL                                       1          nodes 
+boolean_TAR                                        1          nodes 
+boolean_TASKSET                                    1          nodes 
+boolean_TEE                                        1          nodes 
+boolean_TELNET                                     1          nodes 
+boolean_TELNETD                                    1          nodes 
+boolean_TEST                                       1          nodes 
+boolean_TFTP                                       1          nodes 
+boolean_TFTPD                                      1          nodes 
+boolean_TIMEOUT                                    1          nodes 
+boolean_TOP                                        1          nodes 
+boolean_TOUCH                                      1          nodes 
+boolean_TOYBOX_DEBUG                               1          nodes 
+boolean_TOYBOX_FLOAT                               1          nodes 
+boolean_TOYBOX_FORCE_NOMMU                         1          nodes 
+boolean_TOYBOX_FREE                                1          nodes 
+boolean_TOYBOX_HELP                                1          nodes 
+boolean_TOYBOX_LIBCRYPTO                           1          nodes 
+boolean_TOYBOX_LIBZ                                1          nodes 
+boolean_TOYBOX_NORECURSE                           1          nodes 
+boolean_TOYBOX_PEDANTIC_ARGS                       1          nodes 
+boolean_TOYBOX_SUID                                1          nodes 
+boolean_TR                                         1          nodes 
+boolean_TRACEROUTE                                 1          nodes 
+boolean_TRUE                                       1          nodes 
+boolean_TRUNCATE                                   1          nodes 
+boolean_TTY                                        1          nodes 
+boolean_TUNCTL                                     1          nodes 
+boolean_ULIMIT                                     1          nodes 
+boolean_UMOUNT                                     1          nodes 
+boolean_UNAME                                      1          nodes 
+boolean_UNICODE                                    1          nodes 
+boolean_UNIQ                                       1          nodes 
+boolean_UNIX2DOS                                   1          nodes 
+boolean_UNLINK                                     1          nodes 
+boolean_UNSHARE                                    1          nodes 
+boolean_UPTIME                                     1          nodes 
+boolean_USERADD                                    1          nodes 
+boolean_USERDEL                                    1          nodes 
+boolean_USLEEP                                     1          nodes 
+boolean_UUDECODE                                   1          nodes 
+boolean_UUENCODE                                   1          nodes 
+boolean_UUIDGEN                                    1          nodes 
+boolean_VCONFIG                                    1          nodes 
+boolean_VI                                         1          nodes 
+boolean_VMSTAT                                     1          nodes 
+boolean_W                                          1          nodes 
+boolean_WATCH                                      1          nodes 
+boolean_WATCHDOG                                   1          nodes 
+boolean_WC                                         1          nodes 
+boolean_WGET                                       1          nodes 
+boolean_WHICH                                      1          nodes 
+boolean_WHO                                        1          nodes 
+boolean_WHOAMI                                     1          nodes 
+boolean_XARGS                                      1          nodes 
+boolean_XXD                                        1          nodes 
+boolean_XZCAT                                      1          nodes 
+boolean_YES                                        1          nodes 
+boolean_ZCAT                                       1          nodes 
+boolean_CD                                         2          nodes 
+boolean_EVAL                                       2          nodes 
+boolean_EXEC                                       2          nodes 
+boolean_EXIT                                       2          nodes 
+boolean_EXPORT                                     2          nodes 
+boolean_JOBS                                       2          nodes 
+boolean_LOCAL                                      2          nodes 
+boolean_LOG                                        2          nodes 
+boolean_SENDEVENT                                  2          nodes 
+boolean_SET                                        2          nodes 
+boolean_SHIFT                                      2          nodes 
+boolean_SOURCE                                     2          nodes 
+boolean_TOYBOX                                     2          nodes 
+boolean_TOYBOX_ANDROID_SCHEDPOLICY                 2          nodes 
+boolean_TOYBOX_CONTAINER                           2          nodes 
+boolean_TOYBOX_COPYFILERANGE                       2          nodes 
+boolean_TOYBOX_FIFREEZE                            2          nodes 
+boolean_TOYBOX_GETRANDOM                           2          nodes 
+boolean_TOYBOX_ICONV                               2          nodes 
+boolean_TOYBOX_ON_ANDROID                          2          nodes 
+boolean_TOYBOX_PRLIMIT                             2          nodes 
+boolean_TOYBOX_SHADOW                              2          nodes 
+boolean_TOYBOX_UTMPX                               2          nodes 
+boolean_UNSET                                      2          nodes 
+boolean_BOOTCHARTD                                 3          nodes 
+boolean_CAT_V                                      3          nodes 
+boolean_CHCON                                      3          nodes 
+boolean_CRONTAB                                    3          nodes 
+boolean_DEBUG_DHCP                                 3          nodes 
+boolean_EGREP                                      3          nodes 
+boolean_FGREP                                      3          nodes 
+boolean_GETENFORCE                                 3          nodes 
+boolean_HELP                                       3          nodes 
+boolean_KILLALL5                                   3          nodes 
+boolean_KLOGD_SOURCE_RING_BUFFER                   3          nodes 
+boolean_LOAD_POLICY                                3          nodes 
+boolean_LSPCI_TEXT                                 3          nodes 
+boolean_MDEV_CONF                                  3          nodes 
+boolean_MKE2FS_EXTENDED                            3          nodes 
+boolean_MKE2FS_GEN                                 3          nodes 
+boolean_MKE2FS_JOURNAL                             3          nodes 
+boolean_MKE2FS_LABEL                               3          nodes 
+boolean_NBD_CLIENT                                 3          nodes 
+boolean_NETCAT_LISTEN                              3          nodes 
+boolean_OPENVT                                     3          nodes 
+boolean_PASSWD_SAD                                 3          nodes 
+boolean_RESTORECON                                 3          nodes 
+boolean_RUNCON                                     3          nodes 
+boolean_SEQ                                        3          nodes 
+boolean_SETENFORCE                                 3          nodes 
+boolean_SHA224SUM                                  3          nodes 
+boolean_SHA256SUM                                  3          nodes 
+boolean_SHA384SUM                                  3          nodes 
+boolean_SHA512SUM                                  3          nodes 
+boolean_SORT_FLOAT                                 3          nodes 
+boolean_TCPSVD                                     3          nodes 
+boolean_TIME                                       3          nodes 
+boolean_TOYBOX_FORK                                3          nodes 
+boolean_TOYBOX_HELP_DASHDASH                       3          nodes 
+int_TOYBOX_UID_SYS_EQ_100                          3          nodes 
+int_TOYBOX_UID_USR_EQ_500                          3          nodes 
+boolean_ID_Z                                       4          nodes 
+boolean_MKDIR_Z                                    4          nodes 
+boolean_MKFIFO_Z                                   4          nodes 
+boolean_MKNOD_Z                                    4          nodes 
+boolean_TEST_GLUE                                  4          nodes 
+boolean_TOYBOX_LSM_NONE                            5          nodes 
+Time: 318 ms. (318 ms)
