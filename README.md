@@ -11,8 +11,7 @@
 Software artifacts of the paper:
 
 [David Fernandez-Amoros, R. Heradio, Christoph Mayr-Dorn, and Alexander Egyed. **"Scalable Sampling of Highly-Configurable Systems: Generating
-Random Instances of the Linux Kernel"**. In 37th IEEE/ACM International Conference on Automated Software Engineering (ASE'22), 
-October 10–14, 2022, Rochester, MI, USA. ACM, New York, NY, USA, 12 pages.](https://doi.org/10.1145/3551349.3556899)
+Random Instances of the Linux Kernel"**. In 37th IEEE/ACM International Conference on Automated Software Engineering (ASE'22), 2022, Rochester, MI, USA.](https://doi.org/10.1145/3551349.3556899)
 
 ## Requirements and Installation
 
