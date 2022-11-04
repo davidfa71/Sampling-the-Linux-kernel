@@ -14,12 +14,13 @@ double first, last, now;
 
 void usage(std::string name) {
         std::ostringstream ost;
-        ost << name <<  ": Generates a random sampling of a BDD representing Kconfig files"                    << std::endl;
-        ost << "Usage: " << name << " [-no-decoding] [-prob] [-seed num] [-v] <number of examples> <bdd file>" << std::endl;
-        ost << "-no-decoding : Perform random sampling only, no decoding to complex Kconfig types"             << std::endl;
-        ost << "-prob        : Compute the probability of each data point"                                     << std::endl;
-        ost << "-seed <num>  : Use <num> as a random seed (to reproduce results)"                              << std::endl;
-        ost << "-v           : Verbose output (node probability progress)"                                     << std::endl;
+        ost << name <<  ": Generates a random sampling of a BDD representing Kconfig files"                      << std::endl;
+        ost << "Usage: " << name << " [-macros <file>] [-no-decoding] [-prob] [-seed num] [-v] <number of examples> <bdd file>" << std::endl;
+        ost << "-macros <file> : Read the values in file as key=value fixed values, to enter the values corresponding to macro definitions" << std::endl;
+        ost << "-no-decoding   : Perform random sampling only, no decoding to complex Kconfig types"             << std::endl;
+        ost << "-prob          : Compute the probability of each data point"                                     << std::endl;
+        ost << "-seed <num>    : Use <num> as a random seed (to reproduce results)"                              << std::endl;
+        ost << "-v             : Verbose output (node probability progress)"                                     << std::endl;
         std::cerr << ost.str();
 }
 
@@ -44,6 +45,9 @@ void writeConfigFile(std::vector<KeyValue>& content) {
         
         // But that of course would break the format of one .config per line
         // which is very practical.
+
+	// Use the script extractConfig.sh for that
+
         //if (value != "n") {
             std::cout << "CONFIG_" << key << "=" << value << " ";
         //}
@@ -54,7 +58,7 @@ void writeConfigFile(std::vector<KeyValue>& content) {
 
 int main(int argc, char** argv) {
     first = get_cpu_time();
-    if (argc < 2 || argc > 8) {
+    if (argc < 2 || argc > 9) {
         usage(argv[0]);
         exit(-1);
     }
@@ -64,7 +68,13 @@ int main(int argc, char** argv) {
     unsigned int seed            = 0;
     int          i               = 1;
     bool         decoding        = true;
+    std::string  macroValues     = "";
     while (i < argc-2) {
+        if (std::string(argv[i]) == "-macros") {
+            i++;
+            macroValues = argv[i++];
+            continue;
+        }
         if (std::string(argv[i]) == "-no-decoding") { 
             decoding = false;
             i++;
@@ -94,9 +104,28 @@ int main(int argc, char** argv) {
         exit(-1);
     }
     int num = atoi(argv[i++]);
+#ifdef _DEBUG_
+    std::cerr << "Reading BDD... " << argv[i];
+#endif
     adapter->readBDD(argv[i], "");
+#ifdef _DEBUG_
+    std::cerr << " done" << std::endl;
+#endif
     Dictionary dic;
     dic.gatherVariableInfo(adapter);
+    tProduct prod;
+    if (macroValues != "") {
+#ifdef _DEBUG_
+        std::cerr << "Reading macro values from " << macroValues << " ...";
+#endif
+        std::map<std::string, std::string> theMap = dic.readConfigFile(macroValues);
+#ifdef _DEBUG_
+	std::cerr << " done" << std::endl;
+#endif
+        prod = dic.encode(adapter, theMap);
+    }
+    else
+        prod.resize(adapter->getNumVars());
     compProbabilities(verbose, adapter, seed);
     std::cerr << "Seed      : " << seed << std::endl;
     std::vector<KeyValue> toWrite;
@@ -104,13 +133,17 @@ int main(int argc, char** argv) {
     // The combination function that computes the probabilites relies on a side effect to
     // insert in a std::map which is not thread-safe, so multithreading is
     // out of the question
-    prepareSampleShared(adapter);
+    prepareSampleShared(adapter, prod);
     for(int x = 0; x < num;x++) {
+#ifdef _DEBUG_
+	std::cerr << "Generating sample #" << x << std::endl;
+#endif
         std::vector<bool> prod;
         if (computeProb)
             prod = genRandomComputeProb(adapter);
-        else
+        else {
             prod = genRandomShared(adapter);
+        }
         std::string environ;
         if (decoding) {
           toWrite = dic.decode(prod, environ);
